@@ -7,21 +7,55 @@ from backend.config import (
 
 from backend.rag import retrieve_relevant_knowledge
 
+# ─────────────────────────────────────────────────────────
+# CONSTANTS
+# ─────────────────────────────────────────────────────────
+# Max characters of document text sent to the LLM.
+# ~12,000 chars ≈ 3,000 tokens — safely within most model limits.
+# Increase carefully if your model supports a larger context window.
+MAX_TEXT_CHARS    = 12000
+MAX_CONTEXT_CHARS = 3000   # limit for RAG retrieved context too
 
-def analyze_legal_text(text, language="English"):
+
+def analyze_legal_text(text: str, language: str = "English") -> str:
     """
-    Main legal analysis function
+    Main legal analysis function.
+    Retrieves relevant RAG context, builds a structured prompt,
+    and calls the LLM via LiteLLM.
     """
 
-    # Retrieve relevant legal knowledge
-    retrieved_context = retrieve_relevant_knowledge(text)
+    # ── 1. Truncate input text to avoid context window overflow ──
+    original_length = len(text)
+    if len(text) > MAX_TEXT_CHARS:
+        text = (
+            text[:MAX_TEXT_CHARS]
+            + "\n\n[... Document truncated for analysis. "
+            "Showing first section only due to length limits ...]"
+        )
 
-    # Prompt Engineering
+    # ── 2. Retrieve relevant legal knowledge (RAG) ────────────────
+    try:
+        retrieved_context = retrieve_relevant_knowledge(text)
+        # Also truncate context if too long
+        if len(retrieved_context) > MAX_CONTEXT_CHARS:
+            retrieved_context = retrieved_context[:MAX_CONTEXT_CHARS] + "..."
+    except Exception:
+        retrieved_context = "No additional legal context retrieved."
+
+    # ── 3. Add truncation notice to prompt if needed ──────────────
+    truncation_notice = ""
+    if original_length > MAX_TEXT_CHARS:
+        truncation_notice = (
+            f"\n⚠️ NOTE: The original document was {original_length:,} characters long. "
+            f"Only the first {MAX_TEXT_CHARS:,} characters were analysed due to model limits.\n"
+        )
+
+    # ── 4. Build prompt ───────────────────────────────────────────
     prompt = f"""
 You are an expert AI Legal Assistant specialized in legal document analysis, legal reasoning, contract understanding, and risk assessment.
 
 Your task is to carefully analyze the provided legal document or text using the legal knowledge context.
-
+{truncation_notice}
 ==================================================
 LEGAL KNOWLEDGE CONTEXT
 ==================================================
@@ -89,19 +123,53 @@ IMPORTANT RULES
 - Focus on clarity and usefulness.
 """
 
-    # LiteLLM API Call
-    response = completion(
-        model=DEFAULT_MODEL,
-        api_key=OPENAI_API_KEY,
-        messages=[
-            {
-                "role": "user",
-                "content": prompt
-            }
-        ]
-    )
+    # ── 5. LiteLLM API call with error handling ───────────────────
+    try:
+        response = completion(
+            model=DEFAULT_MODEL,
+            api_key=OPENAI_API_KEY,
+            messages=[
+                {
+                    "role": "user",
+                    "content": prompt,
+                }
+            ],
+            max_tokens=2000,   # cap output tokens to avoid runaway costs
+        )
+        output = response["choices"][0]["message"]["content"]
+        return output
 
-    # Extract output
-    output = response["choices"][0]["message"]["content"]
+    except Exception as e:
+        error_msg = str(e)
 
-    return output
+        # Context window exceeded — retry with smaller text
+        if "ContextWindowExceeded" in error_msg or "context_length_exceeded" in error_msg:
+            try:
+                # Retry with half the text
+                shorter_text = text[:MAX_TEXT_CHARS // 2] + "\n\n[... Further truncated ...]"
+                short_prompt = prompt.replace(text, shorter_text)
+                response = completion(
+                    model=DEFAULT_MODEL,
+                    api_key=OPENAI_API_KEY,
+                    messages=[{"role": "user", "content": short_prompt}],
+                    max_tokens=2000,
+                )
+                output = response["choices"][0]["message"]["content"]
+                return (
+                    "⚠️ Document was very large — analysis based on first portion only.\n\n"
+                    + output
+                )
+            except Exception as retry_error:
+                return (
+                    f"❌ The document is too large to analyse even after truncation.\n\n"
+                    f"**Suggestion:** Please paste a specific section or clause "
+                    f"from the document into the text box directly for analysis.\n\n"
+                    f"Error: {retry_error}"
+                )
+
+        # Other API errors
+        return (
+            f"❌ Analysis failed due to an API error.\n\n"
+            f"Please try again in a few seconds.\n\n"
+            f"Error details: {error_msg}"
+        )
