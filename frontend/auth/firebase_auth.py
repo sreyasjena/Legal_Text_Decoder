@@ -92,7 +92,7 @@ def send_email_link(email: str) -> bool:
         payload = {
             "requestType":        "EMAIL_SIGNIN",
             "email":              email,
-            "continueUrl":        "http://localhost:8501/",
+            "continueUrl":        "https://lexai-legal.streamlit.app/",
             "canHandleCodeInApp": True,
         }
         resp = requests.post(url, json=payload, timeout=10)
