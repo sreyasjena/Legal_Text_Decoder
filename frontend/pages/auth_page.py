@@ -8,7 +8,7 @@ Supports email magic link and phone SMS OTP.
 
 import streamlit as st
 
-from frontend.utils.session  import go_landing, go_workspace, logout
+from frontend.utils.session import go_landing, go_workspace
 from frontend.auth.firebase_auth import (
     send_email_link,
     verify_email_link,
@@ -30,14 +30,49 @@ EMAIL_INSTRUCTIONS = """
 </div>
 """
 
+# ── Security card shown at top of form column ────────────
+SECURITY_CARD = """
+<div style="
+    background:linear-gradient(135deg,rgba(0,229,160,0.07),rgba(56,165,255,0.06));
+    border:1px solid rgba(0,229,160,0.22);
+    border-radius:16px;padding:18px 22px;margin-bottom:18px;
+    display:flex;align-items:center;gap:16px;
+    position:relative;overflow:hidden;">
+    <div style="position:absolute;top:0;left:0;right:0;height:2px;
+        background:linear-gradient(90deg,var(--success),var(--cyan),var(--success));
+        background-size:200%;animation:bannerShine 3s ease infinite;"></div>
+    <div style="width:48px;height:48px;border-radius:12px;flex-shrink:0;
+        background:linear-gradient(135deg,rgba(0,229,160,0.15),rgba(56,165,255,0.1));
+        border:1px solid rgba(0,229,160,0.3);
+        display:flex;align-items:center;justify-content:center;font-size:24px;">
+        🔐
+    </div>
+    <div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:10px;
+            letter-spacing:2.5px;text-transform:uppercase;
+            color:var(--success);margin-bottom:5px;display:flex;align-items:center;gap:6px;">
+            <span style="width:7px;height:7px;background:var(--success);
+            border-radius:50%;display:inline-block;
+            box-shadow:0 0 8px var(--success);"></span>
+            Secure Connection Active
+        </div>
+        <div style="font-size:13px;color:var(--text2);line-height:1.6;">
+            All data is <strong style="color:var(--text);">encrypted end-to-end</strong>.
+            No passwords stored ever. Protected by
+            <strong style="color:var(--orange);">Firebase Auth</strong> +
+            <strong style="color:var(--blue);">Twilio OTP</strong>.
+        </div>
+    </div>
+</div>
+"""
+
+
+# ─────────────────────────────────────────────────────────
+# SHARED FORM HELPERS
+# ─────────────────────────────────────────────────────────
 
 def _email_form(key_prefix: str, button_label: str, button_class: str):
-    """
-    Shared email OTP form used by both Log In and Sign Up tabs.
-    key_prefix   : unique prefix for widget keys ('li' or 'su')
-    button_label : text on the send button
-    button_class : CSS class for the send button ('btn-otp' or 'btn-signup')
-    """
+    """Shared email OTP form for both Login and Signup tabs."""
     st.markdown(EMAIL_INSTRUCTIONS, unsafe_allow_html=True)
     st.markdown('<span class="form-label">📧 Email Address</span>', unsafe_allow_html=True)
     email = st.text_input(
@@ -63,12 +98,10 @@ def _email_form(key_prefix: str, button_label: str, button_class: str):
 
     else:
         st.markdown(
-            f"""
-            <div class="success-box">
+            f"""<div class="success-box">
                 ✅ Link sent to <strong>{st.session_state.pending_email}</strong><br>
                 Check inbox → click link → copy full URL → paste below.
-            </div>
-            """,
+            </div>""",
             unsafe_allow_html=True,
         )
         st.markdown("<br>", unsafe_allow_html=True)
@@ -105,9 +138,7 @@ def _email_form(key_prefix: str, button_label: str, button_class: str):
 
 
 def _phone_form(key_prefix: str, button_label: str, button_class: str):
-    """
-    Shared phone OTP form used by both Log In and Sign Up tabs.
-    """
+    """Shared phone OTP form for both Login and Signup tabs."""
     st.markdown(
         '<span class="form-label">📱 Phone Number (with country code)</span>',
         unsafe_allow_html=True,
@@ -299,8 +330,13 @@ def show_auth():
             unsafe_allow_html=True,
         )
 
-    # ── RIGHT: form card ──────────────────────────────────
+    # ── RIGHT: security card + form card ─────────────────
     with right_col:
+
+        # ── Security badge card (replaces the empty box) ──
+        st.markdown(SECURITY_CARD, unsafe_allow_html=True)
+
+        # ── Main form card ────────────────────────────────
         st.markdown(
             '<div class="auth-form-card"><div class="fc-tl"></div><div class="fc-br"></div>',
             unsafe_allow_html=True,
@@ -308,10 +344,11 @@ def show_auth():
 
         tab1, tab2 = st.tabs(["  🔑  Log In  ", "  🚀  Sign Up  "])
 
-        # LOG IN
+        # ── LOG IN TAB ───────────────────────────────────
         with tab1:
             st.markdown(
-                '<div class="auth-form-title">Welcome back</div>', unsafe_allow_html=True
+                '<div class="auth-form-title">Welcome back</div>',
+                unsafe_allow_html=True,
             )
             st.markdown(
                 '<div class="auth-form-subtitle">'
@@ -324,10 +361,11 @@ def show_auth():
             else:
                 _phone_form("li", "Send OTP via SMS", "btn-otp")
 
-        # SIGN UP
+        # ── SIGN UP TAB ──────────────────────────────────
         with tab2:
             st.markdown(
-                '<div class="auth-form-title">Create account</div>', unsafe_allow_html=True
+                '<div class="auth-form-title">Create account</div>',
+                unsafe_allow_html=True,
             )
             st.markdown(
                 '<div class="auth-form-subtitle">'
