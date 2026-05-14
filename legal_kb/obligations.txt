@@ -1,0 +1,347 @@
+LEGAL OBLIGATIONS KNOWLEDGE BASE
+==================================
+Comprehensive reference for legal obligations, duties, compliance requirements, and regulatory frameworks.
+
+─────────────────────────────────────────
+SECTION 1: CONTRACTUAL OBLIGATIONS
+─────────────────────────────────────────
+
+1. PRIMARY CONTRACTUAL OBLIGATION
+The main performance duty each party undertakes in a contract. In a sale of goods contract: the seller's primary obligation is to deliver conforming goods; the buyer's primary obligation is to pay the price. Primary obligations are the core promises that form the basis of the bargain. Breach of a primary obligation may be material (entitling termination and damages) or minor (entitling only damages, not termination).
+
+2. SECONDARY OBLIGATION (REMEDIAL OBLIGATION)
+An obligation that arises upon breach of a primary obligation — typically, the obligation to pay damages. The relationship between primary and secondary obligations is central to contract law: a breaching party substitutes its primary obligation to perform with a secondary obligation to compensate. The law of damages governs the content and extent of secondary obligations.
+
+3. OBLIGATION OF GOOD FAITH AND FAIR DEALING
+The implied covenant of good faith and fair dealing is implied in every contract in the United States (Restatement (Second) of Contracts § 205; UCC § 1-304). It requires each party to act in good faith in performing and enforcing its contractual obligations and not to deprive the other party of the benefits of the bargain. Good faith does not require altruism; it prevents opportunistic or dishonest conduct. In some states (California), breach of the implied covenant may sound in tort as well as contract, allowing for punitive damages.
+
+4. OBLIGATION OF CONFIDENTIALITY
+An obligation to preserve the secrecy of information shared in a confidential relationship or under a non-disclosure agreement. Sources: contractual NDA; employment relationship; professional relationship (attorney-client, accountant-client, doctor-patient); trade secret law (reasonable measures requirement); and equitable duty (information shared in confidence). Duration may be limited (term of the agreement plus a defined period) or indefinite for true trade secrets.
+
+5. OBLIGATION TO PERFORM IN A WORKMANLIKE MANNER
+An implied obligation that services will be performed with the skill, care, and diligence of a competent professional in the relevant field. Applicable to construction contractors, subcontractors, professional service providers, and others performing skilled services. Breach of the workmanlike performance standard is the basis for construction defect and professional malpractice claims. The standard is objective — what a reasonably competent professional would do.
+
+6. OBLIGATION TO COOPERATE
+An implied obligation requiring each party to take reasonable steps to enable the other party to perform. A party may not hinder, prevent, or fail to facilitate the other's performance. Breach of the duty to cooperate excuses the other party's non-performance. Common contexts: employer's duty to provide access, information, and cooperation to a contractor; parties' duty to cooperate in satisfying conditions to closing; parties' duty to cooperate in obtaining third-party consents.
+
+7. OBLIGATION NOT TO IMPAIR SECURITY
+A lender's obligation not to take actions that impair the value of its own collateral, which could prejudice the borrower's or guarantor's position. In surety law, if a creditor releases or impairs collateral without the surety's consent, the surety is discharged to the extent of the impairment. The principle prevents a secured party from releasing collateral and then pursuing an unsecured deficiency judgment against the guarantor.
+
+8. DUTY TO DISCLOSE (CONTRACTUAL)
+A party may have a contractual or pre-contractual obligation to disclose material facts to the other party. Common law generally imposes no duty to volunteer information in arm's length negotiations (caveat emptor), but exceptions apply: (a) a party who makes a representation has a duty to update it if it becomes misleading; (b) fiduciary relationships impose broad disclosure duties; (c) concealment of known defects in real property may give rise to fraud claims. Specific disclosure obligations are imposed by securities law, consumer protection statutes, franchise law, and real estate disclosure laws.
+
+9. OBLIGATION OF NON-SOLICITATION
+A party's obligation not to solicit the other's employees, customers, or business relationships for a defined period. Arises from employment agreements, vendor agreements, and shareholders' agreements. As noted, non-solicitation of employees is more readily enforced than non-compete provisions in most states. Must be reasonable in scope, duration, and geographic limitation.
+
+10. OBLIGATION TO MAINTAIN INSURANCE
+Parties to commercial contracts are frequently required to obtain and maintain specified insurance coverages (general liability, professional liability/E&O, cyber liability, workers' compensation, commercial auto, property). The obligee is typically named as additional insured and certificate holder. Failure to maintain required insurance is a material breach of contract and may also trigger indemnification obligations. Evidence of insurance (ACORD certificates) must be provided periodically.
+
+11. OBLIGATION OF NON-INTERFERENCE
+A party's obligation not to interfere with the performance of another party's contractual obligations or business relationships. Includes: not hiring away key personnel during the contract term; not disparaging the other party to customers; not interfering with subcontractor relationships; and not diverting business opportunities covered by the contract. Breach of non-interference obligations may give rise to breach of contract claims and tortious interference claims.
+
+12. OBLIGATION TO NOTIFY
+Many contracts impose obligations to promptly notify the other party of specified events: material breaches, force majeure events, regulatory investigations, litigation, insurance claims, changes in key personnel, or triggering events for indemnification. Failure to give timely notice may waive rights or reduce recoverable damages. Notice periods and methods are specified in the notice clause.
+
+13. OBLIGATION TO MITIGATE
+A party who suffers harm from another's breach must take reasonable steps to reduce the resulting loss. Failure to mitigate reduces the claimant's recovery by the amount of the avoided or avoidable loss. The mitigation obligation does not require extraordinary measures or incurring significant expense. In employment cases, the terminated employee must make diligent efforts to find comparable employment. In real property cases, the landlord must make reasonable efforts to re-let after a tenant's abandonment.
+
+14. OBLIGATION TO PERFORM PERSONALLY (NON-DELEGABLE DUTIES)
+Certain obligations may not be delegated without the obligee's consent: personal services contracts (based on special skills, trust, or confidentiality); contracts prohibiting delegation; and some statutory non-delegable duties (e.g., an employer's statutory duty to provide a safe workplace cannot be delegated to a contractor). Where delegation is permitted, the original party remains liable if the delegate fails to perform.
+
+15. OBLIGATION TO MAINTAIN RECORDS
+Statutory, regulatory, or contractual obligations to maintain specified records for defined periods. Corporate records: DGCL requires Delaware corporations to maintain books and records accessible to shareholders (DGCL § 220). Tax records: IRS regulations require retention of books and records as long as they may be material to a tax matter. Employment records: EEOC requires employers to retain personnel records for 1 year post-termination; FLSA requires payroll records for 3 years. Government contracts: FAR requires contract records for 3–7 years.
+
+─────────────────────────────────────────
+SECTION 2: STATUTORY AND REGULATORY OBLIGATIONS
+─────────────────────────────────────────
+
+16. EMPLOYER'S OBLIGATION UNDER FLSA
+The Fair Labor Standards Act imposes obligations on covered employers: pay minimum wage ($7.25 federal; state minimums often higher); pay overtime at 1.5x regular rate for hours over 40 per workweek; maintain payroll records; post required notices; and comply with child labor provisions. Exemptions: executive, administrative, professional, outside sales, and computer employee exemptions (salary and duties tests). Misclassification of employees as exempt is a major source of wage-and-hour class action litigation.
+
+17. FMLA OBLIGATIONS
+The Family and Medical Leave Act requires covered employers (50+ employees) to provide eligible employees (12 months employment, 1,250 hours) up to 12 weeks of unpaid, job-protected leave per year for: birth/adoption of a child; serious health condition of the employee or immediate family member; and qualifying military exigency. Employers must maintain group health benefits during FMLA leave and restore employees to their original or equivalent position upon return. FMLA interference and retaliation are separate legal claims.
+
+18. ADA OBLIGATIONS (AMERICANS WITH DISABILITIES ACT)
+Title I (employment): employers with 15+ employees must provide reasonable accommodations to qualified individuals with disabilities (physical or mental impairment substantially limiting a major life activity) unless undue hardship. The interactive process — engaging in good faith dialogue to identify accommodation options — is legally required. Title II (public entities) and Title III (places of public accommodation) impose accessibility obligations. ADAAA (2008) expanded the definition of disability.
+
+19. TITLE VII OBLIGATIONS
+Title VII of the Civil Rights Act of 1964 prohibits covered employers (15+ employees) from discriminating against employees or applicants based on race, color, religion, sex (including sexual orientation and gender identity — Bostock v. Clayton County, 2020), or national origin. Obligations: prohibit and prevent workplace harassment; promptly investigate complaints; take remedial action; prohibit retaliation for protected activity; maintain a work environment free from hostile conduct.
+
+20. HIPAA OBLIGATIONS
+The Health Insurance Portability and Accountability Act imposes obligations on covered entities (healthcare providers, health plans, clearinghouses) and business associates: (a) Privacy Rule — protect Protected Health Information (PHI); provide Notice of Privacy Practices; limit uses and disclosures to minimum necessary; honor patient rights (access, amendment, accounting of disclosures); (b) Security Rule — implement administrative, physical, and technical safeguards for electronic PHI (ePHI); (c) Breach Notification Rule — notify patients, HHS, and media of breaches affecting unsecured PHI within 60 days.
+
+21. GDPR OBLIGATIONS (CONTROLLERS AND PROCESSORS)
+The EU General Data Protection Regulation imposes extensive obligations: (a) Lawful basis for processing personal data (consent, contract, legal obligation, legitimate interests, vital interests, public task); (b) Data subject rights: access, rectification, erasure ("right to be forgotten"), restriction, portability, objection, and rights related to automated decision-making; (c) Privacy notices: transparent information about processing; (d) Data Protection Impact Assessments (DPIAs) for high-risk processing; (e) Data Protection Officer (DPO) appointment (mandatory for certain processors and public authorities); (f) 72-hour breach notification to supervisory authority; (g) Cross-border data transfer restrictions (adequacy decisions, SCCs, BCRs).
+
+22. SECURITIES DISCLOSURE OBLIGATIONS
+Public companies must comply with continuous disclosure obligations: (a) Periodic reports — Form 10-K (annual), Form 10-Q (quarterly), Form 8-K (current reports for material events); (b) Proxy statements (DEF 14A) for annual meetings and major transactions; (c) Section 16 reporting (beneficial ownership of insiders); (d) Regulation FD — prohibits selective disclosure of material non-public information; (e) SOX §302 certifications (CEO/CFO certify accuracy of financial statements and effectiveness of controls); (f) SOX §906 criminal certifications.
+
+23. ENVIRONMENTAL COMPLIANCE OBLIGATIONS
+Federal: Clean Water Act (NPDES permits for point source discharges), Clean Air Act (Title V operating permits, emission standards), RCRA (hazardous waste generation, transport, treatment, storage, disposal), CERCLA (liability for releases of hazardous substances; mandatory reporting), EPCRA (emergency planning and community right-to-know, Form R Toxic Release Inventory reporting), TSCA (toxic substances control). State environmental laws may be more stringent. Spill reporting obligations (SPCC, NRC spill hotline for oil and hazardous substance releases).
+
+24. OCCUPATIONAL SAFETY AND HEALTH OBLIGATIONS (OSHA)
+Employers' general duty to provide a workplace free of recognized hazards likely to cause serious harm (General Duty Clause, OSH Act § 5(a)(1)). Compliance with OSHA standards: hazard communication (GHS, Safety Data Sheets), lockout/tagout, respiratory protection, PPE, confined space, fall protection, bloodborne pathogen, forklift, electrical safety. Recordkeeping: OSHA 300 log of work-related injuries and illnesses; 300A annual summary posting; electronic submission. Whistleblower protections under 22 OSHA-administered statutes.
+
+25. CORPORATE TAX OBLIGATIONS
+Federal income tax: C corporations pay tax at 21% flat rate (TCJA 2017); pass-through entities (S corps, partnerships, LLCs) pass income to owners. Filing obligations: Form 1120 (C corp), Form 1120-S (S corp), Form 1065 (partnership), Form 1040 (individuals). Estimated tax payments: quarterly deposits required for expected tax liability over $500. Transfer pricing: arms-length standard for intercompany transactions (IRC § 482). International: GILTI (Global Intangible Low-Taxed Income), FDII, BEAT (Base Erosion and Anti-Abuse Tax), FATCA (reporting of foreign financial assets).
+
+26. CORPORATE GOVERNANCE OBLIGATIONS (PUBLIC COMPANIES)
+SOX obligations: audit committee independence and financial expertise; CEO/CFO certifications; internal controls assessment (§404); prohibition on personal loans to executive officers; clawback of incentive compensation following restatement. Dodd-Frank obligations: say-on-pay votes; pay ratio disclosure; CEO vs. median worker pay ratio; conflict minerals reporting (§1502); resource extraction payment disclosure. SEC proxy rules: advance notice requirements; shareholder proposal rules (Rule 14a-8).
+
+27. ANTI-MONEY LAUNDERING (AML) OBLIGATIONS
+Bank Secrecy Act (BSA) obligations for financial institutions: Currency Transaction Reports (CTRs) for cash transactions over $10,000; Suspicious Activity Reports (SARs) for suspected money laundering or financial crimes; Customer Identification Program (CIP/KYC — Know Your Customer); Customer Due Diligence (CDD) — beneficial ownership verification (FinCEN Customer Due Diligence Rule); AML compliance program (policies, training, independent testing, BSA officer). FINCEN's Corporate Transparency Act (2024) requires beneficial ownership reporting by most US entities.
+
+28. EXPORT CONTROL OBLIGATIONS
+Export Administration Regulations (EAR): control export, re-export, and transfer of dual-use goods, software, and technology; administered by BIS (Bureau of Industry and Security). International Traffic in Arms Regulations (ITAR): control export of defense articles and services; administered by DDTC. OFAC sanctions: prohibit dealings with sanctioned countries, entities, and individuals. Violations: civil and criminal penalties, denial of export privileges, debarment. Deemed exports (sharing controlled technology with foreign nationals in the US) require licenses.
+
+29. PRODUCT SAFETY OBLIGATIONS
+Consumer Product Safety Act (CPSA): manufacturers and importers must report to CPSC within 24 hours of discovering a product creates a substantial risk of injury to the public (Section 15(b) reporting). CPSC may issue recalls and require corrective action plans. NHTSA: automobile safety defect reporting obligations; mandatory recalls. FDA: medical device adverse event reporting (MDR); drug adverse event reporting; biologics reporting. Failure to report product defects promptly results in significant civil penalties.
+
+30. FRANCHISE DISCLOSURE OBLIGATIONS
+FTC Franchise Rule requires franchisors to provide prospective franchisees with a Franchise Disclosure Document (FDD) at least 14 calendar days before the signing of any agreement or payment of any consideration. FDD must contain 23 specified items including: audited financial statements, litigation history, franchisee contact list, territory rights, obligations, renewal and termination rights, and earnings claims. State franchise registration states (California, New York, Illinois, and others) require FDD registration before offering franchises.
+
+─────────────────────────────────────────
+SECTION 3: FIDUCIARY OBLIGATIONS
+─────────────────────────────────────────
+
+31. DIRECTOR'S DUTY OF LOYALTY
+Corporate directors must act in the best interests of the corporation and its shareholders, not in their own self-interest or the interests of any other constituency. Transactions involving director self-interest: must be approved by disinterested directors or shareholders after full disclosure; subject to entire fairness review in Delaware (fair dealing + fair price) if tainted by conflict. Corporate opportunity doctrine: directors may not usurp business opportunities that belong to the corporation without offering them to the corporation first.
+
+32. DIRECTOR'S DUTY OF CARE
+Directors must exercise the care, diligence, and skill that a reasonably prudent person would exercise in similar circumstances. Informed decision-making: directors must inform themselves of material information reasonably available before making decisions. The Business Judgment Rule (BJR) protects directors from liability for business decisions if they acted on an informed basis, in good faith, and with the honest belief the action was in the best interests of the corporation. To invoke the BJR, directors must be independent (not self-interested), informed, and acting in good faith.
+
+33. TRUSTEE'S OBLIGATIONS
+A trustee owes duties to the trust beneficiaries: (a) duty of loyalty (sole interest rule — act solely in beneficiaries' interests; no self-dealing); (b) duty of prudent investment (Uniform Prudent Investor Act — invest as a prudent investor would; total return approach; diversification required); (c) duty to administer (comply with trust terms; maintain records; keep trust property separate); (d) duty of impartiality (balance interests of income and remainder beneficiaries); (e) duty to inform and account (keep beneficiaries informed; provide regular accountings). Breach of trust duties — trustee is personally liable for losses.
+
+34. ATTORNEY'S OBLIGATIONS TO CLIENTS
+Attorneys owe clients: (a) confidentiality (ABA Model Rule 1.6 — no disclosure of client information without informed consent; mandatory disclosure exceptions for preventing client crimes likely to result in death or substantial bodily harm, and for preventing/rectifying fraud in which attorney's services were used); (b) loyalty/conflict of interest (Model Rule 1.7 — no adverse concurrent representation without informed consent; Model Rule 1.9 — former client conflicts; Model Rule 1.10 — imputed conflicts); (c) competence (Model Rule 1.1 — thoroughness and preparation appropriate to the representation); (d) communication (keep client reasonably informed; promptly respond to inquiries); (e) zealous advocacy within the bounds of the law.
+
+35. INVESTMENT ADVISOR'S FIDUCIARY OBLIGATION
+Registered investment advisers (RIAs) owe a fiduciary duty to clients under the Investment Advisers Act of 1940: (a) duty of loyalty — act in the client's best interest; disclose all material conflicts of interest; not place adviser's interests above client's; (b) duty of care — provide advice based on a reasonable understanding of client's objectives, circumstances, and risk tolerance; seek best execution of trades; provide advice and monitoring over the course of the relationship. SEC's Regulation Best Interest (Reg BI) imposes a similar "best interest" standard on broker-dealers for retail customer recommendations.
+
+36. AGENT'S OBLIGATIONS TO PRINCIPAL
+An agent owes the principal: (a) duty of loyalty — act in the principal's interest; no self-dealing; disclose conflicts; not compete; not disclose confidential information; account for profits; (b) duty of obedience — follow the principal's lawful instructions; (c) duty of care — exercise reasonable care and skill; (d) duty to inform — report material information to the principal; (e) duty to account — account for all money and property belonging to the principal. An agent who breaches these duties is personally liable to the principal.
+
+37. EXECUTOR'S / ADMINISTRATOR'S OBLIGATIONS
+The executor of an estate owes duties to the beneficiaries and creditors: (a) marshal and inventory estate assets; (b) notify creditors and pay valid claims; (c) file required tax returns (estate, income); (d) manage assets prudently during administration; (e) make distributions in accordance with the will or intestacy law; (f) account to the probate court and beneficiaries. Executors who fail to discharge duties are personally liable for losses to the estate. Surcharge actions are the remedy for executor misconduct.
+
+38. PARTNER'S OBLIGATIONS IN A PARTNERSHIP
+General partners owe each other and the partnership: (a) duty of loyalty — no self-dealing; account for partnership opportunities and profits; no competition; (b) duty of care — act in good faith, with reasonable care; no gross negligence or willful misconduct; (c) duty of good faith and fair dealing. Under the UPA and RUPA (Revised Uniform Partnership Act), partners can modify most duties by agreement except the obligation of good faith and fair dealing. Withdrawal rights and wrongful dissociation consequences are specified in the partnership agreement.
+
+39. PENSION AND BENEFITS FIDUCIARY OBLIGATIONS (ERISA)
+Fiduciaries of ERISA-covered employee benefit plans (plan administrators, trustees, investment managers) owe duties: (a) duty of loyalty — act solely in the interest of plan participants and beneficiaries; (b) duty of prudence — "prudent expert" standard (higher than ordinary prudent person); (c) duty to diversify plan investments; (d) duty to follow plan documents; (e) duty to monitor (plan fiduciaries must monitor appointed investment managers and other service providers). Prohibited transactions rules bar self-dealing, conflicts of interest, and dealings with "parties in interest." ERISA preempts most state laws relating to employee benefit plans.
+
+40. REAL ESTATE BROKER'S OBLIGATIONS
+Real estate brokers and agents owe clients (represented parties): (a) fiduciary duties including loyalty, confidentiality, disclosure, obedience, reasonable care, and accounting; (b) disclosure of material facts affecting the value or desirability of the property; (c) prohibition on making false or misleading statements; (d) prohibition on dual agency without informed written consent. Buyers' agents owe duties to the buyer (including disclosing all material information about the seller's circumstances). NAR settlement (2024) changed how buyer's broker compensation is negotiated.
+
+─────────────────────────────────────────
+SECTION 4: TORT OBLIGATIONS AND DUTIES
+─────────────────────────────────────────
+
+41. DUTY OF CARE (NEGLIGENCE)
+A person owes a duty of care to those who may reasonably be foreseeably harmed by their acts or omissions. The scope of the duty is determined by the foreseeability of harm (Palsgraf v. Long Island Railroad — liability limited to foreseeable plaintiffs). Special duty rules: (a) no duty to rescue absent a special relationship (property owner, employer, common carrier); (b) premises liability — duty owed to invitees (reasonable care), licensees (warn of known dangers), and trespassers (no duty, except child trespassers under attractive nuisance doctrine); (c) Good Samaritan statutes protect volunteer rescuers.
+
+42. LANDOWNER'S DUTY TO INVITEES
+A landowner owes business invitees (customers, business visitors) the highest duty of care: a duty to inspect the premises, discover dangerous conditions, and repair or warn of them. Regular inspections are required. The landowner is liable if it knew or should have known of a dangerous condition and failed to remedy it within a reasonable time. Security obligations: in some jurisdictions, landowners have a duty to protect invitees from foreseeable criminal acts of third parties.
+
+43. PRODUCT MANUFACTURER'S DUTY
+Product manufacturers owe a duty to design products that are reasonably safe; to manufacture products that conform to their design; and to warn of non-obvious risks in the use of their products. Design defect: the product was unreasonably dangerous in design (consumer expectations test or risk-utility test). Manufacturing defect: the product deviated from its design in a way that made it unreasonably dangerous. Failure to warn: the product lacked adequate instructions or warnings about known or knowable risks. Strict liability in tort removes the need to prove negligence for manufacturing defects.
+
+44. MEDICAL STANDARD OF CARE
+Healthcare providers must exercise the degree of care, skill, and diligence that a reasonably prudent healthcare provider in the same or similar specialty would exercise in the same or similar circumstances. Standard of care is established through expert testimony. Locality rule: historically, standard of care was local or regional; most states have moved to a national standard. Informed consent obligation: providers must disclose material risks, benefits, and alternatives of proposed treatment to obtain valid informed consent.
+
+45. DUTY TO WARN (PROFESSIONAL)
+Professionals who learn that a client or patient may pose a serious threat of harm to a third party may have a duty to warn the potential victim or take other protective measures (Tarasoff v. Regents of University of California, 1976 — psychotherapist's duty to warn). Duty to warn exists in many professional contexts: pharmacists (about dangerous drug interactions), attorneys (in some jurisdictions, about threatened client crimes), and engineers (about known design defects in public structures).
+
+46. EMPLOYER'S DUTY TO PROVIDE SAFE WORKPLACE
+Under OSHA's General Duty Clause and common law, employers must provide a safe working environment free from recognized hazards. Specific obligations: implement safety programs, train employees on hazards, provide and enforce use of PPE, conduct safety inspections, and promptly address reported hazards. Workers' compensation: exclusive remedy for most employee workplace injury claims against employers (bars tort claims); employer liability for serious and willful misconduct is an exception. Third-party tort claims against non-employer parties remain available.
+
+47. DRAM SHOP LIABILITY
+Sellers of alcohol owe a duty not to serve alcohol to visibly intoxicated persons or minors, and may be held liable for damages caused by the intoxicated person to third parties. Dram shop statutes (most states) create a statutory cause of action for injured third parties. Social host liability (fewer states): a person who serves alcohol at a private party may be liable for subsequent drunk driving injuries caused by a visibly intoxicated guest.
+
+48. DUTY OF MENTAL HEALTH FACILITIES
+Psychiatric hospitals and mental health facilities owe a heightened duty of care to inpatient and outpatient patients: (a) duty to supervise and prevent self-harm (elopement, suicide, falls); (b) duty to provide a therapeutic and safe environment; (c) duty to involuntarily commit or hold patients who are a danger to themselves or others (5150/5250 holds in California); (d) duty to properly discharge plan for patients being released; (e) duty to provide adequate staffing and monitoring.
+
+49. STRICT LIABILITY FOR ABNORMALLY DANGEROUS ACTIVITIES
+Persons who engage in activities that carry a high risk of serious harm regardless of the care exercised may be strictly liable for resulting harm without proof of negligence. Factors: (a) high degree of risk; (b) risk of serious harm; (c) inability to eliminate risk by reasonable care; (d) activity is not a matter of common usage; (e) inappropriate location; (f) extent to which value to the community does not outweigh its dangerous attributes. Examples: blasting, storage of explosives, transportation of hazardous materials in quantity, crop dusting.
+
+50. STRICT LIABILITY FOR WILD ANIMALS
+The owner or keeper of a wild (non-domestic) animal is strictly liable for harm caused by the animal, regardless of the care exercised in keeping it. The owner's knowledge of the animal's dangerous propensity is presumed. For domestic animals (dogs, cats, horses), many states apply a one-bite rule (owner strictly liable only after the first bite if they knew of the animal's dangerous propensity) or a dog-bite statute (strict liability without proof of prior dangerous propensity).
+
+─────────────────────────────────────────
+SECTION 5: CORPORATE AND GOVERNANCE OBLIGATIONS
+─────────────────────────────────────────
+
+51. SHAREHOLDER'S OBLIGATION TO CONTRIBUTE CAPITAL
+A shareholder's primary obligation is to pay the agreed consideration for their shares (subscription obligation). Unpaid subscription amounts may be recovered by the corporation or its creditors. Treasury stock may be reissued by the corporation without shareholder approval in most jurisdictions. Par value statutes (now largely obsolete) required shares to be issued at no less than par value; stated capital concepts have been replaced by flexible capital structures in modern statutes.
+
+52. MINORITY SHAREHOLDER'S OBLIGATIONS
+Minority shareholders generally owe no fiduciary duties to the corporation or other shareholders unless they exercise control over the corporation. In closely held corporations and partnerships, courts in some jurisdictions impose fiduciary duties on all shareholders (Massachusetts: Donahue v. Rodd Electrotype — minority shareholders in close corporations owe each other fiduciary duties similar to partners). Minority shareholders may have obligations under shareholders' agreements (tag-along, right of first refusal, lock-up, drag-along compliance).
+
+53. OFFICER'S OBLIGATION TO COMPANY
+Corporate officers owe the same fiduciary duties as directors (loyalty and care) plus a duty of obedience to the corporation's policies and the board's directives. Officers are agents of the corporation with actual, implied, or apparent authority to bind it. Officers may be personally liable for torts they commit in the course of their duties (participation theory) even though the corporation is also vicariously liable. Officers generally cannot delegate their statutory obligations (e.g., signing required SEC reports).
+
+54. CONTROLLING SHAREHOLDER'S FIDUCIARY DUTY
+A controlling shareholder (typically holding >50% of voting shares, or exercising actual control without majority ownership) owes fiduciary duties to minority shareholders. In transactions between the controlling shareholder and the corporation (squeeze-out mergers, parent-subsidiary transactions, self-dealing), Delaware courts apply the "entire fairness" standard (fair dealing + fair price) unless the transaction is approved by a fully independent special committee and/or a majority of the minority vote (MFW framework — then business judgment rule applies).
+
+55. BOARD OBLIGATION IN CHANGE OF CONTROL (REVLON)
+When a corporation is in "Revlon mode" (actively for sale or breakup of the company), the board's fiduciary obligation shifts from long-term maximization of corporate value to maximizing shareholder value in the near term (getting the best price reasonably available). The board must act as an "auctioneer" and run a reasonable sale process. Defensive measures adopted in Revlon mode are evaluated under the enhanced scrutiny standard rather than the business judgment rule. Revlon duties apply to cash sales, breakup transactions, and stock-for-stock mergers where the target's shareholders receive predominantly cash.
+
+─────────────────────────────────────────
+SECTION 6: INTERNATIONAL OBLIGATIONS
+─────────────────────────────────────────
+
+56. TREATY OBLIGATIONS (INTERNATIONAL LAW)
+Sovereign states party to international treaties are bound by the principle of pacta sunt servanda (agreements must be kept) under the Vienna Convention on the Law of Treaties (1969). Treaties may impose obligations in areas including: trade (WTO agreements — GATT, GATS, TRIPS), investment (BITs), human rights (ICCPR, ICESCR, ECHR), environment (Paris Agreement, Montreal Protocol), and arms control. States may be exempt from treaty obligations by force majeure, impossibility, and fundamental change of circumstances (rebus sic stantibus — Article 62 VCLT).
+
+57. OBLIGATIONS UNDER INTERNATIONAL HUMANITARIAN LAW
+Parties to armed conflicts (states and non-state armed groups) are bound by international humanitarian law (IHL): the Geneva Conventions of 1949 and Additional Protocols. IHL obligations include: distinction (distinguish between combatants and civilians); proportionality (attacks must not cause disproportionate civilian harm); military necessity; prohibition on targeting protected persons and objects; obligation to care for the wounded and sick; humane treatment of prisoners of war; and prohibition on weapons causing unnecessary suffering. The International Criminal Court (ICC) prosecutes individuals for war crimes, crimes against humanity, and genocide.
+
+58. OBLIGATIONS UNDER INTERNATIONAL HUMAN RIGHTS LAW
+States have obligations under international human rights treaties: obligation to respect (refrain from violating rights), protect (prevent violations by third parties), and fulfill (take positive steps to ensure rights are realized). Business and Human Rights: The UN Guiding Principles on Business and Human Rights (Ruggie Principles) establish the state duty to protect, the corporate responsibility to respect, and the need for access to remedy. The EU Corporate Sustainability Due Diligence Directive (CSDDD/CS3D) imposes mandatory supply chain due diligence obligations on large companies.
+
+59. WTO OBLIGATIONS
+Members of the World Trade Organization are obligated to: (a) apply most-favored-nation (MFN) treatment — extend any trade advantage to all WTO members (GATT Art. I); (b) apply national treatment — treat imported goods and foreign services no less favorably than domestic goods and services (GATT Art. III); (c) observe bound tariff rates (schedules of concessions); (d) comply with obligations under the TBT Agreement (technical barriers to trade), SPS Agreement (sanitary and phytosanitary measures), TRIPS Agreement (IP protection), and other covered agreements. WTO Dispute Settlement Body adjudicates violations through panels and the Appellate Body.
+
+60. OBLIGATIONS UNDER BILATERAL INVESTMENT TREATIES (BITs)
+Host states owe obligations to foreign investors under BITs: (a) fair and equitable treatment (FET) — must not frustrate investors' legitimate expectations; (b) full protection and security — duty to protect investors from third-party interference; (c) most-favored-nation treatment; (d) national treatment; (e) protection from unlawful expropriation (direct or indirect/regulatory); (f) free transfer of funds. Breach of BIT obligations allows investors to bring ISDS claims directly against the state in international arbitration (ICSID or UNCITRAL rules).
+
+─────────────────────────────────────────
+SECTION 7: PROFESSIONAL OBLIGATIONS
+─────────────────────────────────────────
+
+61. CPA'S OBLIGATION TO CLIENTS AND THIRD PARTIES
+CPAs owe duties: (a) to clients — competence, confidentiality, independence (for audit engagements), and exercise of professional judgment; (b) to third parties — auditor's duty to exercise due professional care in preparing audited financial statements that third parties may rely upon; privity defense (Ultramares doctrine) limits third-party liability in some states; Restatement (Third) approach (known or limited classes of intended recipients) is applied in many states; (c) to regulators — truthful reporting, cooperation with SEC and PCAOB investigations; (d) mandatory reporting of client fraud in some circumstances (SOX § 307 — attorneys; similar obligations for CPAs).
+
+62. ENGINEER'S OBLIGATION TO PUBLIC SAFETY
+Licensed engineers have professional obligations to: design structures and systems that are safe for intended use; comply with applicable building codes and engineering standards; not stamp or certify designs prepared by others without independent review; report known safety deficiencies in existing structures that pose an imminent hazard; maintain professional liability insurance; and continue professional education. NSPE Code of Ethics: engineers shall hold public safety, health, and welfare paramount. Design errors causing injury give rise to professional malpractice and products liability claims.
+
+63. PHYSICIAN'S OBLIGATION TO PATIENTS
+Physicians owe patients: (a) duty to diagnose and treat with the skill of a reasonably competent physician in the same or similar specialty; (b) duty of informed consent — disclose material risks, benefits, and alternatives; (c) duty of confidentiality (HIPAA and state medical confidentiality laws); (d) duty to refer to specialists when the condition is beyond the physician's competence; (e) duty not to abandon patients — must give reasonable notice before terminating the relationship; (f) continuing duty to the patient during the treatment relationship.
+
+64. PHARMACIST'S OBLIGATION
+Pharmacists have a professional duty to: (a) accurately fill prescriptions; (b) counsel patients on drug use, potential side effects, and interactions; (c) check for known contraindications and potentially dangerous drug-drug or drug-disease interactions; (d) refuse to fill prescriptions that appear fraudulent, erroneous, or inappropriate; and (e) maintain patient confidentiality. Pharmacist liability: negligent dispensing (wrong drug, wrong dose, failure to warn of known interactions).
+
+65. JOURNALIST'S OBLIGATIONS
+Journalists are not licensed professionals, but ethical obligations include: accuracy and truth-telling; verification before publication; use of multiple independent sources; distinguishing facts from opinion; giving subjects an opportunity to respond; protecting confidential sources; avoiding conflicts of interest; correcting errors promptly; and distinguishing news from advertising (native advertising disclosure). Shield laws (state) and the First Amendment provide some protection from compelled disclosure of sources. Defamation liability: actual malice standard for public figures (New York Times v. Sullivan).
+
+─────────────────────────────────────────
+SECTION 8: ENVIRONMENTAL OBLIGATIONS
+─────────────────────────────────────────
+
+66. CERCLA CLEANUP OBLIGATIONS
+Under the Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA/Superfund), four categories of "potentially responsible parties" (PRPs) face strict, joint and several liability for cleanup costs: (a) current owners and operators of contaminated facilities; (b) past owners and operators at the time of disposal; (c) generators who arranged for disposal of hazardous substances; (d) transporters who selected the disposal site. Liability is retroactive (applies to pre-CERCLA disposal). Defenses: innocent landowner, bona fide prospective purchaser (all appropriate inquiries — Phase I/II environmental assessments), and third-party defense.
+
+67. CLEAN WATER ACT OBLIGATIONS
+Persons discharging pollutants to navigable waters from point sources must obtain NPDES (National Pollutant Discharge Elimination System) permits. Stormwater permits are required for industrial activities, construction (land disturbance ≥1 acre), and municipal separate storm sewer systems (MS4). Total Maximum Daily Loads (TMDLs) establish pollutant limits for impaired water bodies. Dredge and fill permits (Section 404) required for impacts to wetlands and waters of the US — jurisdictional determination subject to ongoing litigation post-Sackett v. EPA (2023).
+
+68. CLEAN AIR ACT OBLIGATIONS
+Sources of air pollutants must comply with National Ambient Air Quality Standards (NAAQS) and source-specific emission standards. Title V operating permits required for major sources. New Source Review (NSR): new and significantly modified major sources must obtain pre-construction permits (PSD in attainment areas; nonattainment NSR in non-attainment areas). Best Available Control Technology (BACT) for PSD permits; Lowest Achievable Emission Rate (LAER) for nonattainment NSR. Greenhouse gas reporting under the Mandatory Reporting Rule.
+
+69. SPILL REPORTING OBLIGATIONS
+Spills of oil and hazardous substances above reportable quantities (RQs) must be immediately reported to the National Response Center (NRC): CERCLA § 103 (hazardous substance releases); CWA § 311 (oil and hazardous substance discharges to water). Petroleum facilities regulated under the Oil Pollution Act (OPA) and Spill Prevention, Control, and Countermeasure (SPCC) regulations must develop SPCC Plans. State spill reporting obligations may be more stringent. Failure to report is a criminal offense.
+
+70. RESOURCE CONSERVATION AND RECOVERY ACT (RCRA) OBLIGATIONS
+Generators of hazardous waste must: (a) determine whether waste is hazardous (lists and characteristics); (b) properly label, store, and manifest hazardous waste; (c) comply with generator category requirements (Very Small Quantity Generators, Small Quantity Generators, Large Quantity Generators — different accumulation time limits and standards); (d) ship waste only to permitted TSD facilities with a uniform hazardous waste manifest; (e) submit biennial reports. TSD facilities (treatment, storage, disposal) must obtain RCRA permits and comply with technical standards.
+
+─────────────────────────────────────────
+SECTION 9: DIGITAL AND TECHNOLOGY OBLIGATIONS
+─────────────────────────────────────────
+
+71. DATA BREACH NOTIFICATION OBLIGATIONS
+All 50 US states have enacted data breach notification laws requiring businesses to notify affected residents when their personal information is subject to a security breach. Federal notification laws: HIPAA Breach Notification Rule (healthcare data); GLBA Safeguards Rule (financial institutions); FTC Safeguards Rule (non-bank financial companies); SEC cybersecurity disclosure rules (Form 8-K within 4 business days for material cybersecurity incidents). GDPR: 72-hour notification to supervisory authority; notification to affected individuals without undue delay.
+
+72. CCPA/CPRA OBLIGATIONS
+The California Consumer Privacy Act (CCPA) as amended by CPRA imposes obligations on qualifying businesses: (a) right to know — disclose categories and specific pieces of personal information collected, used, shared, or sold; (b) right to delete — delete personal information on consumer request (with exceptions); (c) right to opt out of sale/sharing of personal information; (d) right to correct inaccurate personal information; (e) right to limit use of sensitive personal information; (f) right of non-discrimination for exercising privacy rights; (g) contracts with service providers and contractors must include required privacy terms. CPPA enforces with civil penalties up to $7,500 per intentional violation.
+
+73. CHILDREN'S ONLINE PRIVACY PROTECTION ACT (COPPA) OBLIGATIONS
+Operators of websites and online services directed to children under 13, or who have actual knowledge they are collecting personal information from children under 13, must: (a) post a clear online privacy policy; (b) obtain verifiable parental consent before collecting, using, or disclosing personal information from children; (c) give parents the right to review and delete their child's personal information; (d) implement reasonable security; (e) retain data only as long as necessary; (f) prohibit conditioning a child's participation on providing more personal information than necessary. FTC enforces COPPA; civil penalties up to $51,744 per violation.
+
+74. ACCESSIBILITY OBLIGATIONS (DIGITAL)
+Section 508 of the Rehabilitation Act requires federal agencies and recipients of federal funding to make electronic and information technology accessible to people with disabilities. Title III of the ADA has been interpreted by courts and the DOJ to require website and mobile app accessibility for places of public accommodation. Web Content Accessibility Guidelines (WCAG 2.1 Level AA) is the de facto accessibility standard. DOJ announced formal rulemaking for ADA website accessibility. EU Web Accessibility Directive and European Accessibility Act impose accessibility obligations.
+
+75. AI AND ALGORITHMIC ACCOUNTABILITY OBLIGATIONS
+Emerging AI regulations impose obligations on developers and deployers of AI systems: EU AI Act (risk-based approach — prohibited practices, high-risk AI obligations: conformity assessments, transparency, human oversight, data governance, technical documentation, post-market monitoring); NIST AI Risk Management Framework; FTC guidance on AI fairness, transparency, and accountability; EEOC guidance on use of AI in employment decisions; New York City Local Law 144 (bias audits for automated employment decision tools); Colorado SB 21-169 (restrictions on insurance AI). GDPR Article 22: right not to be subject to solely automated decisions with legal effects.
+
+─────────────────────────────────────────
+SECTION 10: ADDITIONAL OBLIGATIONS
+─────────────────────────────────────────
+
+76. OBLIGATION TO ACT IN GOOD FAITH IN INSURANCE
+Insurers have an obligation to: (a) promptly investigate and evaluate claims; (b) not deny coverage without a reasonable basis; (c) offer a fair and reasonable settlement of valid claims; (d) defend the insured under the duty to defend (broader than duty to indemnify); (e) act in the insured's interest when deciding whether to settle a claim within policy limits. Failure to perform these obligations constitutes bad faith, giving rise to extra-contractual damages including punitive damages in egregious cases.
+
+77. LANDLORD'S HABITABILITY OBLIGATION
+In residential tenancies, landlords have an implied warranty of habitability — an obligation to maintain the premises in a condition fit for human habitation. This includes: watertight roof and walls; working plumbing, heating, and electrical systems; absence of vermin infestations; adequate weatherproofing; and compliance with health and safety codes. Breach of the implied warranty of habitability entitles tenants to: repair-and-deduct (in some states), rent withholding (escrow), rent reduction/abatement, or lease termination.
+
+78. OBLIGATION TO PROVIDE REASONABLE ACCOMMODATION
+Employers (ADA), housing providers (Fair Housing Act), and places of public accommodation (Title III ADA) must provide reasonable accommodations to qualified individuals with disabilities unless doing so would impose an undue hardship. Reasonable accommodations include: modifying work schedules, providing assistive equipment, reassigning to a vacant position (employment), structural modifications to buildings (housing/places of public accommodation), allowing service animals, and providing accessible formats. The interactive process must be engaged in good faith.
+
+79. OBLIGATION OF PUBLIC UTILITIES
+Utilities (electricity, gas, water, telephone, internet) providing services under a public franchise or license owe obligations to the public: (a) duty to serve — obligation to provide service to all customers in the service territory at tariffed rates; (b) non-discrimination — equal service at equal rates; (c) reasonable rates — rates must be just and reasonable (regulated by FERC, state PUCs); (d) reliability — maintain infrastructure to ensure reliable service; (e) emergency response — restore service promptly after outages. Disconnection of essential utility services is subject to due process and notice requirements.
+
+80. GOVERNMENTAL OBLIGATION OF DUE PROCESS
+The 5th and 14th Amendments prohibit the federal and state governments from depriving persons of life, liberty, or property without due process of law. Procedural due process: when the government deprives a person of a protected interest, it must provide: (a) notice of the deprivation; (b) an opportunity to be heard at a meaningful time and in a meaningful manner (Mathews v. Eldridge balancing test — weigh private interest, risk of erroneous deprivation, and government interest). Substantive due process: government action that is arbitrary, capricious, or bears no rational relationship to a legitimate government interest violates substantive due process.
+
+81. OBLIGATION TO PROVIDE MIRANDA WARNINGS
+Before conducting a custodial interrogation, law enforcement must inform suspects of their rights: (a) the right to remain silent; (b) that anything said can and will be used against them in court; (c) the right to have an attorney present during questioning; (d) that if they cannot afford an attorney, one will be appointed. Statements obtained in violation of Miranda are inadmissible in the prosecution's case-in-chief (though may be used for impeachment). Miranda rights may be waived, but waiver must be voluntary, knowing, and intelligent.
+
+82. OBLIGATION OF COMMON CARRIERS
+Common carriers (airlines, railroads, buses, ships, pipelines) undertaking to transport goods or passengers for hire owe obligations: (a) duty to accept all goods or passengers (public obligation to serve); (b) strict liability for damage to goods during transport (with limited exceptions: act of God, public enemy, shipper's act, inherent vice); (c) reasonable care for passenger safety (highest duty of care); (d) non-discrimination; (e) compliance with tariff rates on file with regulatory authorities. The Carmack Amendment governs rail and motor carrier liability for cargo loss and damage.
+
+83. FRANCHISOR'S OBLIGATION TO FRANCHISEES
+In addition to disclosure obligations, franchisors owe franchisees: (a) contractual obligations (provide training, site selection assistance, marketing support, product supply); (b) implied covenant of good faith in exercising contractual discretion (approvals, pricing, territorial decisions); (c) some states impose a statutory "good cause" requirement before termination or non-renewal; (d) pre-termination notice and cure opportunities under state franchise relationship laws; (e) obligation not to encroach on franchisee's protected territory.
+
+84. OBLIGATION TO PROVIDE WORKERS' COMPENSATION
+Employers in all US states (except Texas where coverage is elective for private employers) must provide workers' compensation insurance or qualify as self-insurers. Workers' comp provides: (a) medical benefits for work-related injuries and illnesses; (b) temporary disability benefits (partial wage replacement) during recovery; (c) permanent disability benefits; (d) vocational rehabilitation; (e) death benefits. Workers' comp is the exclusive remedy for employee work-related claims against the employer (except for employer intentional acts or serious and willful misconduct in some states).
+
+85. OBLIGATION TO COMPLY WITH BANKRUPTCY AUTOMATIC STAY
+Upon the filing of a bankruptcy petition, an automatic stay immediately halts most actions against the debtor and its property (11 U.S.C. § 362). Creditors must: (a) cease all collection efforts (calls, letters, lawsuits); (b) stay all pending litigation; (c) stop foreclosure proceedings; (d) return property seized shortly before bankruptcy; (e) not setoff mutual debts without court approval. Willful violation of the automatic stay exposes creditors to damages, attorney's fees, and punitive damages. Relief from the automatic stay requires a motion in bankruptcy court.
+
+86. OBLIGATION TO FILE BENEFICIAL OWNERSHIP INFORMATION (BOI)
+Under the Corporate Transparency Act (CTA), most US companies (corporations, LLCs, limited partnerships) must report beneficial ownership information to FinCEN: (a) existing companies formed before January 1, 2024 — initial BOI report deadline (various deadlines depending on court orders); (b) companies formed in 2024 — 90-day deadline from formation; (c) companies formed in 2025 and beyond — 30-day deadline. Beneficial owners: individuals owning ≥25% of equity interests or exercising substantial control. Exemptions: large operating companies, SEC-reporting companies, banks, credit unions, and others (23 exemption categories). Penalties for non-compliance: civil penalties up to $591/day; criminal penalties up to $10,000 and 2 years imprisonment.
+
+87. OBLIGATION TO PAY MINIMUM WAGE (STATE AND LOCAL)
+In addition to the federal minimum wage ($7.25/hour), states and cities may set higher minimum wages. As of 2025: California ($16.50/hour; $20/hour for fast food workers); Washington ($16.28); Colorado ($14.81); New York City ($16.50); Seattle ($20.29). Some localities have their own minimum wages (San Francisco $18.67; Denver $18.29). Employers must pay the highest applicable rate. Tipped employees: federal tip credit allows payment of $2.13/hour if tips bring total to minimum wage (many states disallow the tip credit). Minimum wage increases are often indexed to CPI.
+
+88. OBLIGATION TO PROVIDE HEALTH INSURANCE (ACA EMPLOYER MANDATE)
+The Affordable Care Act imposes obligations on Applicable Large Employers (ALEs — 50+ full-time equivalent employees): (a) offer minimum essential coverage to at least 95% of full-time employees (30+ hours/week) and their dependents; (b) coverage must be affordable (employee premium for self-only coverage must not exceed 9.83% of employee's household income in 2025) and provide minimum value (pays at least 60% of the cost of benefits). ALEs that fail to comply face assessments under IRC § 4980H(a) (failure to offer coverage) or § 4980H(b) (coverage is unaffordable or does not provide minimum value).
+
+89. OBLIGATION TO PROVIDE COBRA CONTINUATION COVERAGE
+The Consolidated Omnibus Budget Reconciliation Act (COBRA) requires employers with 20+ employees to offer continuation of group health coverage to qualified beneficiaries (employees, spouses, dependents) who lose coverage due to qualifying events (termination, reduction in hours, divorce, Medicare entitlement, dependent aging out). Duration: 18 months for qualifying events of termination/reduction in hours; 36 months for other qualifying events. Beneficiaries pay the full premium (employee + employer share) plus a 2% administrative fee. COBRA election period: 60 days from notice.
+
+90. ANTI-DISCRIMINATION OBLIGATION IN HOUSING (FAIR HOUSING ACT)
+The Fair Housing Act prohibits discrimination in the sale, rental, and financing of housing based on race, color, national origin, religion, sex, familial status, and disability. AFFH obligation: recipients of HUD funding must affirmatively further fair housing. Reasonable accommodations for disability (permit service and assistance animals, structural modifications). Discriminatory advertising is prohibited. Covered transactions: most housing transactions, including rental housing (except owner-occupied buildings with ≤4 units — "Mrs. Murphy exemption"). Enforcement: HUD administrative complaints or federal court suits.
+
+─────────────────────────────────────────
+SECTION 11: FINAL ADDITIONAL OBLIGATIONS
+─────────────────────────────────────────
+
+91. OBLIGATION TO PROVIDE PAY STUBS AND WAGE STATEMENTS
+Many states require employers to provide employees with itemized wage statements at each pay period showing: gross wages earned, deductions, net wages, pay period dates, employer name and address, and hours worked (for non-exempt employees). California Labor Code § 226 imposes specific requirements with civil penalties of up to $4,000 per employee for systemic failures. Failure to provide accurate wage statements is a per se violation in many wage-and-hour class actions.
+
+92. OBLIGATION TO MAKE CUSTOMS DECLARATIONS
+Importers of record must: (a) file accurate entry documents (CBP Form 3461 for informal entries; CF 7501 for formal entries); (b) pay applicable customs duties, taxes, and fees; (c) comply with country-of-origin marking requirements; (d) comply with import quotas; (e) not import counterfeit goods, goods made with forced labor (Uyghur Forced Labor Prevention Act — UFLPA), or other prohibited goods. Customs brokers facilitate entry. Tariff classification disputes resolved by CBP and Court of International Trade. Section 301 tariffs (China), Section 232 tariffs (steel/aluminum), antidumping and countervailing duties add to customs obligations.
+
+93. OBLIGATION TO MAINTAIN CORPORATE FORMALITIES
+Corporations and LLCs must maintain corporate formalities to preserve limited liability protection and prevent veil-piercing: (a) hold regular board and shareholder meetings and document with minutes; (b) maintain separate bank accounts and financial records; (c) not commingle personal and company funds; (d) adequately capitalize the entity; (e) file required annual reports and pay franchise taxes; (f) not represent to creditors that the business is personally backed by the owner. Failure to maintain formalities is a key factor in corporate veil-piercing analyses.
+
+94. OBLIGATION TO OBTAIN BUSINESS LICENSES AND PERMITS
+Businesses must obtain all required federal, state, and local licenses and permits before commencing operations: federal licenses (broadcast, firearms, alcohol, banking, investment advisory); state licenses (professional licenses for lawyers, physicians, contractors, real estate agents; business licenses); local permits (zoning compliance, building permits, health permits for food service, fire safety certificates). Operating without required licenses may void contracts, subject the business to penalties, and require disgorgement of revenues earned while unlicensed.
+
+95. CONTRACTOR'S OBLIGATION TO BUILD TO CODE
+Construction contractors must build in compliance with applicable building codes (IBC, IRC, NFPA 101 Life Safety Code, local amendments), zoning regulations, and approved plans. Contractors must obtain required building permits and pass required inspections. Failure to build to code may result in: stop-work orders, mandatory demolition and reconstruction, civil liability to the owner, and disciplinary action against the contractor's license. Design-build contractors assume greater responsibility for both design and construction code compliance.
+
+96. OBLIGATION TO REGISTER AS A LOBBYIST
+Persons who engage in lobbying activities (communicating with government officials to influence legislation, administrative action, or rulemaking) above specified thresholds must register as lobbyists and file periodic disclosure reports. Federal: Lobbying Disclosure Act (LDA) — semiannual reports to Congress; state lobbying registration requirements vary. Gift rules: most jurisdictions prohibit providing gifts or meals to government officials above de minimis amounts. Foreign Agents Registration Act (FARA): agents of foreign principals engaging in political activities must register with DOJ.
+
+97. OBLIGATION OF SUPERVISING ATTORNEYS
+Supervising attorneys have professional responsibility obligations under ABA Model Rules 5.1 (responsibilities of partners and supervisory lawyers) and 5.3 (responsibilities regarding non-lawyer assistance): (a) make reasonable efforts to ensure the supervised attorney or non-lawyer employee complies with professional conduct rules; (b) take remedial action if they learn of misconduct; (c) are responsible for the misconduct of a subordinate if they ordered or ratified it, or if they knew of it in time to prevent it and failed to act. Law firm partners are responsible for creating systems to ensure compliance.
+
+98. OBLIGATION TO DISCLOSE CONFLICTS IN GOVERNMENT SERVICE
+Government employees and elected officials are subject to ethics laws requiring: (a) financial disclosure statements (Executive Branch: OGE forms; Congress: Clerk of the House and Secretary of the Senate filings); (b) disqualification from matters in which they have a financial interest; (c) prohibition on accepting gifts from persons seeking official action; (d) post-employment restrictions (revolving door rules) restricting lobbying former agency for one or two years; (e) prohibition on using government position for personal benefit. These obligations are enforced by the Office of Government Ethics, ethics offices within agencies, and the DOJ Public Integrity Section.
+
+99. OBLIGATION TO COMPLY WITH EXPORT-IMPORT BANK (EXIM) REQUIREMENTS
+Transactions financed with Export-Import Bank support must comply with: (a) U.S. content requirements (minimum U.S. content threshold varies by product); (b) additionality requirement (financing not available from commercial sources on reasonable terms); (c) shipping requirements (cargo shipped on U.S.-flag vessels to the extent available — Cargo Preference Act); (d) environmental and social impact assessment for large projects; (e) anti-corruption certifications; (f) repayment and security requirements. Ex-Im Bank financing supports US exports and competes with foreign export credit agencies.
+
+100. OBLIGATION OF SELF-REGULATORY ORGANIZATIONS (SROs)
+FINRA, the NYSE, NASDAQ, CBOE, and other SROs have both obligations to regulate their members and obligations to which their members are subject: SRO obligations — adopt and enforce rules for member conduct, supervise trading, conduct examinations of members, and discipline members for rule violations; Member obligations — comply with SRO rules (suitability/Reg BI, supervision, anti-money laundering, net capital, books and records), register associated persons, submit to SRO examination, pay fees and assessments. SRO rules operate alongside SEC regulations and must be filed with and approved by the SEC.

@@ -1,0 +1,347 @@
+LEGAL DISPUTES KNOWLEDGE BASE
+==============================
+Comprehensive reference for legal dispute types, resolution mechanisms, doctrines, and procedural rules.
+
+─────────────────────────────────────────
+SECTION 1: TYPES OF LEGAL DISPUTES
+─────────────────────────────────────────
+
+1. CONTRACT DISPUTE
+A disagreement between contracting parties regarding the formation, interpretation, performance, or enforcement of a contract. Common causes: ambiguous terms, alleged breach, differing interpretations of obligations, failure to deliver goods/services, non-payment, and fraudulent inducement. Contract disputes are governed by the law of the jurisdiction specified in the choice-of-law clause. Elements of a breach of contract claim: (a) valid contract; (b) plaintiff's performance or excused non-performance; (c) defendant's breach; (d) resulting damages.
+
+2. TORT DISPUTE
+A civil wrong (other than breach of contract) that causes harm to another person, giving rise to a legal claim. Categories: (a) intentional torts (assault, battery, fraud, conversion, intentional infliction of emotional distress); (b) negligence (duty, breach, causation, damages); (c) strict liability (defective products, abnormally dangerous activities); (d) economic torts (tortious interference with contract, wrongful competition). Tort law provides compensatory, punitive, and nominal damages.
+
+3. EMPLOYMENT DISPUTE
+Disagreements between employers and employees or job applicants. Types: wrongful termination, discrimination (race, sex, religion, national origin, disability, age under ADEA, pregnancy), sexual harassment (quid pro quo and hostile work environment), retaliation for protected activity (EEOC complaints, OSHA complaints, whistleblowing), wage and hour violations (FLSA, state wage laws), FMLA interference, non-compete enforcement, and class/collective actions.
+
+4. INTELLECTUAL PROPERTY DISPUTE
+Disputes over ownership, infringement, validity, or licensing of IP rights: (a) patent infringement (literal infringement, doctrine of equivalents, indirect infringement); (b) copyright infringement (reproduction, distribution, public performance, derivative works, fair use defense); (c) trademark infringement (likelihood of confusion, dilution, false designation of origin); (d) trade secret misappropriation (Defend Trade Secrets Act, state laws); (e) right of publicity violations.
+
+5. REAL PROPERTY DISPUTE
+Disputes concerning land, buildings, and related rights. Types: boundary disputes, title defects (adverse possession claims, competing deeds, forgery), landlord-tenant disputes (eviction/unlawful detainer, habitability, security deposits, lease interpretation), easement disputes, restrictive covenant enforcement, partition actions (co-owners seeking to divide or sell property), quiet title actions, lis pendens filings, and eminent domain/inverse condemnation.
+
+6. COMMERCIAL LITIGATION
+Business-to-business disputes beyond simple contract claims. Includes: fraud and misrepresentation claims, breach of fiduciary duty (corporate directors, partners, agents), shareholder derivative actions, oppression of minority shareholders, unjust enrichment and quasi-contract claims, tortious interference with business relations or prospective economic advantage, unfair competition, trade libel/product disparagement, and RICO (Racketeer Influenced and Corrupt Organizations Act) claims.
+
+7. SECURITIES DISPUTE
+Disputes involving the issuance, trading, or regulation of securities. Types: securities fraud under Rule 10b-5 (material misrepresentation or omission in connection with purchase/sale of securities); Section 11 claims (materially false registration statements); Section 12 claims; insider trading; broker-dealer disputes (FINRA arbitration); class action securities fraud suits; derivative suits for breach of fiduciary duty in M&A (Corwin doctrine, Revlon duties).
+
+8. ANTITRUST DISPUTE
+Disputes involving anticompetitive conduct. Federal antitrust statutes: Sherman Act §1 (agreements in restraint of trade — price fixing, bid rigging, market allocation are per se illegal; rule of reason for vertical restraints), Sherman Act §2 (monopolization, attempted monopolization), Clayton Act §7 (mergers substantially lessening competition), Robinson-Patman Act (price discrimination). Private plaintiffs may recover treble damages and attorney's fees.
+
+9. INSURANCE DISPUTE
+Disputes between insurers and policyholders. Types: coverage disputes (whether a claim is covered under the policy); bad faith claims (insurer's unreasonable denial, delay, or undervaluation of a valid claim); duty to defend disputes (broader than duty to indemnify; triggered if complaint potentially alleges covered claims); subrogation disputes; rescission for material misrepresentation in the application; and reinsurance disputes.
+
+10. CONSUMER DISPUTE
+Disputes between businesses and individual consumers. Governing laws: FTC Act (unfair or deceptive acts or practices), state consumer protection statutes (UDAP), Truth in Lending Act (TILA), Fair Debt Collection Practices Act (FDCPA), Electronic Fund Transfer Act (EFTA), and data breach notification statutes. Class actions under state consumer protection laws are common. Consumer arbitration clauses (increasingly requiring individual arbitration) are subject to ongoing legal challenges.
+
+─────────────────────────────────────────
+SECTION 2: DISPUTE RESOLUTION PROCESSES
+─────────────────────────────────────────
+
+11. LITIGATION (COURT PROCEEDINGS)
+The formal process of resolving disputes through the judicial system. Stages: pleadings (complaint, answer, affirmative defenses, counterclaims); pre-trial motions (motion to dismiss, motion for judgment on the pleadings, motion for summary judgment); discovery (interrogatories, requests for production, depositions, requests for admission); trial (jury or bench); post-trial motions; and appeal. Federal civil procedure is governed by the Federal Rules of Civil Procedure (FRCP). State courts have their own procedural rules.
+
+12. ARBITRATION
+A private adjudicative process in which one or more arbitrators (selected by the parties or by an institution) hear evidence and arguments and render a binding award. Types: institutional (AAA Commercial Rules, JAMS Comprehensive Rules, ICC Arbitration Rules, LCIA Rules, SIAC Rules, HKIAC Rules) and ad hoc (UNCITRAL Arbitration Rules). Advantages over litigation: confidentiality, finality (limited appeal rights), choice of arbitrator, speed, and international enforceability (New York Convention). Disadvantages: cost, limited discovery, no precedent.
+
+13. MEDIATION
+A voluntary, confidential, non-binding process in which a neutral mediator helps the parties communicate and negotiate a mutually acceptable settlement. The mediator does not impose a decision. Mediation can be conducted at any stage of a dispute. Success rates are high (60–80% settlement rates in commercial mediations). Mediation communications are protected from disclosure in subsequent proceedings (Evidence Code § 1119 in California; FRE 408 generally; UNCITRAL Model Law on International Commercial Mediation). Agreements reached in mediation are binding contracts.
+
+14. EARLY NEUTRAL EVALUATION (ENE)
+A form of ADR in which a neutral expert (often a retired judge or senior attorney) evaluates the merits of each party's case and provides a non-binding assessment. The evaluation helps parties calibrate their positions and facilitates settlement. ENE is most useful where parties have unrealistic expectations about the strength of their case.
+
+15. MINI-TRIAL
+A structured settlement process in which senior executives of both parties, along with a neutral advisor, hear abbreviated presentations of each side's case. Following the presentations, the executives negotiate directly. The neutral may provide an advisory opinion on the likely outcome of litigation. Mini-trials are used in large commercial disputes between ongoing business partners.
+
+16. NEGOTIATED SETTLEMENT
+The most common method of dispute resolution. Parties or their counsel negotiate directly (without a third-party neutral) to reach a mutually acceptable resolution. Settlement agreements are binding contracts. In class actions, court approval is required for settlements. In employment disputes, EEOC-mediated settlements are common. Settlement communications are generally protected from disclosure under FRE 408.
+
+17. SUMMARY JURY TRIAL
+A non-binding mini-trial before a mock jury. Counsel present abbreviated cases; the jury delivers a non-binding verdict. The advisory verdict gives the parties a realistic assessment of likely trial outcome and facilitates settlement. Used primarily in federal courts as a settlement tool.
+
+18. ONLINE DISPUTE RESOLUTION (ODR)
+Technology-facilitated dispute resolution, including automated negotiation platforms (Cybersettle, Modria), AI-assisted mediation, and virtual arbitration hearings. E-commerce platforms (eBay, Amazon, PayPal) use ODR for consumer disputes. ODR is increasingly used by courts for small claims and traffic matters. UNCITRAL has adopted technical notes on ODR for cross-border e-commerce disputes.
+
+19. ADMINISTRATIVE DISPUTE RESOLUTION
+Disputes resolved by government agencies and administrative tribunals rather than courts. Examples: EEOC charge process (employment discrimination), NLRB unfair labor practice charges, SEC enforcement proceedings, FTC administrative actions, IRS appeals, patent office inter partes review (IPR) and post-grant review (PGR), trademark TTAB proceedings, and government contract appeals boards (ASBCA, CBCA). Administrative decisions are subject to judicial review under APA § 706.
+
+20. INTERNATIONAL ARBITRATION
+Resolution of cross-border commercial disputes through international arbitration. Key institutional rules: ICC (International Chamber of Commerce), LCIA (London Court of International Arbitration), SIAC (Singapore International Arbitration Centre), HKIAC (Hong Kong International Arbitration Centre), ICSID (International Centre for Settlement of Investment Disputes — for investor-state disputes). The New York Convention (1958) provides for recognition and enforcement of international arbitral awards in 168 countries. ICSID awards are enforced under the ICSID Convention without need for local court proceedings.
+
+─────────────────────────────────────────
+SECTION 3: PRE-TRIAL PROCEDURES
+─────────────────────────────────────────
+
+21. PLEADINGS
+Documents filed with the court to frame the issues in dispute. Federal pleadings standards: complaint must contain a "short and plain statement" showing entitlement to relief (FRCP 8); Twombly/Iqbal plausibility standard requires factual allegations sufficient to state a plausible claim for relief. Heightened pleading standard for fraud (FRCP 9(b)): circumstances must be stated with particularity. Answer must admit, deny, or state insufficient knowledge for each allegation; must affirmatively plead defenses.
+
+22. MOTION TO DISMISS (RULE 12(b)(6))
+Challenges the legal sufficiency of the complaint, arguing that even accepting all factual allegations as true, the plaintiff fails to state a claim upon which relief can be granted. The court accepts well-pleaded facts as true but disregards legal conclusions and threadbare recitals of elements. Under Iqbal/Twombly, a complaint must allege facts that "plausibly" suggest entitlement to relief. Granting a 12(b)(6) motion terminates the case (subject to amendment rights).
+
+23. MOTION FOR SUMMARY JUDGMENT
+A request that the court resolve the case (or an issue) without trial, on the grounds that there is no genuine dispute of material fact and the moving party is entitled to judgment as a matter of law (FRCP 56). The moving party must show the absence of a triable issue of fact; the burden then shifts to the non-moving party to present specific facts showing a genuine issue exists. Courts view the evidence in the light most favorable to the non-moving party. Partial summary judgment may narrow the issues for trial.
+
+24. DISCOVERY PROCESS
+The pre-trial exchange of information and evidence. Key mechanisms: (a) Interrogatories — written questions answered under oath (FRCP 33); (b) Requests for Production — demands for documents and ESI (FRCP 34); (c) Depositions — oral examination of witnesses under oath (FRCP 30); (d) Requests for Admission — requests that the opposing party admit or deny specified facts (FRCP 36); (e) Physical/mental examinations (FRCP 35). Discovery disputes are resolved by motions to compel or for protective orders.
+
+25. ELECTRONIC DISCOVERY (E-DISCOVERY)
+Discovery of electronically stored information (ESI) including emails, documents, databases, voicemails, text messages, social media, and metadata. Governed by FRCP 26(b)(2)(B) (inaccessible ESI), FRCP 37(e) (sanctions for failure to preserve ESI), and the Sedona Principles. Parties must: implement a litigation hold upon reasonable anticipation of litigation; identify custodians; collect, process, and review ESI; and produce responsive documents. Predictive coding (technology-assisted review) is increasingly accepted in complex e-discovery.
+
+26. PRIVILEGE ASSERTIONS
+Documents protected from disclosure by privilege may be withheld but must be identified on a privilege log. Key privileges: (a) attorney-client privilege (confidential communications between attorney and client for legal advice); (b) work product doctrine (materials prepared in anticipation of litigation — FRCP 26(b)(3)); (c) common interest privilege (shared privilege between parties with aligned interests in litigation); (d) settlement privilege (FRE 408); (e) trade secret privilege (FRCP 26(c)(1)(G)). Inadvertent disclosure may or may not waive privilege depending on the reasonableness of precautions.
+
+27. EXPERT WITNESSES
+In complex disputes, parties retain expert witnesses to provide opinion testimony on technical, scientific, medical, or financial issues beyond the ken of lay jurors. Federal courts apply Daubert standard (Daubert v. Merrell Dow Pharmaceuticals, 1993): trial judge acts as gatekeeper; expert testimony must be based on sufficient facts, reliable methodology, and be applied reliably to the facts of the case. FRCP 26(a)(2) requires disclosure of expert reports. Opposing parties may challenge experts by Daubert motions in limine.
+
+28. CLASS ACTION CERTIFICATION (RULE 23)
+A class action allows a representative plaintiff to sue on behalf of a similarly situated class. Certification requirements (FRCP 23(a)): numerosity, commonality, typicality, and adequacy of representation. Class must also satisfy one of FRCP 23(b): (b)(1) risk of inconsistent adjudications; (b)(2) injunctive relief class; (b)(3) common questions predominate and class action is superior. Notice requirements for (b)(3) classes allow opt-out. Class certification is a critical procedural step that dramatically affects settlement leverage.
+
+29. PRELIMINARY INJUNCTION
+A court order requiring a party to do (or refrain from doing) something pending the outcome of litigation. Standard: (a) likelihood of success on the merits; (b) likelihood of irreparable harm absent injunction; (c) balance of equities favors the plaintiff; (d) injunction is in the public interest (Winter v. Natural Resources Defense Council, 2008). Temporary restraining orders (TROs) are granted ex parte in emergencies. PI bonds require the movant to post security.
+
+30. CONTEMPT OF COURT
+The willful disregard or disobedience of a court order. Civil contempt: coercive, designed to compel compliance (daily fines, incarceration until compliance). Criminal contempt: punitive, imposed for completed acts of disrespect or disobedience. Contempt proceedings in civil disputes arise most often from violations of injunctions, discovery orders, and confidentiality orders. Sanctions may include fines, attorney's fees, adverse inference instructions, and default judgment.
+
+─────────────────────────────────────────
+SECTION 4: LITIGATION DOCTRINES AND DEFENSES
+─────────────────────────────────────────
+
+31. STATUTE OF LIMITATIONS
+A law that sets the maximum time after an event within which legal proceedings may be initiated. After the limitations period expires, the claim is time-barred. Common periods: contract (3–6 years depending on state; 4 years under UCC; 6 years for written contracts in many states); tort (2–3 years); fraud (3 years or 2 years from discovery); securities fraud (2 years from discovery, 5-year repose); patent infringement (6 years); copyright infringement (3 years). The limitations period is tolled (suspended) by: the discovery rule, fraudulent concealment, minority, and agreement.
+
+32. STATUTE OF REPOSE
+An absolute time limit on filing claims, running from the date of the act or completion of services, regardless of when the plaintiff discovered the injury. Distinguished from statutes of limitations (which may be tolled). Construction defect repose periods: 6–10 years in most states. Product liability repose: 10–15 years in some states. Medical device: Product Liability Risk Retention Act implications. Securities: 3-year repose under the Exchange Act.
+
+33. LACHES
+An equitable defense based on unreasonable delay in asserting a claim, resulting in prejudice to the defendant. Elements: (a) unreasonable and inexcusable delay; (b) prejudice to the defendant (evidentiary prejudice, reliance prejudice). Courts applying laches balance the plaintiff's conduct against the defendant's injury. In equity and patent cases, laches may bar claims within the statute of limitations period if the plaintiff "sat on its rights."
+
+34. ESTOPPEL
+A doctrine preventing a party from asserting a position inconsistent with its prior conduct or representations upon which the other party has reasonably relied to its detriment. Types: (a) promissory estoppel (detrimental reliance on a promise); (b) equitable estoppel (reliance on a misrepresentation of fact); (c) judicial estoppel (barring a party from taking contradictory positions in different proceedings); (d) collateral estoppel (issue preclusion — a specific issue already litigated and decided is conclusive in subsequent proceedings).
+
+35. RES JUDICATA (CLAIM PRECLUSION)
+A final judgment on the merits bars re-litigation of the same claim by the same parties in a subsequent action. Three elements: (a) final judgment on the merits; (b) same claim (arising from the same transaction or occurrence); (c) same parties or those in privity. Claim preclusion requires plaintiffs to bring all related claims in one action. Split causes of action waive unasserted claims arising from the same factual circumstances.
+
+36. COLLATERAL ESTOPPEL (ISSUE PRECLUSION)
+Once an issue of fact or law has been actually litigated and necessarily decided, it is conclusive in subsequent proceedings between the same parties (or those in privity). Unlike res judicata, collateral estoppel applies to individual issues rather than entire claims. Non-mutual offensive collateral estoppel (Parklane Hosiery Co. v. Shore, 1979): a plaintiff who was not a party to the first action may use a prior judgment to estop the defendant from re-litigating an issue.
+
+37. WAIVER AND FORFEITURE
+Waiver is the intentional relinquishment of a known right; forfeiture is the failure to exercise a right in time (without intent to relinquish). In litigation, failure to raise a defense, objection, or argument at the appropriate time may forfeit it. Constitutional rights (e.g., right to jury trial) may only be waived, not forfeited, though courts sometimes apply forfeiture to constitutional claims in procedural contexts. Contractual notice-of-breach requirements must be strictly followed to avoid waiver of breach claims.
+
+38. COMPARATIVE AND CONTRIBUTORY NEGLIGENCE
+Comparative negligence (majority rule): the plaintiff's damages are reduced proportionately by the plaintiff's own percentage of fault. "Pure" comparative fault (California): plaintiff recovers even if 99% at fault. "Modified" comparative fault (majority): plaintiff may not recover if more than 50% at fault. Contributory negligence (minority rule — Alabama, Maryland, North Carolina, Virginia): any negligence by the plaintiff completely bars recovery. Joint and several liability: defendants who are jointly and severally liable can each be required to pay the entire judgment.
+
+39. ASSUMPTION OF RISK
+A defense to negligence claims when the plaintiff voluntarily and knowingly encountered a known risk. Express assumption of risk: written waivers and releases signed before an activity (e.g., sports, recreational activities). Implied assumption of risk (in most comparative fault states, merged into comparative negligence analysis): the plaintiff's voluntary exposure to a known risk reduces recovery proportionally. Primary assumption of risk: bars claims for inherent risks of an activity (e.g., co-participant in sports).
+
+40. ECONOMIC LOSS RULE
+Bars recovery in tort (negligence) for purely economic losses — financial harm unaccompanied by personal injury or property damage — when the parties are in a contractual relationship. Rationale: contract law provides the appropriate remedy; allowing tort recovery would undermine contractual risk allocation. Exceptions: fraud, professional negligence (lawyers, accountants, engineers), negligent misrepresentation, and products liability claims involving property damage.
+
+─────────────────────────────────────────
+SECTION 5: ARBITRATION DOCTRINE
+─────────────────────────────────────────
+
+41. ARBITRABILITY — WHO DECIDES
+The threshold question of whether a dispute is subject to arbitration. "Gateway" issues (e.g., whether the parties agreed to arbitrate, whether the arbitration clause covers the dispute) are presumptively for courts to decide unless the parties "clearly and unmistakably" delegated arbitrability to the arbitrator (First Options of Chicago v. Kaplan, 1995). Incorporation of AAA or JAMS rules (which vest arbitrability decisions in the arbitrator) constitutes clear and unmistakable delegation.
+
+42. UNCONSCIONABILITY DEFENSE
+Courts may refuse to enforce arbitration clauses that are unconscionable under state contract law, provided the defense applies equally to contracts generally (AT&T Mobility v. Concepcion). Procedural unconscionability: unequal bargaining power, lack of meaningful choice, fine print, adhesion contracts. Substantive unconscionability: oppressively one-sided terms. Courts apply a sliding scale: greater procedural unconscionability requires less substantive unconscionability to invalidate the clause.
+
+43. SEPARABILITY DOCTRINE
+The arbitration clause is treated as a separate agreement from the underlying contract. A claim that the entire contract is void or voidable (e.g., for fraud or illegality) does not necessarily invalidate the arbitration clause (Prima Paint Corp. v. Flood & Conklin, 1967). The party seeking to avoid arbitration must specifically challenge the validity of the arbitration clause itself, not merely the container contract.
+
+44. ENFORCEMENT OF ARBITRAL AWARDS
+Domestic awards: governed by FAA Sections 9–11; courts confirm, vacate, or modify awards. Grounds for vacatur (FAA § 10): corruption/fraud, evident partiality, arbitrator misconduct, and exceeding powers. Courts apply very deferential review; awards are not reviewed for legal errors. International awards: enforced under the New York Convention in signatory states; grounds for refusal are narrow (public policy, incapacity, due process violations, non-arbitrability).
+
+45. ARBITRATION AND BANKRUPTCY
+Filing bankruptcy imposes an automatic stay on all proceedings, including arbitration. Courts have discretion whether to stay arbitration proceedings during bankruptcy. Non-core claims (based on non-bankruptcy law, e.g., contract claims) may be arbitrated post-bankruptcy with bankruptcy court approval. Core claims (claims allowance, preference actions, fraudulent transfers) are generally heard by the bankruptcy court.
+
+─────────────────────────────────────────
+SECTION 6: DAMAGES IN DISPUTES
+─────────────────────────────────────────
+
+46. COMPENSATORY DAMAGES
+Monetary compensation designed to restore the plaintiff to the position it would have been in had the breach or wrong not occurred. Two types: (a) general/direct damages — naturally and necessarily resulting from the breach (e.g., cost of cover under UCC); (b) special/consequential damages — reasonably foreseeable at the time of contracting but dependent on the plaintiff's particular circumstances (Hadley v. Baxendale rule). Plaintiff must prove damages with reasonable certainty.
+
+47. EXPECTATION DAMAGES (CONTRACT)
+The standard measure of contract damages; places the plaintiff in the economic position it would have been in had the contract been fully performed. Components: (a) benefit of the bargain (the profit the plaintiff would have made); (b) direct costs avoided (expenses saved by not having to perform). New business rule: courts were traditionally reluctant to award lost profits to new businesses (lack of certainty); modern courts are more flexible with reliable evidence.
+
+48. RELIANCE DAMAGES (CONTRACT)
+Restores the plaintiff to the position it was in before the contract was made; recovers expenses incurred in reliance on the contract. Used where expectation damages are too speculative (e.g., a new business with no profit history). A party may not recover more in reliance than it would have under expectation damages; the defendant may show the plaintiff would have lost money on the deal.
+
+49. RESTITUTION / UNJUST ENRICHMENT
+An equitable remedy that requires the defendant to disgorge the benefit received, preventing unjust enrichment. Used: (a) where a contract fails (void, rescinded, or unenforceable); (b) as an alternative to expectation damages where the plaintiff has conferred a benefit. Measured by: the reasonable value of the benefit received (quantum meruit for services; quantum valebant for goods), not the plaintiff's loss. Restitution can exceed contract damages where the market rate exceeds the contract price.
+
+50. PUNITIVE DAMAGES (EXEMPLARY DAMAGES)
+Damages in excess of actual harm, imposed to punish particularly egregious conduct and deter future misconduct. Generally not available for breach of contract (except where the breach also constitutes an independent tort). Available in tort for: fraud, oppression, malice, intentional harm, and gross negligence (state-law dependent). Constitutional limits: punitive damages may not be "grossly excessive" — ratio of punitive to compensatory damages of more than 9:1 or 10:1 is presumptively unconstitutional (State Farm v. Campbell, 2003).
+
+51. NOMINAL DAMAGES
+A token sum (e.g., $1) awarded when a legal right has been violated but no measurable harm resulted. Establishes the legal wrong. Required to support an award of injunctive relief or declaratory judgment in some courts. Important in constitutional and civil rights cases to vindicate rights even without provable harm.
+
+52. INJUNCTIVE RELIEF
+An equitable remedy directing a party to do or refrain from doing a specified act. Permanent injunctions: issued after a full trial on the merits; must satisfy the eBay standard (irreparable injury, inadequate legal remedies, balance of hardships, public interest). Preliminary injunctions and TROs: issued before trial to preserve the status quo. Mandatory injunctions (compelling action) are harder to obtain than prohibitory injunctions (restraining action).
+
+53. SPECIFIC PERFORMANCE
+An equitable remedy requiring the breaching party to perform its contractual obligations. Available when monetary damages are inadequate (typically for unique property or obligations). Real estate contracts are a classic context — land is presumed unique. Courts have discretion to deny specific performance where it would impose undue hardship or be impractical to supervise. The UCC allows specific performance in contracts for unique goods or in "other proper circumstances" (UCC § 2-716).
+
+54. ATTORNEY'S FEES AND COSTS
+The "American Rule" requires each party to bear its own attorney's fees absent a statutory or contractual fee-shifting provision. Common fee-shifting statutes: civil rights statutes (§ 1988), antitrust (Sherman Act), RICO, FDCPA, patent (§ 285 exceptional cases), copyright (§ 505), ADA, FMLA, FLSA. Contractual fee-shifting clauses are generally enforceable. "One-way" fee-shifting in consumer protection statutes (only plaintiff can recover) is common. Courts may reduce fee awards for excessive billing or partial success.
+
+55. DISGORGEMENT AND ACCOUNTING OF PROFITS
+An equitable remedy requiring the defendant to surrender profits derived from wrongful conduct. Common in: trademark infringement (Lanham Act § 35), copyright infringement (§ 504), trade secret misappropriation, breach of fiduciary duty, and insider trading (SEC enforcement). Plaintiff must establish a causal nexus between the wrongful conduct and the profits; the defendant may deduct allowable expenses. Disgorgement in SEC enforcement matters is subject to a 5-year statute of limitations after Liu v. SEC (2020) held it must be net profits.
+
+─────────────────────────────────────────
+SECTION 7: INTERNATIONAL AND CROSS-BORDER DISPUTES
+─────────────────────────────────────────
+
+56. RECOGNITION AND ENFORCEMENT OF FOREIGN JUDGMENTS
+Unlike foreign arbitral awards (governed by the New York Convention), foreign court judgments are enforced through comity principles and state statutes (Uniform Foreign Money Judgments Recognition Act, adopted in most states). Courts generally recognize foreign judgments if: (a) the rendering court had jurisdiction; (b) due process was observed; (c) the judgment is final; (d) the judgment does not violate public policy. Reciprocity is not generally required under the Uniform Act.
+
+57. INVESTOR-STATE DISPUTE SETTLEMENT (ISDS)
+Dispute resolution mechanism in bilateral investment treaties (BITs) and investment chapters of free trade agreements (e.g., NAFTA/USMCA, CPTPP) allowing foreign investors to bring claims against host states for treaty violations (expropriation, fair and equitable treatment, national treatment, most-favored-nation treatment, free transfer of funds). Administered under ICSID, UNCITRAL, or other rules. Awards are binding on states under the ICSID Convention. ISDS has been criticized for chilling legitimate regulation.
+
+58. CONFLICT OF LAWS (PRIVATE INTERNATIONAL LAW)
+Rules for determining which jurisdiction's law governs a dispute with multi-jurisdictional elements. Choice-of-law analysis: (a) governmental interest analysis; (b) most significant relationship test (Second Restatement of Conflict of Laws); (c) vested rights theory (First Restatement). Contract cases: parties' choice of law is generally respected unless the chosen state has no substantial relationship and the application would violate a fundamental policy. Tort cases: law of the state where the injury occurred (lex loci delicti) vs. most significant relationship analysis.
+
+59. SERVICE OF PROCESS IN INTERNATIONAL DISPUTES
+Serving legal process on foreign parties is governed by: (a) the Hague Service Convention (if the foreign country is a signatory and has not objected to certain methods); (b) the Foreign Sovereign Immunities Act (FSIA) for service on foreign governments; (c) letters rogatory (diplomatic requests for foreign judicial assistance); (d) state long-arm statutes for personal jurisdiction. Failure to properly serve process in compliance with international rules may render the judgment unenforceable.
+
+60. LETTERS ROGATORY AND EVIDENCE GATHERING
+When parties need evidence located in foreign countries, they may use: (a) Hague Evidence Convention (formal requests for international judicial assistance); (b) letters rogatory (less formal diplomatic requests); (c) 28 U.S.C. § 1782 (US district court may order discovery for use in foreign proceedings — Supervisory Intel Ltd. v. AMD, scope currently being litigated); (d) depositions of foreign nationals in neutral countries. Foreign blocking statutes may prohibit compliance with US discovery orders.
+
+─────────────────────────────────────────
+SECTION 8: SPECIALIZED DISPUTES
+─────────────────────────────────────────
+
+61. PARTNERSHIP AND LLC DISPUTES
+Disputes between business owners. Types: breach of fiduciary duty (duty of loyalty, duty of care, duty of good faith), breach of operating agreement, deadlock (50/50 ownership without resolution mechanism), freeze-out of minority members, improper distributions, wrongful dissolution, and conversion of business opportunities. Judicial dissolution is available when deadlock makes it "reasonably practicable" to carry on the business. Charging orders are the exclusive remedy of judgment creditors against a member's LLC interest in most states.
+
+62. CORPORATE GOVERNANCE DISPUTES
+Disputes over the governance of corporations. Types: shareholder derivative suits (claims brought on behalf of the corporation for wrong done to the corporation); direct suits (claims for harm to shareholders individually); books and records demands under DGCL § 220; appraisal rights (fair value proceedings for shareholders who dissent from mergers); proxy contests; and hostile takeover defenses (poison pills, staggered boards reviewed under Unocal/Revlon standards).
+
+63. FRANCHISE DISPUTES
+Disputes between franchisors and franchisees. Common claims: fraudulent franchise disclosure (FTC Franchise Rule and state franchise disclosure laws require pre-sale disclosure), breach of franchise agreement, wrongful termination (franchise agreements often provide minimum notice/cure periods), territorial encroachment, failure to provide promised support, non-renewal disputes, and post-termination non-compete enforcement. Many franchise agreements require arbitration and waive class actions.
+
+64. CONSTRUCTION DISPUTES
+Disputes arising from construction projects. Types: delay claims (excusable delays vs. non-excusable delays; concurrent delay), defect claims (latent vs. patent defects), change order disputes (scope changes, differing site conditions), payment disputes (mechanics' liens, payment bond claims under Miller Act for federal projects), contract termination (default termination vs. termination for convenience), and design professional malpractice.
+
+65. PRODUCT LIABILITY DISPUTES
+Claims against manufacturers, distributors, and sellers for injuries caused by defective products. Three theories: (a) manufacturing defect (product deviates from design); (b) design defect (consumer expectations test or risk-utility test); (c) failure to warn (inadequate warnings about non-obvious risks). Defenses: comparative fault, assumption of risk, misuse of product, sophisticated user doctrine, state of the art. Class actions common for mass-marketed defective products. Multidistrict litigation (MDL) consolidates federal product liability cases.
+
+66. MEDICAL MALPRACTICE DISPUTES
+Claims by patients against healthcare providers for negligence in diagnosis, treatment, or care. Elements: duty (doctor-patient relationship), breach (deviation from standard of care established by expert testimony), causation (but-for or substantial factor), and damages. Expert testimony is required in almost all cases. Many states require pre-suit notice and mandatory review panels. Tort reform statutes cap non-economic damages in many states ($250,000 cap in California under MICRA, recently raised to $350,000/$500,000 in some contexts).
+
+67. ENVIRONMENTAL DISPUTES
+Disputes arising from environmental contamination and regulatory violations. Types: Superfund cost recovery and contribution (CERCLA, joint and several liability for cleanup costs), citizen suits under Clean Water Act and Clean Air Act, toxic tort class actions (property damage, personal injury from exposure), RCRA imminent hazard suits, natural resource damages, and state environmental claims. EPA administrative enforcement includes compliance orders, penalty assessments, and consent decrees.
+
+68. PROFESSIONAL MALPRACTICE DISPUTES
+Claims against professionals (lawyers, accountants, architects, engineers, financial advisors) for negligent performance. Elements same as medical malpractice. Legal malpractice requires proof of "case within a case" — plaintiff must prove it would have won the underlying matter but for the attorney's negligence. Accountant malpractice (audit failures, GAAP violations) often involves complex damages calculations. Privity rules have been relaxed for third-party reliance on audited financial statements in many states.
+
+69. FAMILY LAW DISPUTES
+Disputes concerning family relationships. Types: divorce (grounds — no-fault vs. fault-based; property division — equitable distribution vs. community property states), child custody (legal and physical custody; best interest of the child standard), child support (state guidelines; modification based on changed circumstances), spousal support/alimony (rehabilitative, permanent), prenuptial/postnuptial agreement enforcement (voluntariness, full disclosure, no unconscionability), paternity, adoption, and domestic violence restraining orders.
+
+70. BANKRUPTCY DISPUTES
+Disputes arising within bankruptcy proceedings. Types: contested matters (objections to claims, plan confirmation disputes, stay motions), adversary proceedings (fraudulent transfer actions under §§ 544, 548, 550; preference actions under § 547; dischargeability disputes under § 523; automatic stay violations; substantive consolidation), and contested plan confirmation (cramdown, absolute priority rule, new value exception). Bankruptcy litigation is governed by Federal Rules of Bankruptcy Procedure.
+
+─────────────────────────────────────────
+SECTION 9: DISPUTE RESOLUTION STRATEGY
+─────────────────────────────────────────
+
+71. CASE ASSESSMENT AND EARLY CASE ANALYSIS
+Before committing to litigation, parties should: assess the strength of claims and defenses; estimate likely damages and potential recovery; evaluate the cost of litigation relative to expected outcome; identify key witnesses and documents; assess the opponent's litigation posture and financial resources; determine the best forum; and explore early settlement opportunities. Early case assessment (ECA) frameworks systematically evaluate legal merits, damages, litigation costs, and non-litigation risks.
+
+72. LITIGATION HOLD AND EVIDENCE PRESERVATION
+Upon reasonable anticipation of litigation, a party must implement a litigation hold to preserve potentially relevant documents and ESI. Failure to preserve evidence (spoliation) may result in: adverse inference instruction (jury told to assume destroyed evidence was unfavorable), dismissal or default judgment, monetary sanctions, and attorney's fees. The litigation hold must be timely, comprehensive (identify all custodians and data sources), and monitored. Counsel must issue and oversee the hold.
+
+73. SETTLEMENT STRATEGY
+Most disputes settle before trial. Settlement considerations: BATNA (best alternative to a negotiated agreement — realistic litigation outcome); cost of continued litigation; time value of money; reputational risk; confidentiality of settlement vs. public trial; desire to preserve the business relationship; non-monetary settlement terms (injunctions, business arrangements, apologies). Mediators assist parties in reality-testing positions and bridging gaps.
+
+74. TRIAL STRATEGY
+For cases that proceed to trial: jury selection (voir dire, peremptory challenges, challenges for cause); opening statement (tell the story, preview the evidence, establish themes); witness examination (direct examination of own witnesses, cross-examination of adverse witnesses, use of depositions for impeachment); exhibit admission (authentication, hearsay exceptions); closing argument (marshal the evidence, apply the law, ask for a specific verdict); jury instructions (pattern instructions vs. special instructions).
+
+75. APPEALS STRATEGY
+Standard of review determines appellate court deference to trial court findings: (a) de novo review — legal questions (statutory interpretation, constitutional issues) reviewed without deference; (b) clear error — factual findings reversed only if clearly erroneous; (c) abuse of discretion — procedural and discretionary rulings reversed only if the trial court abused its discretion. Appellate strategy: identify preserved issues, select the strongest arguments, and consider en banc or certiorari petitions.
+
+─────────────────────────────────────────
+SECTION 10: SPECIFIC LEGAL DOCTRINES IN DISPUTES
+─────────────────────────────────────────
+
+76. PIERCING THE CORPORATE VEIL
+Courts may disregard the corporate form and hold shareholders personally liable for corporate debts when: (a) the corporation is an "alter ego" or mere instrumentality of the shareholder (commingling funds, failure to observe corporate formalities, inadequate capitalization); and (b) injustice would result from recognizing the corporate form. More difficult to pierce in Delaware. Reverse veil-piercing: holding the shareholder's assets liable for another entity's debts (less commonly recognized).
+
+77. FRAUDULENT TRANSFER (FRAUDULENT CONVEYANCE)
+A transfer of assets made to hinder, delay, or defraud creditors. Two types: (a) actual fraud — transfer made with actual intent to hinder, delay, or defraud (Badges of fraud: transfer to insider, retained control, transfer after lawsuit threatened, inadequate consideration, concealment, etc.); (b) constructive fraud — transfer for less than reasonably equivalent value when the debtor was insolvent or rendered insolvent. Avoidance remedies: set aside the transfer; monetary judgment for the value of the transferred asset.
+
+78. SUCCESSOR LIABILITY
+A successor entity (acquirer in an asset sale) may inherit the seller's liabilities under certain doctrines: (a) express or implied assumption; (b) fraudulent conveyance; (c) continuation — successor is merely a continuation of the predecessor; (d) de facto merger — substance of transaction is a merger; (e) product line exception (tort claims for products manufactured by the predecessor). Asset acquisitions are used to avoid successor liability; share acquisitions automatically include all liabilities.
+
+79. ALTER EGO / SINGLE ENTERPRISE THEORY
+Two or more separately incorporated entities may be treated as a single enterprise if they share: common ownership, management, offices, employees, and finances; one controls the other's operations; and treating them separately would sanction fraud or promote injustice. The single enterprise theory allows a creditor of one entity to reach assets of affiliated entities. Common in franchise and real estate holding company structures.
+
+80. TORTIOUS INTERFERENCE WITH CONTRACT
+A third party (not the contracting party) who induces a breach of contract or prevents performance may be liable in tort. Elements: (a) valid contract; (b) defendant's knowledge of the contract; (c) intentional act inducing breach or preventing performance; (d) actual breach; (e) resulting damages. Privilege defense: defendant's conduct was justified (e.g., legitimate competition, providing truthful information). Tortious interference with prospective economic advantage requires a higher showing of improper conduct.
+
+81. BREACH OF FIDUCIARY DUTY
+A fiduciary (director, officer, trustee, attorney, partner, agent) owes duties of loyalty, care, and good faith to the beneficiary. Duty of loyalty: act in the beneficiary's best interest; no self-dealing; no usurpation of corporate opportunities. Duty of care: act on an informed basis with reasonable care (Business Judgment Rule protects directors who act in good faith on informed basis). Duty of good faith: fair dealing, honesty. Remedies: compensatory damages, disgorgement of profits, equitable relief.
+
+82. STATUTE OF FRAUDS
+Certain contracts must be in writing to be enforceable: contracts for the sale of real property; contracts that cannot be performed within one year; contracts for the sale of goods over $500 (UCC § 2-201; raised to $5,000 by revised UCC); contracts to pay another's debt (suretyship); contracts made in consideration of marriage; and contracts for executor to pay estate debts personally. Part performance may take a contract out of the Statute of Frauds in real property transactions.
+
+83. PAROL EVIDENCE RULE
+Extrinsic evidence (prior negotiations, contemporaneous oral agreements) may not be used to vary, contradict, or supplement the terms of a fully integrated written contract. Exceptions: to establish: fraud, duress, mistake, or illegality; to clarify ambiguous terms (plain meaning vs. contextualist approach); to establish conditions precedent to the agreement taking effect; to identify the parties; and to establish the consideration. The UCC takes a more liberal approach (UCC § 2-202) allowing supplementation (but not contradiction) of a written contract by course of dealing, trade usage, and course of performance.
+
+84. MITIGATION OF DAMAGES
+A plaintiff has a duty to take reasonable steps to reduce or avoid damages caused by the defendant's breach or wrong. Failure to mitigate reduces the plaintiff's recovery by the amount that could have been avoided. In employment cases, a wrongfully terminated employee must make reasonable efforts to find comparable employment. A landlord must make reasonable efforts to re-let premises after a tenant abandons. Under UCC § 2-712, a buyer who covers (purchases substitute goods) may recover the difference between the cover price and the contract price.
+
+85. IMPRACTICABILITY AND FRUSTRATION OF PURPOSE
+Doctrines excusing contract performance when unforeseen events occur after contract formation. Commercial impracticability (UCC § 2-615; Restatement (Second) of Contracts § 261): performance has become commercially impracticable due to a contingency whose non-occurrence was a basic assumption of the contract. Frustration of purpose (Restatement § 265): a party's principal purpose has been substantially frustrated by an event whose non-occurrence was a basic assumption. Distinguished from force majeure (which is contractual); these are default common law doctrines.
+
+86. ANTICIPATORY REPUDIATION
+A clear, unequivocal statement by a contracting party, before the performance date, that it will not perform its contractual obligations. Effects: (a) the aggrieved party may immediately sue for breach without awaiting the performance date; (b) the aggrieved party may treat the contract as discharged and pursue substitute arrangements. The repudiating party may retract the repudiation before the aggrieved party materially changes position. Under UCC § 2-609, a party may demand adequate assurance of performance from a counterparty whose conduct raises reasonable doubts.
+
+87. ACCORD AND SATISFACTION
+A new agreement (accord) to accept substitute performance in satisfaction of an existing obligation, followed by actual performance of the accord (satisfaction), discharges the original obligation. Distinguished from modification: an accord is executory until performed; a modification replaces the original obligation immediately. Under UCC § 3-311, tendering a check marked "payment in full" for a disputed amount constitutes accord and satisfaction if the creditor cashes the check.
+
+88. NOVATION
+The substitution of a new party (or new obligation) for an existing party (or obligation), with the consent of all parties, discharging the original obligation. A novation requires: (a) a valid existing obligation; (b) agreement by all parties to the novation; (c) a valid new obligation; and (d) intent to discharge the original obligation. Assignment merely transfers rights; novation substitutes one party for another, releasing the original party.
+
+89. IMPOSSIBILITY OF PERFORMANCE
+A common law doctrine excusing performance when an event beyond the parties' control makes performance objectively impossible (not merely more difficult or expensive). Classic examples: destruction of the specific subject matter (Taylor v. Caldwell); death or incapacity of a party whose personal performance is essential; supervening government action making performance illegal. Courts interpret impossibility strictly; commercial impracticability (subjective impossibility) is separately codified in the UCC.
+
+90. DURESS AND UNDUE INFLUENCE
+Duress: a contract entered under threat of unlawful harm (physical duress) or wrongful economic pressure (economic duress — threat to breach a contract or withhold goods unless the other party agrees to new terms) may be voidable. The threat must leave no reasonable alternative. Undue influence: one party's dominant position is used to overcome the free will of the weaker party (common in elder abuse, confidential relationships). Both defenses render a contract voidable, not void.
+
+─────────────────────────────────────────
+SECTION 11: ADDITIONAL DISPUTE TOPICS
+─────────────────────────────────────────
+
+91. WHISTLEBLOWER RETALIATION DISPUTES
+Claims by employees who report illegal activity (to regulators, government agencies, or internally) and suffer adverse employment action as a result. Governing statutes: Dodd-Frank (SEC/CFTC whistleblowers — double back pay, reinstatement, attorney's fees; no mandatory arbitration); Sarbanes-Oxley § 806 (public company employees — 90-day filing deadline with OSHA); False Claims Act (qui tam relators share in government recovery); OSHA statutes covering environmental, nuclear, and transportation industry whistleblowers.
+
+92. DATA BREACH AND CYBERSECURITY DISPUTES
+Disputes arising from unauthorized access to personal data. Claims: negligence (failure to implement reasonable security); breach of contract; breach of implied warranty; violation of state data breach statutes; GDPR violations. Class actions common but certification challenged on injury-in-fact and predominance grounds. Standing requirements: Clapper v. Amnesty International — risk of future harm must be certainly impending; TransUnion LLC v. Ramirez (2021) — risk of future harm without a concrete present injury insufficient for standing.
+
+93. MASS TORT AND MULTIDISTRICT LITIGATION
+Large-scale tort claims involving thousands of plaintiffs and similar injuries from a common product, drug, or device. Federal MDL (28 U.S.C. § 1407) consolidates cases in a single federal district for pre-trial proceedings. Bellwether trials test representative cases. Global settlements resolve thousands of claims. Examples: opioid litigation (settled for $26 billion), talc/asbestos (Johnson & Johnson), 3M earplugs, Roundup/glyphosate.
+
+94. REGULATORY ENFORCEMENT DISPUTES
+Disputes between government agencies and regulated entities. SEC enforcement: administrative proceedings vs. federal court actions; Wells process (opportunity to respond before charges filed); cooperation credit; deferred prosecution agreements (DPAs). DOJ criminal enforcement: criminal antitrust, FCPA enforcement, health care fraud, financial fraud. FTC enforcement: consent decrees; administrative litigation before ALJs. State attorney general enforcement under UDAP and consumer protection statutes.
+
+95. INSURANCE COVERAGE DISPUTE (BAD FAITH)
+An insurer's unreasonable denial, delay, or underpayment of a valid claim constitutes bad faith and may give rise to extra-contractual damages beyond policy limits. First-party bad faith: insured's direct claim against own insurer (tort in most states). Third-party bad faith: failure to settle a claim against the insured within policy limits, exposing the insurer to liability for any excess judgment. Damages: contract damages (policy benefits), emotional distress, attorney's fees, and punitive damages in egregious cases.
+
+96. TRADE SECRETS DISPUTES
+Claims for misappropriation of trade secrets under the Defend Trade Secrets Act (DTSA, 2016) and state law (Uniform Trade Secrets Act — UTSA, adopted in 48 states). Elements: (a) the information qualifies as a trade secret (independent economic value from secrecy, reasonable measures to maintain secrecy); (b) misappropriation (acquisition by improper means or disclosure/use in breach of duty). Remedies: injunction, compensatory damages (actual loss or unjust enrichment), exemplary damages (2x for willful misappropriation), and attorney's fees. Ex parte seizure orders available under DTSA.
+
+97. GOVERNMENT CONTRACTS DISPUTES
+Disputes between contractors and government agencies. Governing law: Contract Disputes Act (CDA), Federal Acquisition Regulations (FAR), agency-specific regulations. Dispute process: contracting officer final decision → appeal to agency board (ASBCA, CBCA) or U.S. Court of Federal Claims → Federal Circuit. False Claims Act exposure for contractors submitting false claims to the government: treble damages and civil penalties. Qui tam relators (whistleblowers) may bring FCA suits on behalf of the government.
+
+98. HEALTHCARE DISPUTES
+Disputes in healthcare. Types: Stark Law violations (anti-referral) — civil monetary penalties, exclusion from Medicare; Anti-Kickback Statute violations (improper remuneration for referrals) — criminal and civil penalties; False Claims Act suits for Medicare/Medicaid fraud; HIPAA enforcement by OCR (civil monetary penalties, corrective action plans, breach notification); certificate of need disputes; managed care contract disputes; and physician group/hospital system disputes.
+
+99. DOMAIN NAME DISPUTES
+Disputes over internet domain names. UDRP (Uniform Domain-Name Dispute-Resolution Policy): ICANN-mandated process for resolving cybersquatting claims. Complainant must prove: (a) the domain is identical or confusingly similar to complainant's trademark; (b) the registrant has no rights or legitimate interests; (c) the domain was registered and used in bad faith. Panels (WIPO, NAF, Forum) issue decisions quickly (typically 60 days). Complainant may also bring ACPA (Anti-Cybersquatting Consumer Protection Act) suit in federal court for in rem jurisdiction over the domain.
+
+100. SPORTS AND ENTERTAINMENT DISPUTES
+Disputes in entertainment and sports industries. Types: contract disputes (recording agreements, management contracts, endorsement deals, player contracts); IP disputes (copyright ownership in sound recordings, music publishing, image rights, likeness rights); labor disputes (CBA negotiations, salary arbitration in MLB); doping/anti-doping disputes (CAS — Court of Arbitration for Sport, Lausanne — exclusive jurisdiction for Olympic sport disputes); film financing disputes; talent agency disputes (Talent Agencies Act in California — unlicensed procurement of employment contracts is void).

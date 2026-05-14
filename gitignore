@@ -1,0 +1,54 @@
+# ── Credentials & Secrets (NEVER commit these) ──────────
+.env
+firebase_credentials.json
+.streamlit/secrets.toml
+
+# ── Virtual Environments ─────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Python Cache ─────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Distribution / Build ─────────────────────────────────
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ── Temp & Generated Files ───────────────────────────────
+temp_audio/
+*.mp3
+*.wav
+
+# ── OS Files ─────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ── IDEs ─────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Jupyter Notebooks ────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Logs ─────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Testing ──────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/

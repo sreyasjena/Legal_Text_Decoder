@@ -1,0 +1,30 @@
+# Environment
+.env
+.venv/
+venv/
+
+# Firebase credentials (NEVER commit this)
+firebase_credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+temp_audio/
+*.mp3
+
+# IDEs
+.vscode/
+.idea/

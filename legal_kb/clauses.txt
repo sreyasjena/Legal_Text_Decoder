@@ -1,0 +1,343 @@
+LEGAL CLAUSES KNOWLEDGE BASE
+=============================
+Comprehensive reference for legal clause types, definitions, enforceability, and usage.
+
+─────────────────────────────────────────
+SECTION 1: FOUNDATIONAL CONTRACT CLAUSES
+─────────────────────────────────────────
+
+1. ENTIRE AGREEMENT CLAUSE (INTEGRATION CLAUSE)
+A clause stating that the written contract constitutes the complete and final agreement between the parties, superseding all prior negotiations, representations, warranties, or agreements, whether oral or written. It prevents either party from introducing extrinsic evidence to vary or contradict the written terms. Also called a "merger clause." Courts generally enforce integration clauses, but they may be set aside for fraud or mutual mistake.
+
+2. SEVERABILITY CLAUSE
+A provision that if any part of a contract is found invalid, illegal, or unenforceable by a court, the remainder of the contract continues in full force and effect. It protects the integrity of the agreement by ensuring one bad provision does not void the entire contract. Parties may include a "blue-pencil" variation that allows courts to modify rather than simply strike an offending clause.
+
+3. FORCE MAJEURE CLAUSE
+A clause that excuses one or both parties from performance obligations when extraordinary events or circumstances beyond their control prevent fulfillment, such as natural disasters, wars, pandemics, government actions, or strikes. The triggering events must be specifically listed or broadly defined. Post-COVID-19, force majeure clauses have been heavily litigated and courts scrutinize whether the event was truly unforeseeable, whether it actually prevented performance, and whether notice requirements were met.
+
+4. GOVERNING LAW CLAUSE (CHOICE OF LAW)
+Specifies which jurisdiction's laws govern the interpretation, validity, and enforcement of the contract. Parties frequently choose jurisdictions with well-developed commercial law, such as New York, Delaware, England and Wales, or Singapore. Courts generally respect choice-of-law clauses unless the chosen law has no substantial relationship to the parties or transaction, or its application would violate a fundamental policy of the forum state.
+
+5. JURISDICTION AND VENUE CLAUSE
+Designates the specific court or courts in which disputes arising from the contract will be litigated. A "mandatory" or "exclusive" jurisdiction clause requires disputes to be filed only in the designated court; a "permissive" clause merely consents to jurisdiction there. Venue clauses may specify city, county, state, or country. These clauses are closely related to but legally distinct from choice-of-law clauses.
+
+6. ARBITRATION CLAUSE
+A pre-dispute agreement requiring the parties to resolve future disputes through arbitration rather than litigation. Arbitration clauses typically specify: the arbitration institution (AAA, JAMS, ICC, LCIA, SIAC), the number of arbitrators, the seat/place of arbitration, the language, discovery rules, and whether the arbitration is binding. The Federal Arbitration Act (FAA) in the US strongly favors enforcement of arbitration agreements.
+
+7. CONFIDENTIALITY CLAUSE (NON-DISCLOSURE CLAUSE)
+Obligates one or both parties to keep specified information secret and not disclose it to third parties without consent. Key elements include: definition of confidential information, permitted disclosures (e.g., to legal counsel, auditors), exclusions (publicly available information, independently developed information), duration of obligation, and remedies for breach including injunctive relief. Mutual NDAs bind both parties; unilateral NDAs bind only the receiving party.
+
+8. INDEMNIFICATION CLAUSE (INDEMNITY CLAUSE)
+Requires one party (the indemnitor) to compensate another (the indemnitee) for specified losses, liabilities, claims, damages, or expenses. Indemnification can be: (a) third-party indemnification — covering claims by third parties against the indemnitee; (b) first-party indemnification — covering the indemnitee's own losses. Broad indemnification clauses that attempt to cover a party's own gross negligence or intentional misconduct may be void under some state statutes (e.g., California Civil Code § 2782).
+
+9. LIMITATION OF LIABILITY CLAUSE
+Caps the maximum amount one party can recover from the other for breach, negligence, or other claims. Common caps include: total contract value, fees paid in the preceding 12 months, or a fixed dollar amount. Limitations may be mutual or asymmetric. Courts scrutinize whether the cap was negotiated at arm's length; unconscionably low caps may be refused enforcement. Limitation clauses often exclude gross negligence, willful misconduct, fraud, death/personal injury, and IP infringement.
+
+10. EXCLUSION OF CONSEQUENTIAL DAMAGES CLAUSE
+Bars recovery of indirect, incidental, special, punitive, or consequential damages such as lost profits, loss of business opportunity, or reputational harm — even if foreseeable. Under UCC § 2-719, such clauses are enforceable unless unconscionable. Courts may refuse enforcement where the limitation causes the remedy to fail of its essential purpose. Sophisticated commercial parties routinely negotiate mutual exclusion-of-consequential-damages clauses.
+
+11. REPRESENTATIONS AND WARRANTIES CLAUSE
+Contains statements of fact made by each party that are true as of the contract signing date (and sometimes at closing). "Representations" are past/present facts; "warranties" are promises the facts will remain true. Common R&W topics: corporate authority, no conflicts, financial statements, litigation, compliance with laws, intellectual property ownership, employment matters, and material contracts. Breach of R&W typically gives rise to indemnification claims rather than contract rescission unless the breach is material.
+
+12. COVENANTS (AFFIRMATIVE AND NEGATIVE)
+Affirmative covenants require a party to do something (e.g., maintain insurance, provide financial statements, obtain required consents). Negative covenants restrict a party from doing something (e.g., incur additional debt, pay dividends, sell assets). In M&A contexts, interim operating covenants require the target to operate in the ordinary course between signing and closing. Financial covenants in loan agreements include maintenance covenants (tested periodically) and incurrence covenants (triggered by events).
+
+13. MATERIAL ADVERSE CHANGE (MAC) / MATERIAL ADVERSE EFFECT (MAE) CLAUSE
+Defines what constitutes a "material adverse change" or "material adverse effect" that permits a buyer to walk away from a transaction. Typically defined to exclude: industry-wide or economy-wide changes, changes in financial markets, changes in law or accounting standards, effects of the announcement of the deal itself, and natural disasters or acts of terrorism (though COVID-19 exceptions are now common). Delaware courts have rarely found a MAC to have occurred. The definition of MAC/MAE is among the most heavily negotiated provisions in M&A agreements.
+
+14. CONDITIONS PRECEDENT CLAUSE
+Lists conditions that must be satisfied or waived before a party's performance obligations are triggered (e.g., before closing in M&A). Common conditions: accuracy of representations, compliance with covenants, absence of MAC, receipt of regulatory approvals, no injunctions or litigation, delivery of closing documents. Failure of a condition does not automatically give rise to liability — it merely permits the party to refuse to close. "Hell or high water" provisions require a party to use maximum efforts to satisfy conditions.
+
+15. TERMINATION CLAUSE
+Specifies the circumstances under which either party may terminate the contract before its natural expiration. Types: (a) termination for cause/material breach (with or without a cure period); (b) termination for convenience (without cause, upon notice); (c) termination for insolvency or bankruptcy of the other party; (d) automatic termination upon occurrence of an event. Post-termination provisions typically address payment of accrued fees, return of confidential information, transition assistance, and survival of certain clauses.
+
+16. ASSIGNMENT CLAUSE
+Governs whether and how a party may transfer its rights and/or delegate its obligations under the contract to a third party. Clauses may: prohibit assignment entirely; require consent of the other party (not to be unreasonably withheld); or permit assignment freely. Anti-assignment clauses are common in personal service contracts and franchise agreements. Under the UCC, a party may generally assign the right to receive payment even if assignment of the underlying contract is restricted. Change of control provisions treat M&A transactions as deemed assignments.
+
+17. AMENDMENT AND WAIVER CLAUSE
+Specifies how the contract may be modified (typically requiring a written instrument signed by both parties) and how rights may be waived (generally requiring a written waiver; oral waivers are disfavored). "No oral modification" clauses prevent informal email or verbal amendments. A party that repeatedly accepts non-compliant performance may create an implied waiver but a properly drafted clause prevents this.
+
+18. NOTICE CLAUSE
+Prescribes the method, address, and timing for formal communications between the parties (e.g., invoking cure periods, sending termination notices, providing consent). Acceptable notice methods typically include: certified mail, overnight courier, email with confirmation, and personal delivery. Proper notice is often a condition precedent to exercising contractual rights. Courts strictly interpret notice requirements and failure to give proper notice can extinguish rights.
+
+19. SURVIVAL CLAUSE
+Identifies which representations, warranties, covenants, and other provisions continue to bind the parties after the contract expires or is terminated. Without a survival clause, all provisions expire with the contract. Commonly surviving provisions include: confidentiality, indemnification, limitation of liability, governing law, arbitration, and post-termination obligations. Survival periods for R&W typically run 12–24 months; fundamental representations (title, authority, capitalization) often survive indefinitely or for the applicable statute of limitations.
+
+20. PENALTY AND LIQUIDATED DAMAGES CLAUSE
+Pre-determines the damages payable upon breach, avoiding the need to prove actual loss. Liquidated damages (LD) are enforceable if: (a) actual damages would be difficult to estimate at the time of contracting; and (b) the amount is a reasonable estimate of anticipated harm. Penalty clauses (designed to punish rather than compensate) are generally unenforceable in common law jurisdictions but may be enforceable in civil law countries. Construction contracts commonly include LD provisions for delay.
+
+─────────────────────────────────────────
+SECTION 2: COMMERCIAL CONTRACT CLAUSES
+─────────────────────────────────────────
+
+21. PRICE ADJUSTMENT CLAUSE
+Allows contract price to be adjusted based on specified indices (CPI, PPI), cost components (labor, materials), or other benchmarks. Common in long-term supply contracts, construction contracts, and government procurement. Parties specify the base price, index reference date, adjustment frequency, adjustment formula, and any cap or floor on adjustments. Escalation clauses go up; de-escalation clauses go down.
+
+22. MOST FAVORED NATION (MFN) CLAUSE
+Obligates a party to offer the counterparty terms at least as favorable as those offered to any other customer or partner. In commercial contracts, MFN clauses are used by distributors and large buyers. In investment treaties, MFN provisions allow foreign investors to claim the best treatment accorded to any investor. MFN clauses can create significant pricing obligations and are subject to antitrust scrutiny in competitive markets.
+
+23. EXCLUSIVITY CLAUSE
+Grants one party the sole right to provide or receive specified goods, services, or distribution rights within a defined scope (product category, territory, time period). Exclusive supply arrangements may violate antitrust laws if they foreclose competition in a substantial market. Exclusive license provisions in IP agreements must clearly define the exclusivity scope. Non-exclusive clauses permit the licensor/supplier to deal with multiple parties.
+
+24. CHANGE ORDER CLAUSE
+Common in construction and professional services contracts. Sets out the procedure for authorizing changes to the scope of work, timeline, or price. Requires written change orders signed by authorized representatives. Prevents "scope creep" by requiring formal documentation of changes. Oral change orders and informal "work now, document later" practices lead to disputes.
+
+25. TIME IS OF THE ESSENCE CLAUSE
+Elevates performance deadlines from ordinary contract terms to essential terms. Breach of a "time is of the essence" deadline entitles the non-breaching party to terminate the contract immediately without giving a cure period. Courts require clear and unambiguous language to find that time is of the essence; general references to dates may not suffice.
+
+26. ANTI-CORRUPTION / BRIBERY CLAUSE
+Warrants that neither party will make improper payments to government officials or private parties to obtain or retain business. References compliance with applicable anti-corruption laws (FCPA, UK Bribery Act, OECD Anti-Bribery Convention). Includes right to audit and terminate for breach. Supply chain and third-party compliance provisions extend obligations to subcontractors and agents. Material compliance with anti-corruption provisions is a condition in many financial transactions.
+
+27. SANCTIONS COMPLIANCE CLAUSE
+Requires parties to comply with trade and economic sanctions administered by OFAC, EU, UN, and other authorities. Prohibits contracting with sanctioned persons or entities. Includes representations that neither party is a sanctioned person and ongoing obligations to screen counterparties. Breach can trigger termination. Post-2022 sanctions on Russia have elevated the importance of these clauses.
+
+28. DATA PROTECTION CLAUSE
+Governs the processing of personal data under the contract, specifying: roles (controller/processor), lawful basis for processing, data subject rights, security measures, breach notification obligations, sub-processor approvals, international data transfers, data retention and deletion, and DPA/GDPR compliance. Standard Contractual Clauses (SCCs) are incorporated for EU-to-non-EU data transfers. Data Processing Agreements (DPAs) are required under GDPR when a processor handles controller data.
+
+29. AUDIT RIGHTS CLAUSE
+Entitles one party (typically the customer or principal) to audit the other's books, records, systems, and facilities to verify compliance with contract terms (pricing, royalty calculations, data security standards). Audit frequency, notice periods, scope, and cost allocation are negotiated. Audit findings that reveal underpayments may require repayment plus interest. Right-to-audit clauses are standard in software licensing, outsourcing, and government contracts.
+
+30. INTELLECTUAL PROPERTY OWNERSHIP CLAUSE
+Allocates ownership of IP created in connection with the contract. Three common models: (a) IP remains with the creating party (licensor model); (b) IP is assigned to the commissioning party (work-for-hire model); (c) parties jointly own IP created jointly. IP assignment clauses must satisfy formal requirements (writing, signature) and may need to be recorded with the USPTO or equivalent authority. Background IP (pre-existing IP) is typically licensed rather than assigned.
+
+31. LICENSE GRANT CLAUSE
+Specifies the scope of rights granted to use IP: exclusive or non-exclusive, field of use, territory, duration, sublicensing rights, and permitted purposes. Broad license grants may be implied if not carefully limited. "All rights not expressly granted are reserved" language is standard. License grants for patents, copyrights, trademarks, and trade secrets each have distinct considerations.
+
+32. NON-SOLICITATION CLAUSE
+Prohibits a party from soliciting the employees, contractors, or customers of the other party for a defined period and scope. Non-solicitation of employees clauses are more readily enforceable than non-compete clauses in many US states. California generally prohibits non-solicitation of employees and customers under Business and Professions Code § 16600. Duration of 1–2 years is typical; broader restrictions are more likely to be reduced.
+
+33. NON-COMPETE CLAUSE
+Prohibits a party (often an employee or seller of a business) from competing with the other party within a defined scope, geography, and time period. Enforcement varies widely by jurisdiction: California generally prohibits employee non-competes; the FTC's 2024 rule (currently subject to litigation) would broadly ban employee non-competes at the federal level; Texas, Florida, and other states enforce reasonable non-competes. Non-competes in business sale transactions (seller not to compete with acquired business) are more consistently enforced.
+
+34. STEP-IN RIGHTS CLAUSE
+Found in project finance and infrastructure contracts. Permits a lender or contracting authority to step into the shoes of a defaulting party and take over performance of its obligations to preserve the value of the project. Triggers include insolvency, material breach, or abandonment. Step-in rights give the lender or authority time to cure the default or find a replacement contractor without the underlying contract terminating.
+
+35. BOILERPLATE CLAUSES (GENERAL)
+Generic clauses included in most commercial contracts: counterparts (contract may be signed in counterparts each constituting an original); headings (headings are for reference only and do not affect interpretation); relationship of parties (independent contractor, not employee/agent/joint venture); no third-party beneficiaries (contract does not create rights in third parties); further assurances (parties will sign additional documents to effectuate the agreement).
+
+─────────────────────────────────────────
+SECTION 3: EMPLOYMENT CONTRACT CLAUSES
+─────────────────────────────────────────
+
+36. AT-WILL EMPLOYMENT CLAUSE
+States that employment may be terminated by either party at any time, for any reason or no reason, with or without notice (subject to applicable law). Most US employees are at-will absent an express agreement to the contrary. Exceptions: implied contract, covenant of good faith and fair dealing, public policy. At-will status can be inadvertently altered by employee handbooks, offer letters, or manager statements.
+
+37. PROBATIONARY PERIOD CLAUSE
+Specifies an initial period (typically 30–90 days) during which the employer more closely evaluates the employee and during which termination may be easier. At the end of the probationary period the employee may become permanent/regular. Does not eliminate at-will status but may affect notice requirements or severance entitlement.
+
+38. COMPENSATION CLAUSE
+Sets out base salary/wage, payment frequency, eligibility for bonuses (discretionary vs. formulaic), equity compensation (options, RSUs), commission structure, and benefits. Equity compensation terms typically reference a separate equity plan and award agreement. Clawback provisions (required under SEC rules for certain public company executives) permit recovery of erroneously awarded incentive compensation.
+
+39. CONFIDENTIALITY AND IP ASSIGNMENT CLAUSE (EMPLOYMENT)
+Requires the employee to keep employer confidential information secret and to assign all work-product IP to the employer. California Labor Code § 2870 carves out inventions made entirely on the employee's own time without using employer resources. PIIA (Proprietary Information and Inventions Agreement) is a standard document in technology companies. Assignments must be in writing to transfer copyright in most jurisdictions.
+
+40. SEVERANCE CLAUSE
+Specifies the compensation (salary continuation, lump sum, benefits continuation, equity acceleration) payable upon termination. May require the employee to execute a release of claims as a condition of receiving severance. ADEA (Age Discrimination in Employment Act) requires specific disclosures and a 21-day consideration / 7-day revocation period for employees over 40 who are asked to release age discrimination claims.
+
+─────────────────────────────────────────
+SECTION 4: REAL ESTATE CONTRACT CLAUSES
+─────────────────────────────────────────
+
+41. INSPECTION CONTINGENCY CLAUSE
+Permits the buyer to conduct a professional inspection of the property and, if unsatisfied with the results, to negotiate repairs, request a price reduction, or terminate the contract within a specified period. Seller disclosure obligations run alongside: sellers must typically disclose known material defects. Waiving an inspection contingency increases buyer risk but strengthens the offer in competitive markets.
+
+42. FINANCING CONTINGENCY CLAUSE
+Conditions the buyer's obligation to close on obtaining mortgage financing on specified terms (loan amount, interest rate, loan type). If the buyer cannot obtain financing within the contingency period, the contract may be terminated and the earnest money returned. Lenders require appraisals; appraisal gaps in hot markets may require buyers to bring additional cash.
+
+43. TITLE CONTINGENCY CLAUSE
+Conditions closing on the seller delivering marketable title free of undisclosed liens, encumbrances, or defects. Title searches and title insurance are standard. ALTA title commitments identify exceptions to title (e.g., easements, covenants, existing mortgages). Buyer may object to title defects within a review period.
+
+44. COVENANT NOT TO COMPETE (REAL ESTATE)
+In commercial real estate, restricts a landlord from leasing other space in a shopping center or property to a competing business. Anchor tenant leases often include broad exclusivity clauses. Enforceability depends on the reasonableness of scope, duration, and geographic limitation. Recording the covenant in the land records provides notice to subsequent purchasers.
+
+45. SUBORDINATION, NON-DISTURBANCE, AND ATTORNMENT (SNDA) CLAUSE
+In commercial leases: (a) subordination — tenant's lease is subordinate to landlord's mortgage; (b) non-disturbance — lender agrees not to disturb tenant's possession if landlord defaults and lender forecloses; (c) attornment — tenant agrees to recognize the lender or new owner as landlord. SNDAs protect tenants from losing their lease rights in a foreclosure and protect lenders by confirming they can rely on lease income.
+
+─────────────────────────────────────────
+SECTION 5: TECHNOLOGY AND SaaS CLAUSES
+─────────────────────────────────────────
+
+46. SERVICE LEVEL AGREEMENT (SLA) CLAUSE
+Defines the performance standards for a service, including uptime guarantees (e.g., 99.9% availability), response and resolution times for support tickets (P1/P2/P3 classification), scheduled maintenance windows, and remedies for failure (service credits as a percentage of monthly fees). SLA credits are typically the exclusive remedy for service failures and are capped. SLAs are measured over a monthly rolling period and exclude force majeure and customer-caused outages.
+
+47. ACCEPTABLE USE POLICY (AUP) CLAUSE
+Specifies permitted and prohibited uses of the service/platform. Prohibited uses typically include: illegal activities, IP infringement, spamming, distributing malware, security attacks, and content that violates the provider's policies. Violation of AUP entitles the provider to suspend or terminate the customer's access, often without prior notice. AUP is incorporated by reference into the master agreement.
+
+48. DATA PORTABILITY AND DELETION CLAUSE
+Requires the service provider, upon termination, to: (a) provide the customer with an export of its data in a machine-readable format; (b) delete all copies of customer data within a specified period (typically 30–90 days post-termination). GDPR Article 20 grants data subjects a right to data portability. SaaS agreements often provide a post-termination data access window.
+
+49. ESCROW CLAUSE (SOURCE CODE ESCROW)
+Requires the software vendor to deposit source code and related materials with a neutral escrow agent. Release conditions (e.g., insolvency of vendor, material breach of support obligations, discontinuation of product) trigger delivery of source code to the customer, enabling continued maintenance. Escrow agreements are governed by a three-party agreement among vendor, customer, and escrow agent.
+
+50. OPEN SOURCE COMPLIANCE CLAUSE
+Requires the vendor to disclose open source software used in the product and to comply with applicable open source licenses (GPL, LGPL, MIT, Apache, BSD). GPL "copyleft" provisions can require that proprietary code combined with GPL code be released under GPL terms ("viral" effect). Vendors represent that their use of open source does not create obligations for the customer. Open source audits (FOSSA, Black Duck) are increasingly required in M&A due diligence.
+
+─────────────────────────────────────────
+SECTION 6: FINANCIAL AND LOAN CLAUSES
+─────────────────────────────────────────
+
+51. CROSS-DEFAULT CLAUSE
+Provides that a default under one debt instrument constitutes a default under another debt instrument. Lenders use cross-default clauses to prevent a borrower from selectively defaulting on lower-priority debt while remaining current on senior debt. Thresholds (e.g., defaults exceeding $1 million) limit the scope of cross-default triggers. Cross-acceleration clauses trigger only upon actual acceleration of the other debt, not mere default.
+
+52. NEGATIVE PLEDGE CLAUSE
+Prohibits the borrower from granting liens or security interests on its assets to other creditors without the lender's consent. Negative pledge clauses are used by unsecured lenders to prevent dilution of their credit position. Exceptions are typically provided for: purchase money security interests, operating leases, existing liens, and liens securing permitted additional debt.
+
+53. AFFIRMATIVE FINANCIAL COVENANTS
+Require the borrower to maintain specified financial ratios: (a) leverage ratio (total debt / EBITDA); (b) interest coverage ratio (EBITDA / interest expense); (c) minimum liquidity (cash and equivalents); (d) debt service coverage ratio (DSCR); (e) minimum net worth. Covenant testing frequency (quarterly, semi-annual, annual) and cure rights (equity cure) are negotiated. Covenant violations trigger events of default giving the lender acceleration rights.
+
+54. REPRESENTATIONS AS TO FINANCIAL STATEMENTS
+The borrower represents that its financial statements have been prepared in accordance with GAAP, fairly present its financial condition, and contain no material misstatements or omissions. The representation is typically made as of the date of the most recent financial statements and repeated at each drawdown. Subsequent material adverse changes must be disclosed.
+
+55. EVENTS OF DEFAULT CLAUSE
+Enumerates events that trigger the lender's right to accelerate the debt and enforce security. Standard events of default: payment default (with or without grace period); representation breach; covenant breach (with cure period); cross-default; bankruptcy/insolvency; material adverse change; judgment against the borrower exceeding a threshold; change of control; and invalidity of security documents.
+
+56. PREPAYMENT CLAUSE
+Governs voluntary and mandatory early repayment. Voluntary prepayment may require a prepayment premium (call protection, make-whole premium, yield maintenance) during a no-call period. Mandatory prepayment (cash sweep) is triggered by: asset sales, equity issuances, insurance proceeds, and excess cash flow. High yield bonds typically have non-call periods followed by declining call premiums.
+
+57. PARI PASSU CLAUSE
+States that the borrower's payment obligation ranks at least equally (pari passu) with all other unsecured, unsubordinated debt. Historically used in sovereign debt instruments; the pari passu clause in Argentine sovereign bonds was famously interpreted by the Second Circuit to require ratable payment to holdout creditors in NML Capital v. Argentina (2012), disrupting Argentina's debt restructuring.
+
+58. FINANCIAL REPORTING COVENANT
+Requires the borrower to deliver financial statements (quarterly unaudited, annual audited), compliance certificates, and other financial information within specified deadlines. Failure to deliver financial statements is a covenant breach but typically provides a cure period. Lenders use financial information to monitor covenant compliance and creditworthiness.
+
+59. CHANGE OF CONTROL CLAUSE (LOAN AGREEMENTS)
+Defines "change of control" (typically transfer of more than 50% of voting equity or board control) and provides that a change of control: (a) triggers mandatory prepayment (put option) at par or a premium; (b) constitutes an event of default; or (c) requires lender consent. Change of control provisions protect lenders against credit risk associated with a change in ownership.
+
+60. INTERCREDITOR AGREEMENT CLAUSES
+Govern the relationship between senior and junior (subordinated) lenders. Key provisions: payment subordination (junior debt payments blocked upon senior default); lien subordination (junior liens primed by senior liens); standstill provisions (junior creditors blocked from enforcing for a specified period after senior default); and waterfall (order of application of proceeds from enforcement). First lien / second lien intercreditor agreements are common in leveraged finance.
+
+─────────────────────────────────────────
+SECTION 7: INSURANCE AND INDEMNITY CLAUSES
+─────────────────────────────────────────
+
+61. ADDITIONAL INSURED CLAUSE
+Requires one party (often a contractor or tenant) to add the other party (owner, landlord) as an "additional insured" on its general liability insurance policy. The additional insured status gives the owner/landlord direct rights against the contractor's insurer. The scope of additional insured coverage (primary, non-contributory, occurrence-based) is heavily negotiated. "Primary and non-contributory" language prevents the insurer from seeking contribution from the owner's own insurer.
+
+62. WAIVER OF SUBROGATION CLAUSE
+Prevents a party's insurer from pursuing subrogation claims (i.e., suing the other party in the name of the insured) after paying a claim. Common in construction contracts, real estate leases, and service agreements where the parties want the insurance arrangement to be the exclusive remedy. Must be affirmatively endorsed on the insurance policy to be effective.
+
+63. HOLD HARMLESS CLAUSE
+One party agrees not to hold the other party legally responsible for any injuries, damages, or losses arising from specified activities. Similar to an indemnification clause but typically does not require the promisor to affirmatively defend or compensate — it merely waives the promisee's right to sue. "Broad form" hold harmless covers the indemnitee's own negligence; "intermediate form" covers all negligence except sole negligence; "limited form" covers only the indemnitor's negligence.
+
+64. MUTUAL INDEMNIFICATION CLAUSE
+Both parties indemnify each other for their respective breaches, negligence, and willful misconduct. Symmetrical mutual indemnification is common in technology and services agreements. The practical effect is that each party bears the cost of its own failures. Where one party has significantly greater exposure (e.g., a large enterprise customer vs. a small SaaS vendor), mutual indemnification without caps may be asymmetrically risky.
+
+65. IP INDEMNIFICATION CLAUSE
+The IP licensor/vendor agrees to indemnify and defend the customer against third-party claims that the vendor's product or deliverables infringe the third party's intellectual property rights. Typically includes the vendor's right to: modify the product to avoid infringement; obtain a license; or refund fees and terminate. Customers often negotiate for broad IP indemnification; vendors seek to carve out infringement caused by customer modifications or combinations.
+
+─────────────────────────────────────────
+SECTION 8: DISPUTE RESOLUTION CLAUSES
+─────────────────────────────────────────
+
+66. ESCALATION / TIERED DISPUTE RESOLUTION CLAUSE
+Requires parties to attempt to resolve disputes through internal escalation (e.g., project managers to senior executives) before resorting to formal ADR or litigation. May include mandatory mediation as an intermediate step. Time periods are specified for each tier. Failure to follow escalation procedures may be a procedural bar to filing suit or arbitration.
+
+67. MEDIATION CLAUSE
+Requires the parties to attempt to resolve disputes through non-binding mediation before proceeding to arbitration or litigation. The mediator (neutral third party) facilitates negotiation but cannot impose a resolution. Mediation is confidential and without prejudice. JAMS, AAA, and CEDR are common institutional mediators. Some contracts provide for "med-arb" (if mediation fails, the mediator becomes the arbitrator).
+
+68. EXPERT DETERMINATION CLAUSE
+Disputes on technical or financial matters (e.g., working capital adjustments in M&A, royalty calculations, valuation of assets) are referred to an independent expert whose decision is final and binding. The expert acts as an expert rather than an arbitrator; different procedural rules apply. Expert determination is faster and cheaper than arbitration for technical disputes.
+
+69. CLASS ACTION WAIVER CLAUSE
+Requires parties to resolve disputes only on an individual basis and not as a class or collective action. Commonly paired with arbitration clauses. The Supreme Court upheld class action waivers in arbitration in AT&T Mobility v. Concepcion (2011) and Epic Systems Corp. v. Lewis (2018). California's attempt to prohibit such waivers was preempted by the FAA.
+
+70. FORUM NON CONVENIENS CLAUSE
+Contractually specifies that the chosen forum is convenient for both parties, attempting to preclude a defendant from arguing that the case should be transferred to a more convenient forum. Parties may also agree to waive objections to venue and to service of process in the designated forum.
+
+─────────────────────────────────────────
+SECTION 9: SPECIFIC INDUSTRY CLAUSES
+─────────────────────────────────────────
+
+71. MATERIAL TRANSFER AGREEMENT (MTA) CLAUSE
+Governs the transfer of biological materials (cell lines, reagents, compounds) between research institutions or companies. Specifies: permitted uses (research only, no commercialization without further agreement); restrictions on redistribution and modification; IP ownership of derivatives; publication rights; compliance with biosafety regulations; and return or destruction of materials.
+
+72. INTEROPERABILITY CLAUSE (TECHNOLOGY)
+Requires software or systems to work with other specified systems, platforms, or standards. Common in enterprise software and API agreements. May require adherence to published APIs, open standards (REST, XML, HL7 in healthcare), and data formats. Failure to maintain interoperability after updates is a common source of SaaS contract disputes.
+
+73. RESIDUALS CLAUSE
+Permits employees to use in their minds (not in written, electronic, or other tangible form) non-confidential information learned during the performance of services, without restriction. Technology companies frequently include residuals clauses to allow personnel to use general knowledge and skills gained during a project. The clause carves out highly specific confidential information and trade secrets.
+
+74. BENCHMARKING CLAUSE
+Permits the customer, in outsourcing and managed services contracts, to periodically benchmark the provider's pricing and service levels against comparable services available in the market. If benchmarking reveals the provider is uncompetitive, the provider must improve its pricing or service levels or the customer may terminate. Detailed provisions govern the benchmark methodology, data sources, and frequency.
+
+75. TRANSITION ASSISTANCE CLAUSE
+In outsourcing and IT services contracts, requires the incumbent service provider to cooperate and provide assistance to the customer or successor provider during the transition of services at the end of the contract term. Duration (typically 6–24 months), scope of assistance, cost allocation, and ongoing service level obligations during the transition period are specified.
+
+76. ACCEPTANCE TESTING CLAUSE
+In software development and systems integration contracts, specifies the criteria and process by which the customer will determine whether delivered software or systems meet specifications. Stages: functional acceptance testing (FAT), user acceptance testing (UAT). Acceptance may be deemed to occur automatically if the customer fails to reject within the testing period. Payment milestones are often tied to acceptance.
+
+77. ESCROW CLAUSE (PAYMENT ESCROW)
+In real estate, M&A, and commercial contracts, funds are deposited with a neutral escrow agent and released upon satisfaction of specified conditions (closing deliveries, milestone completion). Escrow agents must be impartial and follow written escrow instructions. Disputes over escrow conditions are interpleaded by the agent.
+
+78. EARN-OUT CLAUSE
+In M&A, a portion of the purchase price is contingent on the acquired business meeting specified financial targets (revenue, EBITDA) post-closing. The seller remains motivated to grow the business during the earn-out period. Key issues: definition of earn-out metrics (GAAP vs. cash basis), earn-out period (1–5 years), buyer's operating covenants (not to divert business), and dispute resolution for earn-out calculations. Earn-outs are heavily litigated.
+
+79. DRAG-ALONG CLAUSE (SHAREHOLDERS AGREEMENT)
+Permits the majority shareholders to require minority shareholders to join in the sale of the company on the same terms. Protects majority shareholders and acquirers from minority holdouts. Must be exercised in good faith and in compliance with fiduciary duties. Drag-along provisions specify: minimum offer price, required deal structure, and notice periods.
+
+80. TAG-ALONG CLAUSE (SHAREHOLDERS AGREEMENT)
+Permits minority shareholders to join a majority shareholder's sale of shares on the same terms. Protects minority shareholders from being left behind after a controlling interest transfers. Tag-along rights are typically proportional (minority may sell the same proportion of their shares as the majority) or full (minority may sell all their shares).
+
+81. ANTI-DILUTION CLAUSE (VENTURE CAPITAL)
+Protects early investors from dilution when the company issues new shares at a lower price (down round). Two main types: (a) full ratchet — adjusts the conversion price to the new, lower price, giving maximum protection; (b) weighted average — adjusts the conversion price based on a formula that accounts for the number of new shares issued, giving less protection but more commonly used. Broad-based weighted average uses fully diluted share count; narrow-based uses only outstanding preferred shares.
+
+82. REPRESENTATIONS IN COMMERCIAL REAL ESTATE LEASES
+Landlord representations: good title/authority to lease, no material defects, ADA/building code compliance, no pending condemnation. Tenant representations: authority to enter lease, financial statements, no pending bankruptcy. Leases for large commercial tenants (anchor tenants) include landlord guarantees of co-tenancy conditions (minimum occupancy levels) and operating covenants.
+
+83. HARDSHIP / ADAPTATION CLAUSE (CIVIL LAW)
+Used in civil law jurisdictions (France, Germany, Netherlands) to permit renegotiation of contract terms when supervening circumstances make performance excessively burdensome. Similar in purpose to common law frustration doctrine but is contractually agreed. ICC Force Majeure and Hardship Clauses (2020) provide standard model language. The German concept of Wegfall der Geschäftsgrundlage (frustration of the basis of the contract) may allow adaptation by a court.
+
+84. RATCHET CLAUSE (EARN-OUT / EQUITY)
+In earn-out provisions, a ratchet increases the earn-out payment as performance exceeds targets. In PE transactions, a management equity ratchet increases management's equity percentage based on the return achieved by the PE fund at exit (measured by IRR or money-on-money multiple). Ratchets incentivize management to maximize exit value.
+
+85. MINIMUM PURCHASE OBLIGATION CLAUSE
+Requires the buyer to purchase a minimum quantity or value of goods or services over a specified period. Used in exclusive distribution agreements, supply contracts, and software licensing (minimum committed consumption). Failure to meet minimum purchase obligations may result in reduced pricing tier, loss of exclusivity, or termination rights for the supplier.
+
+─────────────────────────────────────────
+SECTION 10: ADDITIONAL CLAUSES
+─────────────────────────────────────────
+
+86. RECITALS (WHEREAS CLAUSES)
+Introductory statements that describe the background of the transaction and the purpose of the agreement. Recitals are generally not operative (do not create rights or obligations) but are used to interpret ambiguous operative provisions. Courts sometimes look to recitals to determine the parties' intent. In the UK, recitals are binding if clearly intended to be.
+
+87. DEFINITIONS CLAUSE
+Lists defined terms used throughout the agreement. Precise definitions are critical because the defined meaning governs wherever the term appears in the contract. Definitions should be read in context of how the term is actually used; circular definitions and cross-references to other defined terms can create ambiguity. "Including" is typically followed by "without limitation" to prevent ejusdem generis limiting the list.
+
+88. COUNTERPARTS AND ELECTRONIC SIGNATURES CLAUSE
+Permits execution of the agreement in counterparts (multiple copies, each constituting an original). Electronic signatures are recognized under ESIGN, UETA (US), eIDAS (EU), and similar laws. DocuSign, Adobe Sign, and equivalent platforms create legally binding signatures. Some jurisdictions and document types (deeds, land transfers) still require wet ink signatures or specific formalities.
+
+89. PUBLICITY CLAUSE
+Restricts either party from issuing press releases, public statements, or marketing materials referencing the other party or the relationship without prior written approval. The clause may permit reference to the deal for required SEC disclosures. Vendors often seek approval to use the customer's name and logo as a reference client; customers may restrict this to avoid implying endorsement or disclosing the relationship to competitors.
+
+90. RELATIONSHIP OF PARTIES CLAUSE
+Clarifies that the parties are independent contractors and not employees, agents, partners, or joint venturers. Prevents claims of implied agency, partnership liability, or employment status. Workers who are independent contractors are not entitled to employment benefits, minimum wage protections, or workers' compensation in most jurisdictions. Courts may look beyond the contractual label to the actual economic relationship.
+
+91. ANTI-ASSIGNMENT (IPSO FACTO) IN BANKRUPTCY
+Anti-assignment clauses may be unenforceable in bankruptcy. Under 11 U.S.C. § 365, a debtor-in-possession or trustee may assume and assign executory contracts notwithstanding anti-assignment provisions if adequate assurance of future performance is provided. "Ipso facto" clauses (automatic termination upon bankruptcy filing) are generally unenforceable against the bankruptcy estate for executory contracts and unexpired leases.
+
+92. CONFLICT OF INTEREST CLAUSE
+Requires parties (particularly in professional services and consulting agreements) to disclose and avoid conflicts of interest. Defines what constitutes a conflict and the procedure for disclosure and waiver. Breach of fiduciary duty and professional negligence claims may accompany breach of a conflict of interest provision.
+
+93. ENTIRE RESPONSIBILITY CLAUSE
+In insurance law and some commercial contracts, specifies that the written contract sets out the parties' entire responsibility and excludes liability beyond the contract's express terms. Similar in effect to an entire agreement clause but specifically targeted at limiting extra-contractual liability including tort claims.
+
+94. RIGHT OF FIRST REFUSAL (ROFR) CLAUSE
+Gives one party the right to match or beat a third-party offer before the other party may accept it. Common in: real estate (tenant ROFR on sale of property), venture capital (existing investor ROFR on new share issuances), and shareholders' agreements (existing shareholders ROFR on transfer of shares). Different from right of first offer (ROFO) — where the obligated party must make an offer to the right-holder before going to market.
+
+95. RIGHT OF FIRST OFFER (ROFO) CLAUSE
+Requires the selling/offering party to offer the asset or opportunity to the right-holder first, before marketing it to third parties. The right-holder sets the terms of the offer. If the right-holder declines, the seller may proceed with third parties (often on terms no more favorable than those rejected). ROFO is less protective than ROFR because the right-holder must move first without knowing third-party interest.
+
+96. WAIVER OF JURY TRIAL CLAUSE
+Both parties voluntarily waive the constitutional right to trial by jury, agreeing that any litigation will be decided by a judge (bench trial). Courts generally enforce jury trial waivers in commercial contracts between sophisticated parties. Under Florida law, jury trial waivers in pre-dispute agreements are enforceable. Some states (e.g., Montana) prohibit pre-dispute jury trial waivers.
+
+97. AGREED REMEDIES CLAUSE
+Specifies that particular remedies (injunctive relief, specific performance, liquidated damages, or termination) are the parties' agreed exclusive or non-exclusive remedies for specified breaches. Exclusivity language limits recovery to the stated remedy; non-exclusive clauses preserve other remedies. Courts may grant equitable relief (specific performance, injunction) for breaches of unique obligations even without an agreed remedies clause.
+
+98. SAVINGS CLAUSE
+A form of severability clause that attempts to preserve the maximum enforceable portion of a provision rather than striking it entirely. Courts applying a savings clause may "blue pencil" a non-compete by reducing its geographic scope or duration to a reasonable level. Savings clauses are common in non-compete and non-solicitation provisions.
+
+99. PERFORMANCE GUARANTEE CLAUSE
+A guarantee by a parent company or affiliate of a subsidiary's performance under a contract. Gives the counterparty recourse against a creditworthy entity when contracting with a subsidiary. A "guarantee" imposes primary liability on the guarantor if the principal obligor defaults; a "suretyship" is a secondary obligation. "Keep-well" agreements and "comfort letters" are weaker and may not constitute legally binding obligations.
+
+100. MOST FAVORED CUSTOMER (MFC) CLAUSE
+Similar to MFN but specifically applies to customer pricing. Requires the vendor to offer the customer pricing no less favorable than that offered to any comparable customer. MFC clauses can restrict a vendor's ability to offer discounts and may raise price-fixing concerns in certain competitive contexts. Defining "comparable customer" (by volume, industry, deal structure) is critical to managing MFC exposure.

@@ -1,0 +1,351 @@
+LEGAL PAYMENTS KNOWLEDGE BASE
+==============================
+Comprehensive reference for payment obligations, mechanisms, disputes, regulations, and enforcement.
+
+─────────────────────────────────────────
+SECTION 1: PAYMENT OBLIGATIONS IN CONTRACTS
+─────────────────────────────────────────
+
+1. ABSOLUTE PAYMENT OBLIGATION
+A payment obligation that is unconditional — the debtor must pay regardless of the counterparty's performance or any other event. Distinguished from a conditional payment obligation (pay-when-paid, pay-if-paid). Courts disfavor interpreting payment obligations as absolute when the contract language is ambiguous; but in commercial contracts between sophisticated parties, courts will enforce clearly unconditional payment terms. Letters of credit create near-absolute payment obligations independent of the underlying contract.
+
+2. CONDITIONAL PAYMENT: PAY-WHEN-PAID CLAUSE
+A clause in subcontractor agreements providing that the general contractor's obligation to pay the subcontractor is conditioned upon the general contractor first receiving payment from the project owner. Most courts treat pay-when-paid clauses as fixing the timing of payment (the subcontractor must wait a reasonable time) but not as a condition that permanently shifts the risk of owner non-payment to the subcontractor. California Business and Professions Code § 7108.5 prohibits pay-when-paid provisions in subcontracts as a condition to payment.
+
+3. CONDITIONAL PAYMENT: PAY-IF-PAID CLAUSE
+A clause providing that the general contractor has NO obligation to pay the subcontractor UNLESS and UNTIL the owner pays the general contractor — permanently shifting the risk of owner insolvency to the subcontractor. Pay-if-paid clauses require clear and unambiguous "condition precedent" language. Some states (California, New York) prohibit or strictly limit pay-if-paid provisions in construction subcontracts. Even where enforceable, they may not protect against the subcontractor's right to assert mechanics' lien claims against the property.
+
+4. NET PAYMENT TERMS
+Standard commercial payment terms specifying when payment is due after receipt of invoice: Net 30 (payment due within 30 days), Net 60, Net 90, Net 15. Industry standard varies by sector (manufacturing: Net 30–60; retail: Net 30; professional services: Net 30; government: Prompt Payment Act — 30 days). The Prompt Payment Act (31 U.S.C. § 3901 et seq.) requires federal agencies to pay vendors within 30 days of receiving a proper invoice; interest accrues automatically on late payments.
+
+5. EARLY PAYMENT DISCOUNT (2/10 NET 30)
+A trade credit arrangement where the buyer receives a percentage discount (typically 2%) if payment is made within a discount period (typically 10 days) instead of the full net term (30 days). The annualized cost of foregoing the 2/10 Net 30 discount is approximately 36.7% — making early payment extremely attractive for buyers with access to financing below this rate. Dynamic discounting platforms allow buyers to offer variable discounts based on the date of payment.
+
+6. MILESTONE PAYMENT OBLIGATION
+Payment is conditioned on the completion of specified project milestones (design completion, regulatory approval, product delivery, acceptance testing). Common in construction, engineering, software development, and pharmaceutical licensing. Clear definition of milestone criteria and acceptance procedures is critical. Disputes often arise over whether a milestone has been achieved (substantial completion vs. final completion). Retainage (typically 5–10% withheld until final completion) is common in construction contracts.
+
+7. RETAINAGE (RETENTION)
+A percentage of each progress payment withheld by the owner from the general contractor, and by the general contractor from subcontractors, until project completion and final acceptance. Purpose: ensures the contractor completes punchlist items and corrects defects. Typical rates: 10% for the first half of the project; 5% thereafter. Many state prompt payment statutes limit retainage to 5% and require prompt release of retainage upon substantial completion. Retainage disputes are common in construction litigation.
+
+8. ADVANCE PAYMENT OBLIGATION
+Payment made before performance, giving the payee a cash flow advantage. Common in: deposits on real estate transactions (earnest money); down payments on equipment purchases; prepaid service contracts; licensing fees; government grants (advances against future deliverables). Advance payments create risk for the payor if the payee fails to perform. Advance payment bonds protect the payor's deposit. Letters of credit may substitute for or back up advance payments.
+
+9. INSTALLMENT PAYMENT OBLIGATION
+A series of periodic payments rather than a lump sum. Common in: consumer and commercial loans (amortizing schedules); real estate (seller financing, land contracts); equipment leases; licensing agreements (staggered royalty payments); settlement agreements (structured settlements). Acceleration clauses allow the creditor to declare all remaining installments due immediately upon default of any single installment.
+
+10. ROYALTY PAYMENT OBLIGATION
+A periodic payment for the ongoing use of IP rights (patents, copyrights, trademarks, trade secrets, franchises), calculated as a percentage of revenue, net sales, or a per-unit amount. Royalty audits (contractual right to audit sales records) are a common source of disputes. Running royalties continue for the life of the agreement; paid-up royalties extinguish future royalty obligations. Minimum royalties (floor payments regardless of sales) protect licensors. FRAND royalties (fair, reasonable, and non-discriminatory) apply to standard-essential patents (SEPs).
+
+11. EARNEST MONEY DEPOSIT OBLIGATION
+A deposit made by a buyer in a real estate purchase agreement to demonstrate good faith and secure the seller's obligation not to sell to others during the contract period. Typically 1–3% of the purchase price. If the buyer breaches, the seller generally retains the earnest money as liquidated damages. If the seller breaches, the buyer recovers the deposit and may sue for specific performance or additional damages. Escrow agents hold earnest money pending closing; disputes over earnest money release are common in failed transactions.
+
+12. PROGRESS PAYMENT OBLIGATION
+Payments made at regular intervals or upon completion of stages of work during an ongoing project. Used in construction, government contracts, and long-term service engagements. Progress payments are typically tied to a schedule of values (a breakdown of the total contract price by work item or phase). Applications for payment (AIA G702/G703 forms in construction) document work completed, materials stored, and amounts due. The owner's or contractor's failure to make timely progress payments may entitle the contractor or subcontractor to suspend work.
+
+13. FINAL PAYMENT OBLIGATION
+The last payment under a contract, typically made upon final completion, final acceptance, or satisfaction of all conditions. In construction, final payment is often conditioned on: (a) issuance of certificate of final completion by the architect; (b) receipt of all required lien waivers from subcontractors and suppliers; (c) delivery of as-built drawings, warranties, and O&M manuals; (d) completion of all punchlist items; (e) release of all retainage. Acceptance of final payment may constitute a waiver of claims (accord and satisfaction) under some contracts.
+
+14. DEFERRED PAYMENT OBLIGATION
+Payment deferred to a future date or upon the occurrence of a future event. Common in M&A (seller financing, note payable to seller), vendor agreements (payment deferred until project completion), and distressed debt (payment moratoriums). Deferred payments are typically documented by promissory notes. Interest on deferred payments may be subject to OID (original issue discount) rules for federal income tax purposes.
+
+15. CONTINGENT PAYMENT OBLIGATION (EARN-OUT)
+As discussed in the clauses section, a portion of M&A purchase price is contingent on the acquired business meeting post-closing performance targets. The earn-out obligation may mature (become payable) or lapse based on financial metrics. Earn-out payments are at risk if the buyer operates the business in a way that depresses the earn-out metrics. Detailed covenants governing the buyer's conduct of the business during the earn-out period are essential.
+
+─────────────────────────────────────────
+SECTION 2: PAYMENT MECHANISMS AND INSTRUMENTS
+─────────────────────────────────────────
+
+16. ACH PAYMENTS (AUTOMATED CLEARING HOUSE)
+Electronic funds transfers processed through the ACH network (operated by NACHA). Used for: payroll direct deposit, consumer bill payments, B2B vendor payments, government payments (Social Security, tax refunds). Types: ACH credits (originator "pushes" funds — payroll, bill payment); ACH debits (originator "pulls" funds — recurring consumer payments). Processed in batches; standard ACH settles next business day; Same-Day ACH available for debits and credits with limits. Governed by NACHA Operating Rules; regulated by the Fed and OCC.
+
+17. WIRE TRANSFERS
+Real-time electronic transfer of funds between financial institutions through Fedwire (Federal Reserve) or CHIPS (Clearing House Interbank Payments System — private, large-value). Fedwire processes approximately $4 trillion/day. Wire transfers are final and irrevocable upon settlement (unlike ACH, which allows returns). International wires transmitted through SWIFT messaging network. Governed by UCC Article 4A (fund transfers). Wire fraud (18 U.S.C. § 1343) — fraudulently induced wire transfers — is a federal crime; difficult to recover once sent.
+
+18. LETTER OF CREDIT (LC)
+A bank's irrevocable undertaking to pay a specified amount to a beneficiary upon presentation of conforming documents. Types: (a) commercial/documentary LC — used in international trade; payment upon presentation of shipping documents (bill of lading, invoice, packing list, certificate of origin, insurance certificate); (b) standby LC — functions as a performance bond or financial guarantee; payment upon the beneficiary's certification that a payment obligation has not been met. Governed by UCP 600 (ICC Uniform Customs and Practice for Documentary Credits) for commercial LCs; ISP98 for standby LCs. The independence principle: the bank pays upon document compliance regardless of disputes under the underlying contract.
+
+19. BANK GUARANTEE / SURETY BOND
+A guarantee by a bank (bank guarantee) or surety company (surety bond) to pay a specified amount if the principal fails to perform an obligation. Surety bond types: (a) bid bond — guarantees the bidder will enter the contract if awarded; (b) performance bond — guarantees contract completion; (c) payment bond — guarantees payment to subcontractors and suppliers (Miller Act requires performance and payment bonds on federal construction projects over $150,000); (d) license and permit bonds; (e) court bonds. Distinguished from insurance: a surety bond is a three-party agreement; the principal remains ultimately liable to the surety.
+
+20. PROMISSORY NOTE
+A written promise by the maker to pay a specified sum to the payee (or bearer) at a specified time or on demand. A negotiable promissory note (UCC Article 3) must be: (a) in writing; (b) signed by the maker; (c) containing an unconditional promise to pay; (d) a fixed amount of money; (e) payable to order or bearer; (f) payable on demand or at a definite time. A holder in due course (HDC) of a negotiable instrument takes free of personal defenses of the maker. Demand notes are payable upon the payee's demand; term notes mature on a specific date.
+
+21. CHECK / DRAFT
+A written order on a bank to pay a specified amount from the drawer's account. Governed by UCC Article 3 (negotiable instruments) and Article 4 (bank deposits and collections). Certified check: bank guarantees the check; funds are set aside. Cashier's check: the bank is the drawer; more secure than personal check. Dishonored check: returned for insufficient funds (NSF); may give rise to civil damages and criminal bad check charges. Under UCC § 4-207, the depositing bank makes warranties (no unauthorized endorsements, not materially altered) upon collecting a check.
+
+22. ELECTRONIC PAYMENT CARDS
+Credit cards: revolving credit facility; purchases are billed to the card and paid monthly; interest accrues on unpaid balances; governed by TILA (Truth in Lending Act) and Regulation Z; Visa, Mastercard, Amex, Discover networks. Debit cards: immediate debit from bank account; governed by EFTA (Electronic Fund Transfer Act) and Regulation E; limited liability for unauthorized transactions if reported timely. Prepaid cards: preloaded funds; CFPB Prepaid Account Rule. Business cards: corporate liability cards charge the company; individual liability cards charge the employee. PCI-DSS (Payment Card Industry Data Security Standard) governs security obligations of merchants and processors.
+
+23. REAL-TIME GROSS SETTLEMENT (RTGS)
+Central bank-operated gross settlement systems that process and settle transactions individually and in real time. Examples: Fedwire (US), CHAPS (UK), TARGET2 (Eurozone), RTGS+ (Bank of England). Large-value, time-critical payments (securities settlements, interbank funding) use RTGS. Finality is immediate upon settlement; no unwinding. Central bank credit risk is minimal; intraday liquidity management is important for participants.
+
+24. CRYPTOCURRENCY / DIGITAL ASSET PAYMENTS
+Payment using decentralized digital assets: Bitcoin (BTC), Ethereum (ETH), stablecoins (USDC, USDT, PYUSD). Legal classification varies by jurisdiction: property (IRS), commodity (CFTC for Bitcoin), security (SEC analysis under Howey test). Regulatory status: SEC enforcement against exchanges and tokens; MiCA regulation in EU (comprehensive crypto regulation); FinCEN virtual currency guidance (exchanges and administrators are money services businesses). Smart contract payments: code-executed transfers on a blockchain; legally binding under ESIGN/UETA and state virtual currency laws.
+
+25. ESCROW PAYMENT MECHANISM
+Payment held by a neutral third-party escrow agent pending satisfaction of conditions. Used in: real estate transactions (earnest money, balance of purchase price); M&A (indemnification holdback escrows, earn-out escrows, employee retention escrows); software licensing; domain name transfers. Escrow instructions specify release conditions; the escrow agent must strictly follow written instructions. FDIC insured limits ($250,000) may be exceeded in large commercial escrow accounts — require structuring for multi-bank deposit protection.
+
+─────────────────────────────────────────
+SECTION 3: PAYMENT DEFAULTS AND REMEDIES
+─────────────────────────────────────────
+
+26. PAYMENT DEFAULT
+The failure to make a payment when due and owing. Types: (a) monetary default — failure to pay principal, interest, rent, or other amounts due; (b) technical default — breach of a non-payment covenant that triggers acceleration rights. Payment defaults typically have shorter cure periods (3–10 days) or no cure period. Monetary defaults in loan agreements are classified as Events of Default (EODs) entitling the lender to: (a) accelerate all outstanding principal; (b) terminate commitments; (c) enforce security interests; (d) set off deposits. Lenders often send a default notice and negotiate forbearance arrangements before enforcing remedies.
+
+27. MECHANICS' LIEN (CONSTRUCTION LIEN)
+A statutory lien on real property in favor of contractors, subcontractors, materialmen, and design professionals who have contributed labor, materials, or services to the improvement of the property but have not been paid. Mechanics' lien laws vary by state: preliminary lien notices must be served on the owner before or shortly after work begins; lien claims must be filed within the statutory period after completion (typically 60–90 days); lien foreclosure suits must be filed within the statutory period (typically 6–12 months). Priority: most states give mechanics' liens priority over purchase money mortgages if notice was given before construction began. Property owners can obtain lien releases by requiring joint checks payable to general contractor and subcontractor, or lien waivers upon payment.
+
+28. UCC ARTICLE 9 SECURED CREDITOR REMEDIES
+Upon a debtor's default, a secured creditor with a properly perfected security interest in personal property may: (a) take possession of the collateral without judicial process (self-help repossession) if it can be done without a breach of the peace; (b) dispose of collateral by public or private sale in a commercially reasonable manner (after giving required notice — 10 days for non-consumer transactions); (c) retain the collateral in full or partial satisfaction of the debt (strict foreclosure — UCC § 9-620); (d) collect accounts receivable directly from the account debtors. Deficiency judgment: if sale proceeds are insufficient, the creditor may sue for the deficiency (in consumer transactions, the secured creditor must follow strict procedures to be entitled to a deficiency).
+
+29. MORTGAGE FORECLOSURE
+The process by which a lender enforces its mortgage lien upon a borrower's default. Two types: (a) judicial foreclosure — filed as a lawsuit; court issues judgment of foreclosure and orders a foreclosure sale; right of redemption period after sale in many states; (b) non-judicial foreclosure (deed of trust, power of sale) — lender or trustee conducts a sale without court involvement following statutory notice requirements; no post-sale redemption in most states. Deficiency judgments: if the foreclosure sale proceeds are insufficient to satisfy the debt, the lender may sue for the deficiency (state anti-deficiency statutes may limit this right). Bankruptcy automatic stay halts foreclosure proceedings.
+
+30. ACCOUNTS RECEIVABLE COLLECTION REMEDIES
+When invoices go unpaid, creditors may: (a) send demand letters; (b) engage collection agencies (regulated by the FDCPA for consumer debts); (c) file suit and obtain a judgment; (d) enforce the judgment by writ of execution (seize and sell non-exempt assets), wage garnishment, bank levy, and real property lien; (e) pursue prejudgment attachments or receivership (in appropriate cases). Pre-judgment attachment: creditor may attach defendant's assets before judgment if it can show likelihood of success and that the defendant may dissipate assets. FDCPA (Fair Debt Collection Practices Act): regulates third-party debt collectors; prohibits harassment, false statements, and unfair practices.
+
+─────────────────────────────────────────
+SECTION 4: PAYMENT DISPUTES
+─────────────────────────────────────────
+
+31. INVOICE DISPUTE
+A disagreement between a buyer and seller over the amounts billed in an invoice. Common causes: invoice does not conform to the contract (wrong quantity, price, or description); goods or services were defective, incomplete, or not delivered; duplicate invoices; invoices submitted without required supporting documentation; pricing disagreements; and unauthorized charges. Contract provisions on invoice dispute procedures (notice of dispute within X days, undisputed amounts must be paid, dispute to be resolved by a defined process) are important for managing invoice disputes.
+
+32. PAYMENT TIMING DISPUTE
+A dispute over when a payment obligation was triggered or when payment is due. Common in: construction (when is substantial completion achieved?); M&A (when were earn-out conditions met?); licensing (when does the royalty reporting period end?); software (when was acceptance achieved?). Timing disputes often turn on the definition of triggering events and the procedures for documenting their occurrence.
+
+33. SETOFF AND RECOUPMENT
+Setoff: a defendant's right to reduce the amount owed to the plaintiff by the amount the plaintiff owes the defendant, even if the claims arise from different transactions. Recoupment: a party's right to reduce the amount owed under a contract by counterclaims arising from the same contract. Setoff is a legal right (may be asserted as a defense); recoupment is an equitable right. In bankruptcy, setoff is preserved subject to limitations (mutuality requirement; setoff is not available post-petition against pre-petition claims without a court order). Contractual setoff provisions may expand or restrict these rights.
+
+34. CHARGEBACK DISPUTE (PAYMENT CARDS)
+A reversal of a credit or debit card transaction initiated by the cardholder's bank. Chargeback reasons: unauthorized transaction (fraud), goods/services not received, goods/services not as described, duplicate transaction, credit not processed. The merchant may contest the chargeback by providing evidence of authorized purchase and delivery. High chargeback rates trigger penalties from card networks and may result in termination of the merchant account. Friendly fraud (consumer falsely claims non-receipt to avoid payment) is a growing problem for e-commerce merchants.
+
+35. ELECTRONIC PAYMENT DISPUTE (ACH RETURN)
+ACH debits may be returned (rejected) by the receiving bank for various reasons: (a) insufficient funds (R01); (b) account closed (R02); (c) no account / unable to locate account (R03); (d) authorization revoked by customer (R07); (e) payment stopped (R08); (f) not authorized — NACHA requires authorization for ACH debits; unauthorized transactions may be returned up to 60 days. Merchants must maintain proof of authorization for ACH transactions. Excessive return rates trigger NACHA monitoring and potential fines.
+
+─────────────────────────────────────────
+SECTION 5: PAYMENT REGULATIONS
+─────────────────────────────────────────
+
+36. PROMPT PAYMENT LAWS (STATE)
+Most states have enacted prompt payment laws for construction contracts requiring: (a) owners to pay general contractors within specified periods (typically 7–28 days) after receiving payment applications; (b) general contractors to pay subcontractors within a specified period (typically 7–10 days) after receiving payment from owners; (c) automatic interest on late payments (typically prime rate + 1–2%); (d) attorney's fees for prevailing parties in prompt payment disputes. Government prompt payment statutes often provide for additional penalties.
+
+37. TRUTH IN LENDING ACT (TILA)
+Requires creditors making consumer loans to disclose: Annual Percentage Rate (APR), finance charge, amount financed, total of payments, and payment schedule. Regulation Z (Federal Reserve) implements TILA. Right of rescission: for certain home-secured loans (HELOCs, refinances — not purchase money mortgages), the borrower has 3 business days to rescind. TRID (TILA-RESPA Integrated Disclosures): Loan Estimate (LE) and Closing Disclosure (CD) are required for most residential mortgage transactions; strict disclosure timing requirements.
+
+38. FAIR DEBT COLLECTION PRACTICES ACT (FDCPA)
+Regulates third-party debt collectors (not original creditors) collecting consumer debts. Prohibitions: (a) contacting consumers at inconvenient times (before 8 AM or after 9 PM); (b) contacting consumers at work if told not to; (c) using abusive, harassing, or threatening language; (d) making false or misleading representations (falsely representing amounts owed, impersonating attorneys or government officials); (e) using unfair practices (collecting fees not authorized by the agreement or law; depositing post-dated checks early). Consumer rights: right to request debt validation within 30 days of initial contact; right to request cease communication. Civil liability: actual damages, statutory damages up to $1,000 per case, plus attorney's fees.
+
+39. ELECTRONIC FUND TRANSFER ACT (EFTA) / REGULATION E
+Governs electronic fund transfers from consumer deposit accounts: ATM withdrawals, debit card purchases, ACH transfers, payroll direct deposits, POS transactions. Consumer protections: (a) unauthorized transfer liability limited to $50 if reported within 2 business days; $500 if reported within 60 days; unlimited if reported after 60 days; (b) right to receive documentation (receipts, periodic statements, advance notice of changes); (c) error resolution procedure — financial institution must investigate errors within 10–45 business days. Prepaid accounts covered by Regulation E since 2018.
+
+40. PAYMENT SERVICES DIRECTIVE (PSD2) — EU
+Requires banks in the EU/EEA to allow regulated third-party payment service providers (TPPs) to access customer accounts (open banking). Two types of TPPs: (a) Account Information Service Providers (AISPs) — access account data with customer consent; (b) Payment Initiation Service Providers (PISPs) — initiate payments from customer accounts. PSD2 imposes Strong Customer Authentication (SCA) requirements for electronic payments. PSD3 and PSR (Payment Services Regulation) proposed to replace PSD2.
+
+41. DODD-FRANK PAYMENT REGULATIONS
+Dodd-Frank Act payment-related provisions: (a) Durbin Amendment (§ 1075) — debit card interchange fee caps (Fed's Regulation II: issuers with ≥$10B assets capped at $0.21 + 0.05% + $0.01 fraud prevention adjustment per transaction); (b) Gift card regulations (§ 915): 5-year minimum expiration date; no inactivity fees within first 12 months; (c) Remittance transfers (§ 1073): disclosure requirements for international money transfers. The CFPB oversees payment-related consumer protection regulations.
+
+42. ANTI-MONEY LAUNDERING AND PAYMENT MONITORING
+Payment service providers, banks, and money services businesses must implement AML controls for payment monitoring: (a) transaction monitoring systems flag suspicious patterns (structuring below $10,000 threshold — "smurfing"; rapid fund movement; unusual payment corridors); (b) OFAC sanctions screening of all payment parties; (c) Currency Transaction Reports (CTRs) for cash transactions over $10,000; (d) Suspicious Activity Reports (SARs) for suspected money laundering, structuring, or other suspicious activity; (e) Enhanced due diligence for high-risk customers and PEPs (Politically Exposed Persons). FinCEN Travel Rule: financial institutions must transmit identifying information alongside wire transfers of $3,000 or more.
+
+43. PAYMENT CARD INDUSTRY DATA SECURITY STANDARD (PCI-DSS)
+A mandatory security standard for organizations that handle branded credit card payments. Version 4.0 (effective March 2025). 12 requirements organized in 6 goals: (a) build and maintain a secure network; (b) protect cardholder data; (c) maintain a vulnerability management program; (d) implement strong access control measures; (e) regularly monitor and test networks; (f) maintain an information security policy. Merchant levels (based on transaction volume) determine the required validation method (SAQ, external QSA assessment). Non-compliance penalties: fines from card brands ($5,000–$100,000/month), increased interchange rates, loss of card acceptance privileges.
+
+44. MONEY TRANSMISSION LAWS
+Businesses that transmit money on behalf of others (payment processors, money remitters, peer-to-peer payment platforms, cryptocurrency exchanges, digital wallets) are regulated as money services businesses (MSBs) under federal law (BSA/FinCEN) and must obtain money transmitter licenses (MTLs) in each state where they operate (currently 48 states + DC require MTLs). Requirements vary: net worth/bonding requirements, permissible investments to back outstanding payment obligations, consumer protection rules, and reporting requirements. The CSBS Model Money Transmission Act seeks to harmonize state MTL requirements.
+
+45. GOVERNMENT PAYMENT REGULATIONS (PAYMENT FOR GOVERNMENT SERVICES)
+Federal Prompt Payment Act: requires federal agencies to pay invoices within 30 days (or the specified contract payment period); interest accrues at the Treasury rate on late payments. Contract Disputes Act (CDA): disputes over amounts owed under federal contracts resolved through contracting officer final decisions and appeals to agency boards or Court of Federal Claims. False Claims Act: contractors who submit false payment claims to the federal government face treble damages and per-claim penalties. The GAO and agency IGs audit government payment systems for fraud, waste, and abuse.
+
+─────────────────────────────────────────
+SECTION 6: INTERNATIONAL PAYMENTS
+─────────────────────────────────────────
+
+46. INTERNATIONAL WIRE TRANSFERS (SWIFT)
+SWIFT (Society for Worldwide Interbank Financial Telecommunication) is the global messaging network for international financial transactions. SWIFT messages (MT 103 for customer credit transfers; MT 202 for interbank transfers) facilitate cross-border wire transfers through correspondent banking relationships. Correspondent banks: banks that maintain accounts with each other to facilitate transactions in each other's currencies. SWIFT disconnection (as imposed on Russian banks post-2022) severely restricts a country's ability to receive international payments.
+
+47. INTERNATIONAL TRADE PAYMENT METHODS
+Ranked by risk: (a) Cash in advance — seller bears no risk; buyer bears maximum risk; (b) Letter of credit — risk allocated by document compliance; (c) Documentary collection — bank facilitates document exchange but does not guarantee payment; (d) Open account — buyer pays after receiving goods; seller bears maximum risk. Documentary collections: D/P (documents against payment — buyer pays before receiving documents to collect goods); D/A (documents against acceptance — buyer accepts a draft, receives documents immediately, pays at maturity).
+
+48. FOREIGN EXCHANGE AND CURRENCY RISK IN PAYMENTS
+Parties contracting in different currencies bear foreign exchange (FX) risk. Management strategies: (a) invoicing in the payor's local currency shifts FX risk to the payee; (b) invoicing in a hard currency (USD, EUR, GBP) shifts risk to the payor; (c) hedging with forward contracts (locking in the exchange rate for a future payment); (d) options (right but not obligation to exchange at a specified rate); (e) natural hedging (matching revenues and expenses in the same currency). Currency fluctuations can turn a profitable contract into a loss (e.g., significant GBP devaluation after Brexit).
+
+49. REMITTANCE PAYMENTS
+Funds sent by migrant workers to family members in their home countries. Global remittance flows exceed $800 billion annually. Regulated as money transfers; subject to FinCEN reporting requirements and state MTL requirements. The Dodd-Frank Remittance Rule (Regulation E, Subpart B) requires money transfer operators to disclose: exchange rate, fees, taxes, amount to be received by recipient, and funds availability. Error resolution rights. Price transparency through apps (Wise, Remitly, WorldRemit) has reduced the cost of remittances (global average: ~5.8% as of 2023).
+
+50. PAYMENT DISPUTES IN INTERNATIONAL TRADE
+Common causes: (a) documentary discrepancy in LC presentations (buyer's bank rejects documents for minor discrepancies); (b) non-delivery or short delivery; (c) quality disputes; (d) force majeure excusing non-performance; (e) sanctions preventing payment. Resolution: SWIFT advice of discrepancy; waiver by the applicant (buyer); re-presentation of corrected documents; arbitration under ICC or SIAC rules for underlying contract disputes. URDG 758 (ICC Uniform Rules for Demand Guarantees) governs demand guarantees commonly used in international trade.
+
+─────────────────────────────────────────
+SECTION 7: TAXATION OF PAYMENTS
+─────────────────────────────────────────
+
+51. TAX TREATMENT OF PAYMENTS: ORDINARY INCOME VS. CAPITAL GAIN
+Tax treatment depends on the nature and source of the payment: (a) wages and salaries — ordinary income, subject to income tax and FICA; (b) royalties — ordinary income; (c) interest income — ordinary income; (d) dividends — qualified dividends taxed at preferential capital gains rates (0%, 15%, 20%); (e) capital gains on sale of assets held >1 year — long-term capital gains rates (0%, 15%, 20% for individuals; 21% for corporations); (f) short-term capital gains (assets held ≤1 year) — ordinary income rates; (g) rent — ordinary income; (h) alimony — no longer deductible/includible post-TCJA (for agreements after December 31, 2018).
+
+52. WITHHOLDING TAX ON CROSS-BORDER PAYMENTS
+The US imposes withholding tax on payments made to foreign persons: (a) FDAP income (fixed, determinable, annual, or periodical income: dividends, interest, rents, royalties, compensation) — 30% statutory withholding rate, reducible by tax treaty; (b) FIRPTA withholding — 15% withholding on sale of US real property interests by foreign persons (IRC § 1445); (c) ECI (effectively connected income with a US trade or business) — taxed at US income tax rates. Form W-8BEN (individuals) and W-8BEN-E (entities) are used to claim treaty benefits. FATCA requires foreign financial institutions (FFIs) to report on US account holders or face 30% withholding on US-source payments.
+
+53. SECTION 409A DEFERRED COMPENSATION
+IRC § 409A governs the taxation of nonqualified deferred compensation arrangements (amounts earned in one year but paid in a future year). Compliant arrangements must satisfy: (a) elections to defer must be made before the year the services are performed; (b) permissible payment triggers (separation from service, disability, death, change of control, unforeseeable emergency, fixed schedule); (c) six-month delay for specified employees (top 50 officers of public companies) upon separation from service. Non-compliance results in immediate income inclusion, 20% excise tax, and interest. Most employment agreements, bonus plans, and equity arrangements must be reviewed for § 409A compliance.
+
+54. TRANSFER PRICING (INTERCOMPANY PAYMENTS)
+Related parties (parent-subsidiary, affiliates) must price intercompany transactions (goods, services, IP licenses, loans) at arm's length (IRC § 482). OECD Transfer Pricing Guidelines (adopted in BEPS project) govern international transfer pricing. Methods: comparable uncontrolled price (CUP), resale price method, cost plus method, transactional net margin method (TNMM), profit split method. Advance Pricing Agreements (APAs) with taxing authorities provide certainty. Penalties for substantial valuation misstatements under IRC § 6662(e): 20% penalty; gross valuation misstatement: 40% penalty.
+
+55. SALES TAX ON PAYMENTS
+Sales tax imposed by states and localities on sales of tangible personal property and some services (taxability of services varies widely by state). Economic nexus: after South Dakota v. Wayfair (2018), states may require out-of-state sellers with ≥$100,000 in sales or 200 transactions to collect and remit sales tax. 45 states + DC impose sales tax; New Hampshire, Oregon, Montana, Alaska, Delaware do not. Marketplace facilitator laws: platforms (Amazon, eBay, Etsy) must collect and remit sales tax on behalf of third-party sellers. Use tax: imposed on buyers who purchase goods for use in a state without paying that state's sales tax.
+
+─────────────────────────────────────────
+SECTION 8: BANKRUPTCY AND PAYMENT
+─────────────────────────────────────────
+
+56. PREFERENCE PAYMENTS IN BANKRUPTCY
+A payment made by the debtor to a creditor within 90 days before the bankruptcy filing (one year for insiders) that allows the creditor to receive more than it would in a Chapter 7 liquidation is a "preference" that the bankruptcy trustee may avoid (11 U.S.C. § 547). The trustee may sue to recover the preference payment from the creditor. Defenses: (a) contemporaneous exchange for new value; (b) ordinary course of business; (c) subsequent new value (creditor extended new credit after the preferential payment). Preference actions are frequently settled for a negotiated amount.
+
+57. FRAUDULENT TRANSFER AVOIDANCE (BANKRUPTCY)
+A trustee may avoid transfers made with actual or constructive fraudulent intent (11 U.S.C. § 548 — 2-year look-back; § 544 — state fraudulent transfer law, longer look-back period). Constructive fraud: transfer made for less than reasonably equivalent value when the debtor was insolvent, undercapitalized, or unable to pay debts as they come due. Avoided transfers are recovered by the bankruptcy estate for the benefit of creditors. Ponzi scheme payments: payments to investors constituting returns of principal (not profits) may be recovered as fraudulent transfers regardless of recipient's knowledge.
+
+58. SUBORDINATION OF CLAIMS IN BANKRUPTCY
+A creditor's claim may be subordinated (paid after other creditors) under 11 U.S.C. § 510: (a) equitable subordination — the court subordinates a claim for inequitable conduct by the claimant that damaged other creditors (typical for controlling shareholder claims); (b) contractual subordination — the parties agreed that one claim is subordinate to another (subordinated debt, mezzanine loans); (c) statutory subordination (§ 510(b)) — claims arising from rescission of a securities purchase, or for damages from purchase/sale of the debtor's securities, are subordinated. Post-petition interest is subordinated to pre-petition claims in solvent estate cases.
+
+59. POST-PETITION FINANCING (DIP FINANCING)
+A debtor-in-possession (DIP) may obtain financing after filing bankruptcy only with court approval (11 U.S.C. § 364). DIP lenders typically receive: (a) administrative expense priority (super-priority) ahead of pre-petition unsecured creditors; (b) priming liens senior to pre-petition secured creditors (subject to adequate protection of the primed creditors). DIP financing is typically structured as a revolving credit facility with strict milestones and covenants (sale deadline, plan filing deadline). Roll-up provisions (converting pre-petition debt to DIP debt) are scrutinized by courts and the U.S. Trustee.
+
+60. CHAPTER 11 PLAN PAYMENTS
+A confirmed Chapter 11 plan provides for payment of claims in specified amounts, timing, and form (cash, new debt securities, equity interests). Classification of claims: (a) secured claims — paid at least the value of the collateral; (b) priority unsecured claims — paid in full (administrative expenses, wage claims up to $15,150, tax claims); (c) general unsecured claims — receive any remaining value; (d) equity interests — receive value only after creditors are paid in full (absolute priority rule). Cramdown: a plan can be confirmed over a dissenting class if it is fair and equitable and does not unfairly discriminate. Structured dismissal: some Chapter 11 cases end in a dismissal with an agreed distribution waterfall rather than a confirmed plan.
+
+─────────────────────────────────────────
+SECTION 9: PAYMENT FRAUD AND CYBERCRIME
+─────────────────────────────────────────
+
+61. BUSINESS EMAIL COMPROMISE (BEC)
+A fraud scheme in which criminals impersonate executives, employees, or vendors via spoofed or hacked email accounts to induce the victim to wire funds to a fraudulent account. BEC resulted in over $2.9 billion in losses in the US in 2023 (FBI IC3). Criminals exploit wire transfers because they are immediate and difficult to reverse. Prevention: callback verification procedures using independently verified phone numbers; dual authorization for wire transfers; email filtering; employee training. Recovery: FBI's Financial Fraud Kill Chain and SWIFT payment controls may recover wired funds if reported immediately.
+
+62. PAYMENT FRAUD: CHECK FRAUD
+Fraud involving checks: (a) check kiting — exploiting float by writing checks between accounts before funds clear; (b) account takeover — fraudster gains control of a business's bank account and issues fraudulent checks; (c) counterfeit checks — printing fake checks with valid account information; (d) check washing — chemically altering a check to change payee or amount; (e) remote deposit fraud — depositing the same check at multiple institutions. Positive Pay: banks match checks presented for payment against an authorized check file; reduces check fraud significantly. UCC § 4-406: customers must review and report unauthorized checks within one year or lose the right to dispute.
+
+63. CREDIT CARD FRAUD
+Unauthorized use of credit card or account information. Types: (a) card-present fraud (stolen physical card); (b) card-not-present (CNP) fraud (online transactions using stolen card data — growing due to EMV chip adoption reducing card-present fraud); (c) account takeover; (d) synthetic identity fraud (creating fictitious identities using real SSNs). Liability: Regulation Z limits consumer liability to $50 for credit card fraud if reported promptly. Card networks shift liability to merchants who have not implemented EMV chip terminals. Tokenization and 3D Secure (Verified by Visa, Mastercard Identity Check) reduce CNP fraud.
+
+64. INTERNAL PAYMENT FRAUD (EMBEZZLEMENT)
+Theft or misappropriation of funds by employees or agents. Schemes: (a) skimming (stealing cash before recording); (b) larceny (stealing cash after recording); (c) billing schemes (submitting false vendor invoices — shell companies, inflated invoices); (d) payroll fraud (ghost employees, falsified hours); (e) check tampering (signing unauthorized checks, intercepting checks); (f) expense reimbursement fraud. Internal controls: segregation of duties; dual authorization for payments; regular bank reconciliations; surprise audits; internal audit function. ACFE Report to the Nations: median fraud loss of $1.7 million in 2022; median duration before detection: 12 months.
+
+65. PAYMENT FRAUD: WIRE FRAUD (CRIMINAL)
+18 U.S.C. § 1343 prohibits schemes to defraud using wire communications in interstate or foreign commerce. Wire fraud elements: (a) scheme to defraud; (b) intent to defraud; (c) use of wire communications in furtherance. Penalties: up to 20 years imprisonment; up to 30 years for wire fraud affecting financial institutions or in connection with a federal disaster declaration. Forfeiture: criminal forfeiture of proceeds of wire fraud. Wire fraud is frequently charged alongside mail fraud, bank fraud, and money laundering. RICO (Racketeer Influenced and Corrupt Organizations Act) — a pattern of wire fraud predicates supports RICO charges and civil RICO claims (treble damages).
+
+─────────────────────────────────────────
+SECTION 10: ADDITIONAL PAYMENT TOPICS
+─────────────────────────────────────────
+
+66. GARNISHMENT
+A legal process by which a creditor (garnishor) obtains a court order directing a third party (garnishee — typically the debtor's employer or bank) to pay the debtor's funds to the creditor rather than to the debtor. Wage garnishment: federal law (CCPA — Consumer Credit Protection Act) limits wage garnishment to the lesser of: 25% of disposable earnings or the amount by which disposable earnings exceed 30x the federal minimum wage per week; priority order for multiple garnishments; child support and alimony receive priority over other garnishments (up to 50–65% of disposable earnings). Bank garnishment: a bank's obligation to pay account balances in response to a garnishment order.
+
+67. LIEN PRIORITY IN PAYMENT
+When multiple creditors hold liens on the same property, priority determines the order of payment from proceeds. General rules: (a) "First in time, first in right" — earlier-perfected lien has priority; (b) purchase money security interests (PMSIs) in inventory or non-inventory collateral have super-priority over prior security interests; (c) federal tax liens (IRS Form 668(Y)) have priority over subsequent lien creditors but not over holders of perfected security interests, purchase money security interests, mechanic's liens, and other specified interests (IRC § 6323); (d) state law governs lien priority for real property (recording acts: race-notice statutes in most states).
+
+68. DEBT SUBORDINATION AGREEMENTS
+Contractual arrangements between creditors of the same debtor specifying the order of payment. Senior debt: paid first; junior or subordinated debt: paid only after senior debt is paid in full (payment blockage provisions). Subordination agreements are enforced under state law and in bankruptcy (11 U.S.C. § 510(a)). Intercreditor agreements govern the priority and enforcement rights of senior and junior secured creditors (first lien / second lien). Mezzanine debt: unsecured or second-lien debt subordinated to senior bank debt; typically carries higher interest rates.
+
+69. STRUCTURED SETTLEMENT PAYMENTS
+Periodic payments to compensate for personal injury, workers' compensation, or wrongful death. Instead of a lump-sum settlement, the defendant (or its insurer) purchases an annuity from a life insurance company to fund the future payment stream. Tax benefit: IRC § 104(a)(2) — personal injury damages received as structured settlements are tax-free. Structured settlement transfer: the Structured Settlement Protection Acts (enacted in most states) require court approval for a structured settlement recipient to sell future payment rights to a factoring company. The sale must be in the payee's best interest.
+
+70. CHILD SUPPORT PAYMENT ENFORCEMENT
+States are required by federal law (Social Security Act Title IV-D, 42 U.S.C. § 651 et seq.) to operate child support enforcement agencies. Enforcement tools: (a) income withholding orders (automatic withholding from the obligor's employer — mandatory for most orders); (b) license suspension (driver's, professional, recreational); (c) passport denial; (d) tax refund offset; (e) credit bureau reporting; (f) bank account levies; (g) contempt of court (civil and criminal). Federal law criminalizes failure to pay support exceeding $5,000 or delinquent for more than one year (Deadbeat Parents Punishment Act). UIFSA (Uniform Interstate Family Support Act) governs enforcement of child support orders across state lines.
+
+71. ALIMONY / SPOUSAL SUPPORT PAYMENT OBLIGATIONS
+A court-ordered payment from one former spouse to another after divorce. Types: (a) temporary (pendente lite) — during divorce proceedings; (b) rehabilitative — time-limited; supports the recipient while seeking employment or education; (c) reimbursement — reimburses a spouse for contributions to the other's career; (d) permanent/indefinite — for long marriages or where a spouse is unable to be self-supporting; (e) lump-sum — one-time payment. Tax treatment post-TCJA (for agreements after December 31, 2018): alimony is neither deductible by the payor nor includible in income of the recipient. Modification: courts can modify alimony upon material change in circumstances; permanent alimony terminates on the recipient's remarriage.
+
+72. PAYMENT OBLIGATIONS IN SETTLEMENTS
+Settlement agreements create binding payment obligations enforceable as contracts. Key terms: payment amount and schedule; payment method (cash, check, wire); release of claims; confidentiality; non-disparagement; representations and warranties; default provisions (acceleration upon payment default); judgment stipulation (confession of judgment filed upon default in some jurisdictions). Structured settlements: periodic payments; lump-sum buyouts negotiated to present value. In class actions, settlement payments must be distributed pursuant to a court-approved distribution plan.
+
+73. PAYMENT IN KIND (PIK)
+A financing arrangement in which interest, dividends, or other amounts are paid in additional securities (debt or equity) rather than cash. PIK toggle notes: the issuer has the option to pay interest in cash or PIK on each payment date. PIK interest is added to the principal balance (accreted); it is taxable to the holder as ordinary income even though no cash is received (OID rules). PIK preferred stock: dividends paid in additional preferred shares. PIK financing is used in highly leveraged transactions where the issuer lacks immediate cash flow to service debt. PIK accrual increases leverage over time.
+
+74. CLAWBACK OF PAYMENTS (DODD-FRANK / SOX)
+Dodd-Frank § 954 (SEC Rule 10D-1, effective January 2023): public companies must adopt clawback policies requiring recovery of excess incentive compensation paid to current and former executive officers based on financial results that were subsequently restated (material error; not necessarily misconduct). Clawback period: 3 years preceding the restatement. SOX § 304: voluntary clawback of CEO/CFO compensation (salary, bonuses, equity gains) upon misconduct-related restatements. Private company clawback provisions in employment agreements may require repayment of sign-on bonuses if the employee leaves within a specified period.
+
+75. DIVIDEND PAYMENTS
+Distributions of profits by a corporation to its shareholders. Governing law: DGCL § 170 — directors may declare dividends out of surplus or (if no surplus) out of net profits for the current or preceding fiscal year (nimble dividends). Solvency test: many state statutes prohibit dividends that would render the corporation unable to pay debts as they come due. Preferred dividends: preferences specified in the certificate of incorporation; cumulative preferred dividends accrue if not paid. Taxes: C corporation dividends are subject to double taxation (corporate and shareholder level); qualified dividends are taxed at preferential rates.
+
+76. LIQUIDATION PREFERENCE PAYMENTS (VENTURE CAPITAL)
+In a preferred stock liquidation or sale of the company, holders of preferred shares have a liquidation preference over common shareholders. Types: (a) non-participating preferred — preferred holders receive their preference amount (typically invested capital + accrued dividends) and then step aside; common holders receive the remainder; (b) participating preferred — preferred holders receive their preference and then also participate with common holders in the remaining proceeds (in proportion to their as-converted common ownership). Participation caps limit the total return to preferred holders before the preference is no longer advantageous.
+
+77. GOVERNMENT GRANT PAYMENTS
+Federal grants are governed by the Uniform Guidance (2 C.F.R. Part 200) and agency-specific regulations. Key payment provisions: (a) grants are advance-funded or reimbursement-based; (b) draw-down requests through the Payment Management System (PMS) or agency payment systems; (c) expenditure requirements (spend within the period of performance; no pre-award costs without approval); (d) cost principles — allowable, allocable, and reasonable costs; (e) single Audit requirement — for federal expenditures over $750,000/year; (f) grant payment closeout — return of unspent funds; final reporting obligations.
+
+78. CONTRACTOR PAYMENT BOND CLAIMS (MILLER ACT)
+Subcontractors and suppliers on federal construction projects who are not paid by the general contractor may sue on the payment bond (required under the Miller Act for federal contracts over $150,000). Claim requirements: (a) claimant performed work or supplied materials; (b) claimant gave required notice (remote claimants must give notice within 90 days of last furnishing materials/labor); (c) claim filed within one year of last furnishing. Many states have "Little Miller Act" statutes imposing similar requirements for state and local public projects.
+
+79. CONSTRUCTION PAYMENT APPLICATIONS
+The formal process by which contractors and subcontractors document and request payment. Standard AIA documents: G702 (Application and Certificate for Payment) submitted by the general contractor; G703 (Continuation Sheet — schedule of values breakdown); G704 (Certificate of Substantial Completion). The architect reviews and certifies the application. Owner has typically 7–30 days to pay after certification or to issue a notice of non-certification with reasons. Overpayment: if the contractor has been overpaid (due to defective work or overbilling), the owner has the right to recoup the overpayment.
+
+80. INSURANCE PREMIUM PAYMENTS
+The insured's obligation to pay premiums when due. Grace period: most insurance policies provide a 30-day grace period for payment of premiums after the due date; the policy remains in force during the grace period. Lapse: failure to pay within the grace period causes the policy to lapse (terminate coverage). Reinstatement: insurers may reinstate a lapsed policy upon payment of overdue premiums and evidence of continued insurability (some policies have automatic reinstatement provisions). Advance premium payments: most commercial policies require advance payment of the full annual premium or installments; cancellation for non-payment requires specified advance notice (typically 10 days for commercial).
+
+─────────────────────────────────────────
+SECTION 11: CRYPTOCURRENCY AND EMERGING PAYMENTS
+─────────────────────────────────────────
+
+81. STABLECOIN PAYMENTS
+Stablecoins are digital assets pegged to a stable asset (typically the US dollar). Types: (a) fiat-backed (USDC, USDT) — backed by reserves of cash and cash equivalents; (b) commodity-backed (PAXG — gold); (c) algorithmic (undercollateralized; Terra/LUNA collapsed 2022). Legal framework: SEC may view some stablecoins as securities; OCC has issued guidance permitting national banks to hold stablecoin reserves; the GENIUS Act (2025, pending) would establish a federal regulatory framework for payment stablecoins requiring 1:1 reserve backing and AML compliance.
+
+82. CENTRAL BANK DIGITAL CURRENCY (CBDC)
+A digital form of a country's fiat currency issued by the central bank. Retail CBDCs: accessible to the general public (digital cash); wholesale CBDCs: for interbank transactions. 130+ countries are exploring CBDCs (Atlantic Council tracker). The Federal Reserve has not issued a CBDC; the Fed's FedNow Service (launched July 2023) is an instant payment system, not a CBDC. China's digital yuan (e-CNY) is in advanced pilot. EU's digital euro project is in the preparation phase. Legal tender status for CBDCs must be established by legislation.
+
+83. OPEN BANKING AND API-BASED PAYMENTS
+Open banking allows third parties to access consumer bank account data and initiate payments via APIs with customer consent. In the EU: PSD2 mandates open banking. In the US: the CFPB's Rule (§ 1033 of Dodd-Frank) finalized in 2024 requires large banks to make customer financial data available to authorized third parties; challenged in litigation. Plaid, Yodlee, Finicity: data aggregators facilitating open banking. Payment initiation: Stripe, Dwolla, and other fintechs use open banking APIs to initiate ACH payments directly from bank accounts, bypassing card networks.
+
+84. BUY NOW, PAY LATER (BNPL) PAYMENTS
+Short-term consumer financing at point of sale, offering installment payments (typically 4 payments over 6 weeks) with no interest if paid on time. Providers: Affirm, Klarna, Afterpay, PayPal Pay Later, Apple Pay Later. Regulatory status: CFPB issued an interpretive rule (2024) classifying most BNPL products as credit cards under TILA, triggering disclosure and dispute resolution requirements; subject to state lending license requirements in some states. Credit risk: late fees; delinquencies; BNPL providers have higher loss rates than traditional credit cards.
+
+85. EMBEDDED FINANCE AND PAYMENT APIs
+Embedded finance integrates financial services (payments, lending, insurance) into non-financial platforms (SaaS, e-commerce, logistics). Stripe, Adyen, Marqeta, and Plaid provide payment APIs that allow platforms to offer payment acceptance, card issuing, and banking services without becoming regulated financial institutions. Banking-as-a-Service (BaaS): fintech companies partner with chartered banks to offer FDIC-insured accounts and payment services under the bank's charter. Regulatory scrutiny has increased; the OCC and FDIC have issued guidance on third-party risk management.
+
+─────────────────────────────────────────
+SECTION 12: ADDITIONAL PAYMENT TOPICS
+─────────────────────────────────────────
+
+86. INTEREST ON OVERDUE PAYMENTS
+When a payment is late, interest typically accrues on the overdue amount. Sources: (a) contractual — specified interest rate (e.g., 1.5%/month); (b) statutory — judgment interest rate under state law (prime rate + 1–3%, or fixed rate); (c) federal judgment interest rate (28 U.S.C. § 1961) — weekly average 1-year constant maturity Treasury rate on the date of judgment; (d) Prompt Payment Act interest (prime rate, accruing automatically without a claim being filed). Compound vs. simple interest: contract law generally provides for simple interest absent express compounding language.
+
+87. PAYMENT NETTING
+The process of offsetting mutual payment obligations to produce a single net amount due. Bilateral netting: two parties offset mutual obligations. Multilateral netting: a central counterparty (CCP) nets obligations across multiple participants. Settlement netting: netting of obligations due for settlement on the same date. Close-out netting: upon a counterparty's default, all outstanding obligations under a master agreement (ISDA Master Agreement) are terminated and replaced with a single net payment obligation. Close-out netting enforceability in bankruptcy is essential for derivatives markets; recognized under ISDA netting opinions in most major jurisdictions.
+
+88. PAYMENT WATERFALL IN PROJECT FINANCE
+The structured priority of cash flows from a project. Typical waterfall: (a) operating and maintenance expenses; (b) debt service (interest and principal); (c) debt service reserve account top-up; (d) maintenance reserve account top-up; (e) subordinated debt service; (f) profit distribution to equity. Senior lenders control the waterfall through the accounts agreement; funds deposited in the project accounts are swept to the waterfall accounts. Cash sweeps during events of default: all available cash swept to debt service. Distributions to equity are "trapped" during defaults or when reserve accounts are not fully funded.
+
+89. PAYMENT OBLIGATIONS IN DERIVATIVES (SWAPS)
+Under interest rate swaps: one party pays a fixed rate; the other pays a floating rate (SOFR + spread) on a notional amount; net payment flows from the party owing more. Credit default swaps (CDS): protection seller pays the protection buyer upon a credit event (bankruptcy, failure to pay, restructuring) on a reference entity. Cleared swaps: standardized swaps cleared through CCPs (CME, LCH) with daily margin requirements. Bilateral swaps: governed by ISDA Master Agreements (2002 ISDA MA) and Credit Support Annexes (CSA) governing margin/collateral posting.
+
+90. PAYMENT TERMS IN GOVERNMENT CONTRACTS
+Federal Acquisition Regulation (FAR) Part 32 governs payments under federal contracts: (a) progress payments — advance payments against costs incurred (cost-reimbursement contracts) or as a percentage of contract value; (b) milestone payments (fixed-price contracts); (c) performance-based payments (based on performance objectives rather than costs); (d) assignment of claims (contractors may assign rights to payment to financial institutions); (e) suspension of payment (contracting officer may suspend payments for adequate cause — disputes, defective work, security issues).
+
+91. PAYMENT SECURITY (UCC ARTICLE 9 — ACCOUNTS)
+A security interest in accounts receivable (trade receivables, payment intangibles) may be perfected by filing a UCC-1 financing statement. A factoring arrangement (outright sale of receivables) is also governed by UCC Article 9 (sales of accounts are treated like security interests for perfection purposes). Priority: the first-filed financing statement has priority (subject to exceptions for purchase money security interests in accounts). In bankruptcy, the trustee as a "hypothetical lien creditor" as of the petition date primes unperfected security interests. Factoring provides off-balance-sheet financing and credit enhancement.
+
+92. PAYMENT PROTECTION INSURANCE (PPI)
+Insurance that covers a borrower's loan payments in the event of disability, involuntary unemployment, or death. PPI was mis-sold on a massive scale in the UK — the FCA required banks to compensate customers for mis-selling; compensation claims exceeded £38 billion. In the US, credit insurance and debt cancellation products serve similar functions; CFPB has scrutinized these products as add-on products sold to credit card customers without adequate disclosure. Consumer risks: high premiums relative to benefit; exclusions and limitations that make claims unlikely to succeed.
+
+93. FINANCIAL CLOSE IN PROJECT FINANCE
+The point at which all financing documentation is executed, conditions precedent are satisfied, and funds are first drawn under the financing. Preconditions: execution of all project documents (concession agreement, EPC contract, O&M contract, off-take agreement, fuel supply agreement); satisfaction of regulatory conditions; delivery of legal opinions (including lender's counsel and local counsel opinions); perfection of security interests; establishment of project accounts; evidence of insurance; government consents and approvals. Financial close may be preceded by commercial close (all non-financing project documents executed).
+
+94. PERFORMANCE-BASED PAYMENT
+Payment contingent on achieving specified performance outcomes rather than the cost of inputs. Used in government contracting (Performance-Based Acquisition — FAR Part 37), healthcare (value-based care — bundled payments, pay-for-performance), and outcomes-based contracting. Metrics: must be objective, measurable, and within the service provider's control. Risk-sharing: both parties bear risk of non-achievement; vendor's margin depends on performance. Social Impact Bonds (SIBs): government pays investors only if a social program achieves specified outcomes; investors provide upfront capital to the program.
+
+95. PAYMENT CARD INTERCHANGE FEES
+Per-transaction fees paid by the merchant's bank (acquirer) to the cardholder's bank (issuer) each time a payment card is used. Interchange rates are set by Visa and Mastercard (not negotiated individually). Typical rates: credit card interchange 1.5–2.5% of transaction value; debit card interchange capped at $0.21 + 0.05% + $0.01 under Durbin Amendment (for large issuers). Merchants pass interchange costs to consumers through higher prices. Merchant surcharging: permitted under Visa/Mastercard rules (with limitations); prohibited in some states. EU Interchange Fee Regulation caps credit card interchange at 0.3% and debit at 0.2%.
+
+96. TRADE CREDIT INSURANCE
+Insurance protecting sellers against the risk that buyers will fail to pay for goods or services. Covers: insolvency/bankruptcy of the buyer; protracted default (failure to pay within 6 months of due date); political risk (for export transactions — transfer risk, political violence, expropriation). Provided by: Euler Hermes (Allianz Trade), Coface, Atradius, Export Credit Agencies (EXIM Bank, UK Export Finance). Premium: typically 0.15–0.5% of insured turnover. Claim: insurer pays (typically 85–95% of insured loss) after the insured exhausts recovery efforts. Trade credit insurance facilitates more aggressive credit terms and expansion into new markets.
+
+97. PAYMENT UNDER LETTERS OF CREDIT: DISCREPANCY AND WAIVER
+When a beneficiary presents documents under a letter of credit, the issuing bank must determine within a "reasonable time" (not to exceed 5 banking days under UCP 600 Art. 14(b)) whether the documents comply. Discrepancies: any deviation from the LC terms (wrong dates, description mismatch, missing documents, inaccurate amounts). Upon finding a discrepancy: (a) the bank may reject and return documents; (b) the bank may contact the applicant (buyer) for waiver of the discrepancy; (c) if waived, the bank pays; (d) if not waived, documents are returned. Strict compliance doctrine: minor typographical errors that do not affect meaning may be excused (UCP 600 Art. 14(d)).
+
+98. PAYMENT TERMS IN INTERNATIONAL COMMERCIAL CONTRACTS (INCOTERMS)
+Incoterms 2020 (International Commercial Terms, ICC) define delivery obligations, risk transfer, and cost allocation for international trade. Incoterms do not directly govern payment obligations but define when delivery has occurred (triggering payment under documentary credit arrangements). Key Incoterms and payment implications: (a) EXW (Ex Works) — buyer takes delivery at seller's facility; payment due upon collection; (b) FOB (Free on Board) — risk passes when goods cross the ship's rail; LC presentation includes bills of lading dated on or before the LC's expiry; (c) CIF (Cost, Insurance, Freight) — seller arranges freight and insurance; (d) DDP (Delivered Duty Paid) — seller bears all risk and cost including duties; payment typically upon delivery.
+
+99. PAYMENT DISPUTE RESOLUTION IN BANKING
+Bank customers may dispute transactions through multiple channels: (a) chargeback rights (credit and debit card transactions — governed by card network rules and Regulation Z/E); (b) error resolution (ACH errors — Regulation E — 10-45 business day resolution period); (c) wire transfer errors — immediate notification required; UCC Article 4A provides limited recovery rights; (d) arbitration — major banks' account agreements require binding arbitration and class action waivers for dispute resolution (upheld in CompuCredit Corp. v. Greenwood, 2012); (e) CFPB complaint process — consumers may file complaints with the CFPB; banks must respond within 60 days.
+
+100. PAYMENT BENCHMARKING AND OPTIMIZATION
+Organizations benchmark payment operations to identify efficiency opportunities: (a) days payable outstanding (DPO): average number of days to pay suppliers (higher DPO = better cash flow for the buyer); (b) days sales outstanding (DSO): average number of days to collect receivables (lower DSO = better cash flow for the seller); (c) straight-through processing (STP) rate: percentage of payments processed without manual intervention; (d) payment error rate: incorrect amounts, wrong accounts, duplicates; (e) cost per payment: fully loaded cost of processing a payment by type. Payment transformation: migrating from checks to ACH/wire; implementing AP automation; supply chain finance (SCF/reverse factoring) programs to optimize working capital across the supply chain.
