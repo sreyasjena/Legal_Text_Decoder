@@ -276,10 +276,10 @@ def show_auth():
                         </div>
                     </div>
                     <div class="auth-feat-item">
-                        <span class="auth-feat-icon">💾</span>
+                        <span class="auth-feat-icon">🔊</span>
                         <div class="auth-feat-text">
-                            <strong>Session persists</strong> — come back to the
-                            home page anytime without logging in again.
+                            <strong>Voice synthesis</strong> — AI reads your legal
+                            analysis aloud in your chosen language, hands-free.
                         </div>
                     </div>
                 </div>
