@@ -23,29 +23,32 @@ except ImportError:
     FIREBASE_AVAILABLE = False
 
 # ─────────────────────────────────────────────────────────
-# FIREBASE CONFIG  (reads from .env)
+# FIREBASE CONFIG  (reads from Streamlit secrets / .env)
 # ─────────────────────────────────────────────────────────
 FIREBASE_CRED_PATH = os.path.join(
     os.path.dirname(__file__), "..", "firebase_credentials.json"
 )
 
+def _get_secret(key: str, default: str = "") -> str:
+    """Read from Streamlit secrets first, then env vars."""
+    try:
+        return st.secrets[key]
+    except Exception:
+        return os.environ.get(key, default)
+
 FIREBASE_CONFIG = {
-    "apiKey":            os.environ.get("FIREBASE_API_KEY", ""),
-    "authDomain":        os.environ.get("FIREBASE_AUTH_DOMAIN", ""),
-    "projectId":         os.environ.get("FIREBASE_PROJECT_ID", ""),
-    "storageBucket":     os.environ.get("FIREBASE_STORAGE_BUCKET", ""),
-    "messagingSenderId": os.environ.get("FIREBASE_MESSAGING_SENDER_ID", ""),
-    "appId":             os.environ.get("FIREBASE_APP_ID", ""),
+    "apiKey":            _get_secret("FIREBASE_API_KEY"),
+    "authDomain":        _get_secret("FIREBASE_AUTH_DOMAIN"),
+    "projectId":         _get_secret("FIREBASE_PROJECT_ID"),
+    "storageBucket":     _get_secret("FIREBASE_STORAGE_BUCKET"),
+    "messagingSenderId": _get_secret("FIREBASE_MESSAGING_SENDER_ID"),
+    "appId":             _get_secret("FIREBASE_APP_ID"),
     "databaseURL":       "",
 }
 
-# Google OAuth Client credentials (set in .env / Streamlit secrets)
-GOOGLE_CLIENT_ID     = os.environ.get("GOOGLE_CLIENT_ID", "")
-GOOGLE_CLIENT_SECRET = os.environ.get("GOOGLE_CLIENT_SECRET", "")
-
-# The redirect URI must match exactly what you set in Google Cloud Console
-# e.g. https://lexai-legal.streamlit.app/
-REDIRECT_URI = os.environ.get("REDIRECT_URI", "https://lexai-legal.streamlit.app/")
+GOOGLE_CLIENT_ID     = _get_secret("GOOGLE_CLIENT_ID")
+GOOGLE_CLIENT_SECRET = _get_secret("GOOGLE_CLIENT_SECRET")
+REDIRECT_URI         = _get_secret("REDIRECT_URI", "https://lexai-legal.streamlit.app/")
 
 # ─────────────────────────────────────────────────────────
 # INITIALISATION  (called once per process)
@@ -62,7 +65,6 @@ def get_firebase():
     if not FIREBASE_AVAILABLE:
         return None, None
 
-    # Admin SDK
     if not firebase_admin._apps:
         try:
             cred = credentials.Certificate(FIREBASE_CRED_PATH)
@@ -71,7 +73,6 @@ def get_firebase():
             st.error(f"Firebase Admin init failed: {e}")
             return None, None
 
-    # Pyrebase client
     try:
         pb       = pyrebase.initialize_app(FIREBASE_CONFIG)
         _pb_auth = pb.auth()
@@ -84,70 +85,26 @@ def get_firebase():
 
 
 # ─────────────────────────────────────────────────────────
-# GOOGLE SIGN-IN  (OAuth 2.0 → Firebase token exchange)
+# GOOGLE SIGN-IN  (token exchange with Firebase)
 # ─────────────────────────────────────────────────────────
 
-def get_google_auth_url() -> str:
+def exchange_google_token(id_token: str):
     """
-    Build the Google OAuth 2.0 authorization URL.
-    Redirects user to Google → they approve → Google sends
-    ?code=... back to REDIRECT_URI.
-    """
-    base = "https://accounts.google.com/o/oauth2/v2/auth"
-    params = (
-        f"?client_id={GOOGLE_CLIENT_ID}"
-        f"&redirect_uri={REDIRECT_URI}"
-        f"&response_type=code"
-        f"&scope=openid%20email%20profile"
-        f"&prompt=select_account"
-    )
-    return base + params
-
-
-def exchange_google_code(code: str):
-    """
-    Exchange the Google OAuth authorization code for tokens,
-    then sign into Firebase with the Google ID token.
+    Exchange a Google ID token (from streamlit-oauth) with Firebase.
     Returns (uid, email, display_name) on success, (None, None, None) on failure.
     """
     try:
-        # Step 1 — Exchange code for Google tokens
-        token_resp = requests.post(
-            "https://oauth2.googleapis.com/token",
-            data={
-                "code":          code,
-                "client_id":     GOOGLE_CLIENT_ID,
-                "client_secret": GOOGLE_CLIENT_SECRET,
-                "redirect_uri":  REDIRECT_URI,
-                "grant_type":    "authorization_code",
-            },
-            timeout=10,
-        )
-        token_data = token_resp.json()
-
-        if "error" in token_data:
-            st.error(f"Google token error: {token_data.get('error_description', token_data['error'])}")
-            return None, None, None
-
-        id_token    = token_data.get("id_token", "")
-        access_token = token_data.get("access_token", "")
-
-        if not id_token:
-            st.error("No ID token returned from Google.")
-            return None, None, None
-
-        # Step 2 — Sign into Firebase with the Google ID token
-        api_key  = FIREBASE_CONFIG["apiKey"]
-        fb_url   = (
+        api_key = FIREBASE_CONFIG["apiKey"]
+        fb_url  = (
             f"https://identitytoolkit.googleapis.com/v1/"
             f"accounts:signInWithIdp?key={api_key}"
         )
-        fb_resp  = requests.post(
+        fb_resp = requests.post(
             fb_url,
             json={
-                "requestUri":       REDIRECT_URI,
-                "postBody":         f"id_token={id_token}&providerId=google.com",
-                "returnSecureToken": True,
+                "requestUri":          REDIRECT_URI,
+                "postBody":            f"id_token={id_token}&providerId=google.com",
+                "returnSecureToken":   True,
                 "returnIdpCredential": True,
             },
             timeout=10,
@@ -165,7 +122,7 @@ def exchange_google_code(code: str):
         return uid, email, display_name
 
     except Exception as e:
-        st.error(f"Google sign-in failed: {e}")
+        st.error(f"Google token exchange failed: {e}")
         return None, None, None
 
 
@@ -173,11 +130,6 @@ def exchange_google_code(code: str):
 # EMAIL MAGIC LINK  (via Firebase REST API)
 # ─────────────────────────────────────────────────────────
 def send_email_link(email: str) -> bool:
-    """
-    Send a Firebase passwordless sign-in link to the given email.
-    Uses the Firebase REST API directly — avoids pyrebase method gaps.
-    Returns True on success, False on failure.
-    """
     try:
         api_key = FIREBASE_CONFIG["apiKey"]
         url     = (
@@ -212,13 +164,11 @@ def send_email_link(email: str) -> bool:
 
 
 def _extract_oob_code(link: str) -> str:
-    """Extract the oobCode query parameter from a Firebase magic link URL."""
     try:
         parsed = urlparse(link)
         params = parse_qs(parsed.query)
         if "oobCode" in params:
             return params["oobCode"][0]
-        # Sometimes nested inside a 'link' parameter
         if "link" in params:
             inner        = urlparse(params["link"][0])
             inner_params = parse_qs(inner.query)
@@ -230,10 +180,6 @@ def _extract_oob_code(link: str) -> str:
 
 
 def verify_email_link(email: str, link: str):
-    """
-    Verify a Firebase magic link URL.
-    Returns (uid, email) on success, (None, None) on failure.
-    """
     try:
         oob_code = _extract_oob_code(link)
         if not oob_code:
@@ -272,13 +218,9 @@ def verify_email_link(email: str, link: str):
 # USER MANAGEMENT  (Firebase Admin SDK)
 # ─────────────────────────────────────────────────────────
 def firebase_create_or_get_user(email: str = None, phone: str = None):
-    """
-    Create a new Firebase user or fetch an existing one.
-    Returns the user's uid string, or None on failure.
-    """
     admin_auth, _ = get_firebase()
     if not admin_auth:
-        return "demo_uid"   # graceful fallback when Firebase not configured
+        return "demo_uid"
 
     try:
         if email:
