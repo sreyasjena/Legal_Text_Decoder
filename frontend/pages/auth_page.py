@@ -93,11 +93,12 @@ def _render_google_signin():
         return
 
     oauth2 = OAuth2Component(
-        client_id=GOOGLE_CLIENT_ID,
-        client_secret=GOOGLE_CLIENT_SECRET,
-        authroize_endpoint="https://accounts.google.com/o/oauth2/v2/auth",
-        token_endpoint="https://oauth2.googleapis.com/token",
-        refresh_token_endpoint="https://oauth2.googleapis.com/token",
+        GOOGLE_CLIENT_ID,
+        GOOGLE_CLIENT_SECRET,
+        "https://accounts.google.com/o/oauth2/v2/auth",
+        "https://oauth2.googleapis.com/token",
+        "https://oauth2.googleapis.com/token",
+        "https://oauth2.googleapis.com/revoke",
     )
 
     result = oauth2.authorize_button(
