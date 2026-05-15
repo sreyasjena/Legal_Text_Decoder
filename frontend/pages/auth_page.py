@@ -82,7 +82,7 @@ SECURITY_CARD = """
 # GOOGLE SIGN-IN COMPONENT
 # ─────────────────────────────────────────────────────────
 
-def _render_google_signin():
+def _render_google_signin(key="google_oauth"):
     """Render Google Sign-In button using streamlit-oauth."""
     if not OAUTH_AVAILABLE:
         st.warning("Google Sign-In not available — streamlit-oauth not installed.")
@@ -106,7 +106,7 @@ def _render_google_signin():
         icon="https://www.google.com/favicon.ico",
         redirect_uri=REDIRECT_URI,
         scope="openid email profile",
-        key="google_oauth",
+        key=key,
         extras_params={"prompt": "select_account"},
         use_container_width=True,
     )
@@ -425,7 +425,7 @@ def show_auth():
                 'Choose your login method — no password needed.</div>',
                 unsafe_allow_html=True,
             )
-            _render_google_signin()
+            _render_google_signin(key="google_oauth_login")
             _method_selector("li")
             if st.session_state.auth_method == "email":
                 _email_form("li", "Send Login Link", "btn-otp")
@@ -443,7 +443,7 @@ def show_auth():
                 'No password required. Verify with email or phone.</div>',
                 unsafe_allow_html=True,
             )
-            _render_google_signin()
+            _render_google_signin(key="google_oauth_signup")
             _method_selector("su")
             if st.session_state.auth_method == "email":
                 _email_form("su", "🚀  Send Signup Link", "btn-signup")
