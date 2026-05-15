@@ -1,0 +1,169 @@
+INDIA INTELLECTUAL PROPERTY AND CONSUMER LAW KNOWLEDGE BASE
+=============================================================
+Comprehensive reference for Indian IP law, data protection, and consumer rights.
+
+─────────────────────────────────────────
+SECTION 1: COPYRIGHT ACT, 1957
+─────────────────────────────────────────
+
+1. COPYRIGHT IN INDIA — OVERVIEW
+The Copyright Act, 1957 protects original literary, dramatic, musical, artistic works, cinematograph films, and sound recordings.
+(a) No registration required — copyright subsists automatically on creation.
+(b) Registration is optional but creates a public record and helps in enforcement.
+(c) Duration: Life of author + 60 years for literary, dramatic, musical, artistic works. 60 years from publication for films, sound recordings, photographs, government works.
+(d) Copyright Office: Registrar of Copyrights, New Delhi.
+
+2. WORKS PROTECTED UNDER COPYRIGHT ACT
+(a) Literary works: Books, articles, computer programs, databases.
+(b) Dramatic works: Scripts, plays, choreography.
+(c) Musical works: Compositions (not recordings).
+(d) Artistic works: Paintings, sculptures, photographs, architectural works.
+(e) Cinematograph films: Motion pictures.
+(f) Sound recordings: Audio recordings.
+Computer software is protected as a literary work under the Copyright Act.
+
+3. OWNERSHIP OF COPYRIGHT IN INDIA
+(a) Author is the first owner of copyright.
+(b) Works made in course of employment: Employer is the first owner (Section 17) for literary, dramatic, musical, artistic works and computer programs created by employees in the course of employment.
+(c) Commissioned works: For photographs, paintings, portraits, engravings, films — the person commissioning the work is the first owner (unless otherwise agreed).
+(d) Government works: Government is the first owner of works made under government direction.
+(e) Works of joint authorship: Co-owned by all authors.
+
+4. COPYRIGHT INFRINGEMENT AND REMEDIES IN INDIA
+(a) Infringement: Unauthorized reproduction, distribution, public performance, adaptation of copyrighted work.
+(b) Civil remedies: Injunction, damages (actual damages or account of profits), delivery up of infringing copies.
+(c) Criminal remedies: Imprisonment up to 3 years and fine up to Rs. 2 lakhs for first offence.
+(d) Anton Piller order (search and seizure without notice): Available in India for urgent IP protection.
+(e) Fair dealing: Research, private study, criticism, review, reporting current events — permitted without permission.
+
+─────────────────────────────────────────
+SECTION 2: PATENTS ACT, 1970
+─────────────────────────────────────────
+
+5. PATENTS IN INDIA — OVERVIEW
+The Patents Act, 1970 (amended 2005 to comply with TRIPS) governs patents in India.
+(a) Patentable subject matter: New inventions involving an inventive step and capable of industrial application.
+(b) Non-patentable: Mathematical methods, mental acts, business methods, computer programs per se, literary/artistic works, discoveries, traditional knowledge, plants/animals, methods of treatment, inventions contrary to public order or morality.
+(c) Duration: 20 years from filing date.
+(d) Types of patents: Product patent and process patent (India grants both since 2005).
+
+6. PATENT FILING IN INDIA
+(a) Indian Patent Office: Offices in Mumbai, Delhi, Chennai, Kolkata.
+(b) Provisional application: Filed to establish priority date — 12 months to file complete specification.
+(c) Complete application: Detailed specification with claims.
+(d) Publication: Automatically published after 18 months.
+(e) Examination: Request for examination must be filed within 48 months.
+(f) PCT (Patent Cooperation Treaty): India is a member — allows filing in 150+ countries through a single application.
+(g) Fast-track examination: Available for startups, MSMEs, applicants from countries offering reciprocal treatment.
+
+─────────────────────────────────────────
+SECTION 3: TRADE MARKS ACT, 1999
+─────────────────────────────────────────
+
+7. TRADE MARKS IN INDIA
+The Trade Marks Act, 1999 governs registration and protection of trade marks.
+(a) Trade mark: A mark (word, logo, symbol, shape, color, sound) that distinguishes goods/services of one person from those of others.
+(b) Registration: Not mandatory but provides statutory protection and exclusive right to use.
+(c) Duration: 10 years, renewable indefinitely.
+(d) Classes: 45 classes (34 for goods, 11 for services) under Nice Classification.
+(e) Controller General of Patents, Designs and Trade Marks: Administers the Trade Marks Registry.
+(f) Common law protection (passing off): Even unregistered marks can be protected if sufficient reputation is established.
+
+8. TRADE MARK INFRINGEMENT IN INDIA
+(a) Infringement: Unauthorized use of a registered trade mark in the course of trade.
+(b) Passing off: Misrepresentation that goods/services of one person are those of another — available for unregistered marks.
+(c) Remedies: Injunction, damages/account of profits, delivery up of infringing goods.
+(d) Well-known marks: Broader protection — cannot be used even for dissimilar goods/services.
+
+─────────────────────────────────────────
+SECTION 4: INFORMATION TECHNOLOGY ACT, 2000
+─────────────────────────────────────────
+
+9. IT ACT, 2000 — KEY PROVISIONS
+(a) Legal recognition of electronic records and digital signatures.
+(b) Section 43: Penalty for unauthorized access to computers, data theft, virus introduction.
+(c) Section 66: Computer related offences — imprisonment up to 3 years and fine.
+(d) Section 66A (struck down by Supreme Court in Shreya Singhal case 2015): Was used for online speech offences.
+(e) Section 66C: Identity theft — using another person's electronic signature, password.
+(f) Section 66D: Cheating by personation using computer resource.
+(g) Section 67: Publishing obscene material in electronic form.
+(h) Section 69: Government power to intercept, monitor, or decrypt information.
+(i) Section 72: Breach of confidentiality and privacy by intermediaries.
+(j) Section 79: Safe harbour for intermediaries (not liable for third-party content if they act as mere conduits and follow due diligence guidelines).
+
+10. INTERMEDIARY GUIDELINES AND DIGITAL MEDIA ETHICS CODE, 2021
+Rules issued under Section 79 of IT Act:
+(a) Significant Social Media Intermediaries (SSMI — 5 million+ users): Must appoint Chief Compliance Officer, Nodal Contact Person, Grievance Officer (India-based).
+(b) Traceability: SSMIs providing messaging services must identify originator of messages if required.
+(c) Grievance redressal: Acknowledge complaints within 24 hours, resolve within 15 days.
+(d) Monthly compliance report.
+(e) OTT platforms and digital news media: Subject to self-regulation and government oversight under Part III of the Rules.
+
+─────────────────────────────────────────
+SECTION 5: DIGITAL PERSONAL DATA PROTECTION ACT, 2023
+─────────────────────────────────────────
+
+11. DPDP ACT, 2023 — OVERVIEW
+The Digital Personal Data Protection Act, 2023 is India's first comprehensive data protection law.
+(a) Applies to: Processing of digital personal data within India; processing outside India if offering goods/services to persons in India.
+(b) Data Principal: The individual to whom personal data relates.
+(c) Data Fiduciary: Entity that determines purpose and means of processing personal data.
+(d) Data Processor: Entity that processes personal data on behalf of Data Fiduciary.
+(e) Consent: Processing requires free, specific, informed, unconditional, and unambiguous consent.
+(f) Consent Manager: Registered entity that enables data principals to give/withdraw consent.
+
+12. RIGHTS OF DATA PRINCIPALS UNDER DPDP ACT
+(a) Right to information: Know what data is processed and for what purpose.
+(b) Right to correction and erasure: Request correction or deletion of personal data.
+(c) Right to grievance redressal: Raise complaints with Data Fiduciary or Data Protection Board.
+(d) Right to nominate: Nominate another person to exercise rights on death or incapacity.
+
+13. OBLIGATIONS OF DATA FIDUCIARIES UNDER DPDP ACT
+(a) Process data only for lawful purposes with consent or legitimate uses.
+(b) Give notice to data principals before/at time of collecting consent.
+(c) Maintain security safeguards.
+(d) Notify Data Protection Board and affected individuals of personal data breach.
+(e) Erase data when no longer needed or on withdrawal of consent.
+(f) Significant Data Fiduciaries (designated by government): Additional obligations — Data Protection Impact Assessment, Data Auditor appointment, Data Localization (if required).
+(g) Penalties: Up to Rs. 250 crore per instance (Rs. 550 crore for breach affecting children's data).
+
+─────────────────────────────────────────
+SECTION 6: CONSUMER PROTECTION ACT, 2019
+─────────────────────────────────────────
+
+14. CONSUMER PROTECTION ACT, 2019 — OVERVIEW
+Replaced the Consumer Protection Act, 1986. Key changes:
+(a) E-commerce included: Online transactions covered.
+(b) Product liability: Manufacturers, sellers, and service providers liable for defective products.
+(c) Mediation: Consumer mediation cells at District, State, National levels.
+(d) Central Consumer Protection Authority (CCPA): Regulates unfair trade practices, misleading advertisements.
+(e) Enhanced pecuniary jurisdiction: District Commission — up to Rs. 1 crore; State Commission — Rs. 1 crore to Rs. 10 crore; National Commission — above Rs. 10 crore.
+
+15. WHO IS A CONSUMER UNDER INDIAN LAW
+Section 2(7): A person who buys goods or avails services for consideration. Includes:
+(a) Buyer of goods for personal use (not commercial resale).
+(b) User of services (including online services, financial services, medical services, education).
+(c) Online buyers: Explicitly included since 2019 Act.
+Excluded: Persons who buy goods for resale or commercial purposes.
+
+16. CONSUMER RIGHTS IN INDIA
+(a) Right to safety: Protection against hazardous goods and services.
+(b) Right to information: Truthful information about goods and services.
+(c) Right to choose: Access to competitive goods and services at fair prices.
+(d) Right to be heard: Representation in consumer forums.
+(e) Right to redressal: Compensation for unfair trade practices.
+(f) Right to consumer education: Awareness of rights.
+
+17. UNFAIR TRADE PRACTICES AND MISLEADING ADVERTISEMENTS
+(a) Unfair trade practice: False representation about quality, standard, quantity of goods/services.
+(b) Misleading advertisement: Misleads consumers, makes false claims, is considered harmful.
+(c) CCPA can: Issue directions to discontinue misleading ads, impose penalty up to Rs. 10 lakhs (Rs. 50 lakhs for repeated offences), order recall of dangerous goods.
+(d) E-commerce rules 2020: E-commerce entities must display country of origin, seller details, and genuine consumer reviews. No fake reviews.
+
+18. E-COMMERCE RULES, 2020 IN INDIA
+(a) Marketplace e-commerce entity: Cannot directly or indirectly influence prices in a manner contrary to applicable laws.
+(b) Inventory e-commerce entity: Bears product liability.
+(c) Mandatory disclosures: Legal name, address, customer care details, GSTIN, return/refund/exchange policy.
+(d) No preferential treatment to related sellers.
+(e) Grievance officer: Mandatory appointment. Acknowledge complaint within 48 hours, resolve within 1 month.
+(f) Country of origin: Must be displayed for all goods.

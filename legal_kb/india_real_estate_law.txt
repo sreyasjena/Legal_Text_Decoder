@@ -1,0 +1,162 @@
+INDIA REAL ESTATE LAW KNOWLEDGE BASE
+======================================
+Comprehensive reference for Indian real estate law, RERA, property transactions, and documentation.
+
+─────────────────────────────────────────
+SECTION 1: REAL ESTATE (REGULATION AND DEVELOPMENT) ACT, 2016 — RERA
+─────────────────────────────────────────
+
+1. RERA — OVERVIEW
+The Real Estate (Regulation and Development) Act, 2016 (RERA) was enacted to protect homebuyers and promote transparency in the real estate sector.
+(a) Mandatory registration of real estate projects with state RERA authority before advertising or selling.
+(b) Mandatory registration of real estate agents.
+(c) Developers must deposit 70% of project funds in a dedicated escrow account.
+(d) Strict timelines for project completion — penalty for delay.
+(e) Disclosure obligations: Project details, layout plans, approvals, timelines must be disclosed.
+(f) Defect liability: Developer liable for structural defects for 5 years after possession.
+(g) Grievance redressal: Homebuyers can file complaints with RERA authority, Adjudicating Officer, or Appellate Tribunal.
+
+2. STATE RERA AUTHORITIES IN INDIA
+Each state has its own RERA authority:
+(a) Karnataka RERA (K-RERA): rera.karnataka.gov.in
+(b) MahaRERA (Maharashtra): maharerait.maharashtra.gov.in
+(c) UP RERA: up-rera.in
+(d) Haryana RERA: haryanarera.gov.in
+(e) Tamil Nadu RERA: tnrera.in
+(f) Delhi RERA: rera.delhi.gov.in
+(g) Gujarat RERA: gujrera.gujarat.gov.in
+Homebuyers should always verify project registration on the state RERA website before booking.
+
+3. RIGHTS OF HOMEBUYERS UNDER RERA
+(a) Right to information: Access to project details, approvals, timelines.
+(b) Right to possession: Developer must give possession on promised date or pay interest at SBI MCLR + 2%.
+(c) Right to compensation: For false promises, structural defects, delay.
+(d) Right to refund: With interest if developer fails to deliver or homebuyer wishes to withdraw due to developer's fault.
+(e) Right to form Resident Welfare Association (RWA) after majority possession.
+(f) Right to maintenance services until RWA is formed.
+
+4. OBLIGATIONS OF DEVELOPERS UNDER RERA
+(a) Register project before advertising or selling.
+(b) Deposit 70% of collections in escrow account — use only for that project.
+(c) Update project progress on RERA website quarterly.
+(d) Complete project on time — any extension requires homebuyer consent.
+(e) Hand over common areas to RWA within 3 months of majority possession.
+(f) Obtain Completion Certificate and Occupancy Certificate before offering possession.
+(g) Maintain project for 5 years after possession — rectify structural defects free of cost.
+
+─────────────────────────────────────────
+SECTION 2: PROPERTY PURCHASE AND SALE IN INDIA
+─────────────────────────────────────────
+
+5. AGREEMENT TO SELL VS SALE DEED IN INDIA
+(a) Agreement to Sell: A preliminary document recording the intent to sell property on agreed terms and conditions. It does not transfer ownership. It is an executory contract — property transfers in the future.
+(b) Sale Deed: The final document that actually transfers ownership of property from seller to buyer. It must be registered with the Sub-Registrar. Upon registration, ownership passes to buyer.
+(c) Difference: Agreement to sell creates a right in personam (personal right); sale deed creates a right in rem (right over property).
+
+6. ESSENTIAL DOCUMENTS FOR PROPERTY PURCHASE IN INDIA
+(a) Sale Deed — main document of title.
+(b) Encumbrance Certificate (EC) — shows all registered transactions on the property (mortgages, sale deeds). Obtained from Sub-Registrar office.
+(c) Khata Certificate — municipal record of property ownership. Required for tax payment and building plan approval.
+(d) Property Tax Receipts — proof of tax payment.
+(e) Approved Building Plan — sanctioned by local authority (BBMP, BDA, etc.).
+(f) Occupancy Certificate (OC) — issued by local authority confirming building meets approved plan.
+(g) Completion Certificate (CC) — confirms construction is complete.
+(h) Patta/Record of Rights (RTC) — for agricultural land.
+(i) NOC from Society — for apartments in cooperative housing societies.
+(j) Home Loan NOC — if property was under mortgage.
+
+7. TITLE SEARCH AND DUE DILIGENCE IN INDIA
+Before purchasing property in India:
+(a) Verify title chain for last 30 years (minimum) — ensure clear and marketable title.
+(b) Check for encumbrances — mortgages, charges, litigation.
+(c) Verify EC (Encumbrance Certificate) from Sub-Registrar.
+(d) Check property tax payment status.
+(e) Verify approved plan and deviations.
+(f) Check for pending litigation in court records.
+(g) Verify seller's identity and authority to sell.
+(h) Check if property is agricultural land — conversion required for non-agricultural use.
+(i) Verify RERA registration for under-construction properties.
+(j) Check if property is in notified area — may have restrictions on sale.
+
+8. STAMP DUTY AND REGISTRATION CHARGES IN INDIA
+Stamp duty is payable on property transactions. Rates vary by state:
+(a) Karnataka: Stamp duty 5% + surcharge 10% on stamp duty + CESS. Registration charge 1% of property value. Women buyers get 1% rebate on stamp duty.
+(b) Maharashtra: Stamp duty 5% (Mumbai 6%). Women buyers 1% rebate. Registration 1%.
+(c) Delhi: Stamp duty 6% for men, 4% for women. Registration 1%.
+(d) Tamil Nadu: Stamp duty 7%. Registration 4%.
+(e) UP: Stamp duty 7% for men, 6% for women. Registration 1%.
+Stamp duty is calculated on the higher of: agreement value or circle rate (government guidance value).
+
+9. POWER OF ATTORNEY (POA) IN PROPERTY TRANSACTIONS
+(a) General Power of Attorney (GPA): Gives broad authority to the agent.
+(b) Special Power of Attorney (SPA): Specific authority for a particular transaction.
+(c) Registered POA: Must be registered for immovable property transactions.
+(d) GPA-based property sales: Supreme Court in Suraj Lamp Industries case (2011) held that property cannot be transferred through GPA — only through registered sale deed. GPA-based sales are not valid transfers of title.
+(e) POA is valid only during the lifetime of the principal — automatically revoked on death.
+
+─────────────────────────────────────────
+SECTION 3: BUILDER-BUYER AGREEMENTS IN INDIA
+─────────────────────────────────────────
+
+10. BUILDER-BUYER AGREEMENT IN INDIA
+A builder-buyer agreement (also called Agreement for Sale of Apartment) is a contract between a developer and homebuyer for purchase of an under-construction apartment or villa.
+(a) Must be registered if value exceeds applicable threshold.
+(b) Under RERA, developer must use the standard agreement format prescribed by the state RERA authority.
+(c) Key terms: property description, payment schedule, possession date, penalty for delay, specifications, common amenities, maintenance charges, force majeure.
+(d) Payment schedule: Linked to construction milestones or time-based.
+(e) Possession date: Developer must commit to a possession date. RERA penalizes delays.
+(f) Cancellation: Conditions under which either party can cancel and refund terms.
+
+11. RED FLAGS IN BUILDER-BUYER AGREEMENTS IN INDIA
+(a) No RERA registration number — illegal to sell without registration.
+(b) Vague possession date — "subject to approvals" without a specific date.
+(c) Developer's right to change specifications without buyer's consent.
+(d) Unfair cancellation clause — developer can cancel but buyer cannot.
+(e) Super built-up area calculation — verify carpet area (RERA mandates disclosure in carpet area).
+(f) Maintenance charges not capped.
+(g) No penalty for delay or penalty less than the interest charged on buyer's payments.
+(h) Force majeure clause that is too broad — covering ordinary construction delays.
+(i) No defect liability clause.
+(j) Buyer liable for all statutory charges without specification.
+
+─────────────────────────────────────────
+SECTION 4: HOME LOANS AND MORTGAGES IN INDIA
+─────────────────────────────────────────
+
+12. HOME LOAN IN INDIA
+(a) Equitable mortgage: Created by depositing title documents with the lender (bank). Most common form of mortgage for home loans in India. Does not require registration.
+(b) Registered mortgage: Requires registration — gives lender priority over equitable mortgage holders.
+(c) Loan Against Property (LAP): Loan secured against existing property.
+(d) SARFAESI Act, 2002: Banks can take possession of mortgaged property without court order if borrower defaults — after giving 60 days' notice.
+(e) Loan sanction vs. disbursement: Loan is disbursed in tranches for under-construction properties linked to construction milestones.
+(f) Pre-payment: Most home loans allow pre-payment without penalty (RBI guidelines for floating rate loans).
+
+13. REVERSE MORTGAGE IN INDIA
+Senior citizens (60+ years) can mortgage their self-occupied property to a bank and receive regular monthly payments. The loan is repaid from proceeds of sale of the property after death. Governed by National Housing Bank guidelines.
+
+─────────────────────────────────────────
+SECTION 5: INHERITANCE AND SUCCESSION IN INDIA
+─────────────────────────────────────────
+
+14. SUCCESSION LAWS IN INDIA
+India has personal laws governing succession based on religion:
+(a) Hindu Succession Act, 1956: Governs Hindus, Sikhs, Jains, Buddhists. Equal rights for daughters in ancestral property (2005 amendment). Testamentary succession by will.
+(b) Indian Succession Act, 1925: Governs Christians, Parsis, and those who die without leaving a will (intestate succession for most communities).
+(c) Muslim Personal Law (Shariat) Application Act, 1937: Governs Muslims. Fixed shares for heirs under Islamic law. No equal inheritance for daughters.
+(d) Special Marriage Act, 1954: For inter-religious marriages — Indian Succession Act applies.
+
+15. WILL IN INDIA
+(a) A will is a legal declaration of a person's intention regarding disposal of property after death.
+(b) Requirements: Testator must be of sound mind and 18+ years. Signed by testator and attested by two witnesses who must not be beneficiaries.
+(c) Registration of will: Optional but highly recommended. A registered will is harder to challenge.
+(d) Probate: Court certificate confirming validity of will — required in some states (West Bengal, Maharashtra) for immovable property.
+(e) Intestate succession: If no will, property distributed as per applicable personal law.
+(f) A will can be revoked or amended at any time before death.
+
+16. GIFT DEED IN INDIA
+(a) A gift deed is a document by which a person (donor) voluntarily transfers property to another (donee) without consideration.
+(b) For immovable property: Gift deed must be registered (Section 123 Transfer of Property Act).
+(c) Stamp duty on gift deed: Varies by state — typically same as sale deed in most states. Between blood relatives, some states offer reduced stamp duty.
+(d) Gift to minor: Valid — guardian accepts on behalf of minor.
+(e) Gift must be accepted during the lifetime of both donor and donee.
+(f) Revocation: Generally irrevocable after acceptance unless specific revocation conditions are mentioned.

@@ -1,0 +1,167 @@
+INDIA COMPANY AND BUSINESS LAW KNOWLEDGE BASE
+===============================================
+Comprehensive reference for Companies Act 2013, business structures, MOUs, shareholder agreements, and startup law in India.
+
+─────────────────────────────────────────
+SECTION 1: BUSINESS STRUCTURES IN INDIA
+─────────────────────────────────────────
+
+1. TYPES OF BUSINESS ENTITIES IN INDIA
+(a) Sole Proprietorship: Single owner, unlimited liability, no separate legal entity. Governed by applicable state laws.
+(b) Partnership Firm: Two or more partners, governed by Indian Partnership Act 1932. Unlimited liability. Registered or unregistered.
+(c) Limited Liability Partnership (LLP): Hybrid of company and partnership. Partners have limited liability. Governed by LLP Act 2008. Minimum 2 designated partners.
+(d) Private Limited Company: Minimum 2 directors and 2 shareholders. Maximum 200 shareholders. Cannot invite public to subscribe shares. Governed by Companies Act 2013.
+(e) Public Limited Company: Minimum 3 directors and 7 shareholders. Can invite public investment. Listed or unlisted. Governed by Companies Act 2013.
+(f) One Person Company (OPC): Single member company introduced by Companies Act 2013. One director and one shareholder. Must convert to private limited if turnover exceeds Rs. 2 crore or paid-up capital exceeds Rs. 50 lakhs.
+(g) Section 8 Company: Non-profit company promoting commerce, art, science, education, charity. Profits used only for objects. No dividend to members.
+
+2. PRIVATE LIMITED COMPANY IN INDIA — KEY FEATURES
+(a) Separate legal entity — can own property, sue and be sued in its own name.
+(b) Limited liability — shareholders liable only up to unpaid share amount.
+(c) Perpetual succession — death or departure of member does not dissolve company.
+(d) Minimum capital: No minimum paid-up capital requirement (removed by Companies Amendment Act 2015).
+(e) Incorporation: File SPICe+ form on MCA21 portal.
+(f) Directors: Minimum 2, maximum 15. At least one director must be Indian resident.
+(g) DIN (Director Identification Number): Required for all directors.
+(h) DSC (Digital Signature Certificate): Required for filing documents.
+(i) Annual compliances: Annual return (MGT-7), financial statements (AOC-4), board meetings, AGM.
+
+─────────────────────────────────────────
+SECTION 2: COMPANIES ACT, 2013 — KEY PROVISIONS
+─────────────────────────────────────────
+
+3. MEMORANDUM OF ASSOCIATION (MOA)
+The MOA is the charter document of a company. It defines:
+(a) Name clause: Company name ending in "Private Limited" or "Limited".
+(b) Registered office clause: State of incorporation.
+(c) Objects clause: Main objects and other objects of the company.
+(d) Liability clause: Liability of members (limited by shares or guarantee).
+(e) Capital clause: Authorized share capital.
+Any act beyond the objects clause is ultra vires and void.
+
+4. ARTICLES OF ASSOCIATION (AOA)
+The AOA governs the internal management of the company:
+(a) Appointment, powers, and removal of directors.
+(b) Conduct of board meetings and general meetings.
+(c) Voting rights of shareholders.
+(d) Transfer and transmission of shares.
+(e) Dividend declaration.
+(f) Borrowing powers.
+Table F of Companies Act 2013 provides model articles for companies limited by shares.
+
+5. BOARD OF DIRECTORS — KEY PROVISIONS
+(a) Minimum 2 directors (private company), 3 (public company).
+(b) Independent directors: Public companies with paid-up capital Rs. 10 crore+, turnover Rs. 100 crore+, or outstanding loans Rs. 50 crore+ must have at least one-third independent directors.
+(c) Woman director: Mandatory for certain classes of companies.
+(d) Resident director: At least one director must have stayed in India for 182+ days in the previous calendar year.
+(e) Board meetings: Minimum 4 meetings per year with maximum 120 days gap between two meetings.
+(f) Quorum: One-third of total strength or 2 directors, whichever is higher.
+
+6. SHAREHOLDER RIGHTS UNDER COMPANIES ACT 2013
+(a) Right to receive dividend.
+(b) Right to attend and vote in general meetings.
+(c) Right to inspect statutory registers.
+(d) Right to receive annual report.
+(e) Right to apply to NCLT for oppression and mismanagement (Sections 241-242).
+(f) Pre-emption rights on new share issuance (right of first refusal).
+(g) Right to receive notice of general meetings.
+(h) Minority rights: Minority shareholders (10%+ in a private company) can petition NCLT for protection.
+
+7. RELATED PARTY TRANSACTIONS
+(a) Transactions between a company and its directors, key managerial personnel, relatives, or entities in which they have interest.
+(b) Require board approval and shareholder approval (for certain transactions).
+(c) Must be at arm's length — on commercial terms.
+(d) Disclosure required in board report and financial statements.
+(e) Listed companies: Additional SEBI requirements.
+
+─────────────────────────────────────────
+SECTION 3: SHAREHOLDER AGREEMENTS IN INDIA
+─────────────────────────────────────────
+
+8. SHAREHOLDER AGREEMENT (SHA) IN INDIA
+A SHA is a private contract between shareholders governing their relationship and rights in the company. Key provisions:
+(a) Share transfer restrictions: Right of First Refusal (ROFR), Right of First Offer (ROFO), Tag-Along, Drag-Along.
+(b) Anti-dilution: Protection against dilution in future funding rounds.
+(c) Board composition: Investor's right to appoint directors.
+(d) Affirmative rights (Reserved Matters): Investor approval required for key decisions.
+(e) Information rights: Investor's right to receive financial information.
+(f) Liquidation preference: Order of distribution on exit (sale or liquidation).
+(g) Vesting of founder shares: Founder shares vest over 3-4 years to prevent founders from leaving early.
+(h) Non-compete and non-solicitation during and after association.
+(i) Exit mechanisms: IPO, strategic sale, buyback.
+(j) Dispute resolution: Typically arbitration.
+
+9. TERM SHEET IN INDIA
+A term sheet is a non-binding document outlining the key terms of an investment or M&A transaction. Key provisions:
+(a) Valuation: Pre-money and post-money valuation.
+(b) Investment amount and instrument (equity, CCPS, CCDS, convertible note).
+(c) Liquidation preference: 1x non-participating or participating.
+(d) Anti-dilution: Broad-based weighted average or full ratchet.
+(e) Board composition.
+(f) Founder vesting.
+(g) Exclusivity: Startup agrees not to negotiate with other investors during due diligence period.
+(h) Conditions precedent to closing.
+Binding provisions in term sheet: Exclusivity, confidentiality, governing law.
+
+10. COMPULSORILY CONVERTIBLE PREFERENCE SHARES (CCPS) IN INDIA
+CCPS are preference shares that mandatorily convert into equity shares after a specified period or on occurrence of an event. Widely used by foreign investors investing in Indian startups under FDI regulations:
+(a) CCPS are treated as equity for FDI purposes (RBI/FEMA regulations).
+(b) They carry preferential rights on dividends and liquidation.
+(c) Anti-dilution protection is embedded in the conversion ratio.
+(d) Conversion price and ratio are specified at the time of issuance.
+
+─────────────────────────────────────────
+SECTION 4: MOU AND AGREEMENTS IN INDIA
+─────────────────────────────────────────
+
+11. MEMORANDUM OF UNDERSTANDING (MOU) IN INDIA
+An MOU is a document expressing a mutual agreement between parties to work together. Key aspects:
+(a) Binding vs. Non-binding: An MOU may or may not be legally binding depending on its language. If it contains consideration and clear intention to create legal relations, it may be binding.
+(b) Common use: Joint ventures, partnerships, business collaborations, government agreements.
+(c) Typical provisions: Purpose, scope of collaboration, responsibilities of each party, confidentiality, exclusivity, term, governing law.
+(d) Limitation: MOUs are often used when parties are not ready to commit to a full contract — they serve as a framework for future negotiations.
+(e) Enforceability: Courts look at the intention of parties — if MOU is meant to be binding, it will be enforced as a contract.
+
+12. LETTER OF INTENT (LOI) IN INDIA
+Similar to an MOU, an LOI expresses intention to enter into a formal agreement. Typically used in M&A, real estate, and business transactions:
+(a) Usually non-binding (except exclusivity and confidentiality clauses).
+(b) Sets out key commercial terms for negotiation.
+(c) Creates moral obligation but not legal obligation (unless binding language is used).
+
+13. JOINT VENTURE AGREEMENTS IN INDIA
+A JV agreement governs the collaboration between two or more parties for a specific business purpose:
+(a) Structure: Incorporated JV (new company) or unincorporated JV (contractual arrangement).
+(b) Equity split: Ownership proportions of each party.
+(c) Management: Board composition, voting rights, reserved matters.
+(d) Profit and loss sharing.
+(e) Capital contribution obligations.
+(f) Exit: Buy-sell mechanisms (shot-gun clause, put and call options).
+(g) Non-compete during and after JV.
+(h) Dispute resolution: Arbitration preferred for JV disputes.
+
+─────────────────────────────────────────
+SECTION 5: STARTUP INDIA AND FOREIGN INVESTMENT
+─────────────────────────────────────────
+
+14. STARTUP INDIA — LEGAL FRAMEWORK
+The Startup India initiative (launched 2016) provides benefits to recognized startups:
+(a) DPIIT recognition: Apply at startupindia.gov.in — eligible entities: private limited company, LLP, partnership firm incorporated in last 10 years with turnover not exceeding Rs. 100 crore.
+(b) Tax benefits: 3-year income tax exemption in the first 10 years, angel tax exemption (Section 56(2)(viib) exemption for recognized startups).
+(c) IPR support: Fast-track patent examination, rebate on fees.
+(d) Compliance benefits: Self-certification under 9 labour and 3 environment laws.
+(e) Fund of Funds: SIDBI-managed fund investing in SEBI-registered AIFs that invest in startups.
+
+15. FOREIGN DIRECT INVESTMENT (FDI) IN INDIA
+FDI in India is regulated by FEMA (Foreign Exchange Management Act, 1999) and RBI:
+(a) Automatic route: No prior government approval required — most sectors.
+(b) Government approval route: Prior approval required for certain sectors (defence, media, insurance).
+(c) Prohibited sectors: Lottery, gambling, chit funds, Nidhi companies, real estate (with exceptions), manufacturing of tobacco products.
+(d) FDI reporting: Company must report FDI receipt to RBI within 30 days (FC-GPR filing).
+(e) Downstream investment: Indian company with foreign investment investing in another Indian company — restrictions apply.
+(f) Transfer pricing: Transactions between related parties (parent-subsidiary) must be at arm's length — Transfer Pricing regulations under Income Tax Act.
+
+16. ANGEL TAX IN INDIA
+Section 56(2)(viib) of Income Tax Act: If a closely held company issues shares at a premium above fair market value to a resident Indian investor, the excess is taxable as "income from other sources" in the hands of the company. This is called "angel tax."
+(a) DPIIT-recognized startups are exempt from angel tax (as of 2023, extended to foreign investors too).
+(b) Fair market value is determined by a Merchant Banker's valuation (DCF or NAV method).
+(c) Angel tax has been a significant concern for Indian startups raising funds from resident investors.

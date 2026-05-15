@@ -1,0 +1,204 @@
+INDIA CONTRACT LAW KNOWLEDGE BASE
+===================================
+Comprehensive reference for Indian contract law, enforcement, remedies, and key statutes.
+
+─────────────────────────────────────────
+SECTION 1: INDIAN CONTRACT ACT, 1872
+─────────────────────────────────────────
+
+1. WHAT IS A CONTRACT UNDER INDIAN LAW
+A contract is an agreement enforceable by law. Under Section 2(h) of the Indian Contract Act, 1872, a contract is an agreement made between two or more parties with free consent, competent parties, lawful consideration, and lawful object. All agreements are not contracts, but all contracts are agreements. An agreement becomes a contract when it is enforceable by law.
+
+2. ESSENTIAL ELEMENTS OF A VALID CONTRACT IN INDIA
+(a) Offer and Acceptance: One party makes an offer and the other accepts it unconditionally.
+(b) Free Consent: Consent must be free — not obtained by coercion, undue influence, fraud, misrepresentation, or mistake (Sections 13-22).
+(c) Competent Parties: Parties must be of majority age (18 years), of sound mind, and not disqualified by law (Section 11).
+(d) Lawful Consideration: Something of value exchanged between parties must not be illegal (Section 23).
+(e) Lawful Object: The purpose of the contract must be legal (Section 23).
+(f) Not Expressly Void: The contract must not be declared void under Sections 24-30 (agreements in restraint of trade, marriage, legal proceedings, wagering agreements).
+(g) Certainty: Terms must be certain and not vague (Section 29).
+(h) Possibility of Performance: The act must be possible to perform (Section 56).
+
+3. VOID AGREEMENTS UNDER INDIAN CONTRACT ACT
+Section 2(g) defines a void agreement as one not enforceable by law. Common void agreements in India:
+(a) Agreement by incompetent parties (minor, unsound mind) — Section 11.
+(b) Agreement with unlawful consideration or object — Section 23.
+(c) Agreement in restraint of marriage — Section 26.
+(d) Agreement in restraint of trade — Section 27 (non-compete clauses are largely void in India).
+(e) Agreement in restraint of legal proceedings — Section 28.
+(f) Wagering agreements — Section 30.
+(g) Impossible agreements — Section 56.
+
+4. NON-COMPETE CLAUSES UNDER INDIAN LAW
+Section 27 of the Indian Contract Act declares agreements in restraint of trade void. Unlike common law countries, Indian courts generally do not enforce post-employment non-compete clauses. However:
+(a) Reasonable restrictions during the term of employment are valid.
+(b) Non-compete clauses in business sale agreements are valid if reasonable in scope and geography.
+(c) Non-solicitation of clients during employment is generally valid.
+(d) Post-employment non-competes are generally void under Section 27.
+(e) Courts in India will not blue-pencil (reduce) a non-compete — they strike it entirely if unreasonable.
+
+5. FREE CONSENT AND VITIATING FACTORS
+(a) Coercion (Section 15): Committing or threatening to commit an act forbidden by IPC, or unlawfully detaining property.
+(b) Undue Influence (Section 16): One party is in a position to dominate the will of the other and uses that position to obtain unfair advantage.
+(c) Fraud (Section 17): False representation of fact, active concealment, promise without intention to perform.
+(d) Misrepresentation (Section 18): Innocent false statement, breach of duty causing advantage, causing party to make mistake about subject matter.
+(e) Mistake (Sections 20-22): Mistake of fact by both parties (bilateral mistake) makes contract void. Unilateral mistake generally does not void the contract.
+
+6. CONSIDERATION UNDER INDIAN CONTRACT ACT
+Consideration is the price paid for the promise. Under Indian law:
+(a) Consideration may be past, present, or future (Section 2(d)).
+(b) Consideration need not be adequate — courts do not question adequacy of consideration.
+(c) Consideration must be real and not illusory.
+(d) Consideration may move from promisee or any other person (unlike English law).
+(e) Natural love and affection between near relatives with a written registered agreement is valid without consideration (Section 25).
+(f) Past voluntary services may constitute valid consideration (Section 25).
+
+7. PERFORMANCE OF CONTRACTS
+(a) Actual Performance: Complete fulfillment of contractual obligations.
+(b) Attempted Performance (Tender): Offer to perform — if refused, the party is discharged.
+(c) Time for Performance: Section 55 — if time is of the essence and a party fails to perform at the specified time, the contract becomes voidable.
+(d) Joint Obligations: Where multiple persons jointly promise, all must perform unless agreement states otherwise.
+(e) Devolution: Rights and liabilities pass to legal representatives of deceased persons unless personal in nature.
+
+8. DISCHARGE OF CONTRACTS
+A contract is discharged (brought to an end) by:
+(a) Performance — actual or attempted.
+(b) Agreement — mutual consent, novation, rescission, alteration, remission.
+(c) Impossibility — Section 56 — subsequent impossibility of performance (doctrine of frustration).
+(d) Lapse of Time — Limitation Act bars enforcement after the limitation period.
+(e) Operation of Law — insolvency, merger, unauthorized alteration.
+(f) Breach — actual breach or anticipatory breach.
+
+9. DOCTRINE OF FRUSTRATION IN INDIA (SECTION 56)
+Section 56 provides that a contract to do an act which becomes impossible or unlawful after the contract is made becomes void. Indian courts apply frustration broadly — covering:
+(a) Physical impossibility (destruction of subject matter).
+(b) Legal impossibility (supervening illegality).
+(c) Commercial impossibility — courts are divided; some apply it, others do not.
+COVID-19 and force majeure: Indian courts generally analyzed COVID-related non-performance under Section 56 rather than force majeure clauses, especially for contracts without explicit force majeure provisions.
+
+─────────────────────────────────────────
+SECTION 2: BREACH OF CONTRACT AND REMEDIES IN INDIA
+─────────────────────────────────────────
+
+10. BREACH OF CONTRACT IN INDIA
+Breach occurs when a party fails or refuses to perform its contractual obligations. Types:
+(a) Actual Breach: Failure to perform on the due date.
+(b) Anticipatory Breach: A party declares intention not to perform before the due date (Section 39).
+
+11. REMEDIES FOR BREACH OF CONTRACT IN INDIA
+(a) Damages (Section 73-75): Compensation for loss caused by breach.
+(b) Specific Performance: Court orders the breaching party to perform (Specific Relief Act, 1963).
+(c) Injunction: Court orders a party to do or refrain from doing an act.
+(d) Quantum Meruit: Reasonable payment for work done before breach.
+(e) Rescission: Contract is cancelled and parties restored to original position.
+
+12. DAMAGES UNDER INDIAN CONTRACT ACT (SECTIONS 73-75)
+(a) General/Ordinary Damages: Damages that naturally arise from breach in the usual course of things.
+(b) Special Damages: Damages for losses known to both parties at the time of contract (Hadley v. Baxendale rule applied in India).
+(c) Exemplary/Punitive Damages: Generally not awarded in contract cases in India.
+(d) Nominal Damages: Awarded when breach is proved but no actual loss.
+(e) Liquidated Damages: Pre-agreed damages — Section 74 allows courts to award reasonable compensation, not necessarily the agreed amount. Indian courts may reduce agreed damages if they are a penalty.
+(f) Mitigation: The injured party must take reasonable steps to mitigate (minimize) loss.
+
+13. SPECIFIC RELIEF ACT, 1963 (AMENDED 2018)
+Specific performance is a discretionary remedy ordering a party to perform the contract. Under the 2018 amendment:
+(a) Specific performance is now a right (not discretionary) for contracts relating to immovable property.
+(b) Substituted performance: The injured party can get the contract performed by a third party at the defaulting party's cost.
+(c) Injunctions: Temporary and perpetual injunctions may be granted.
+(d) Rectification of instruments: Court may correct mistakes in written contracts.
+(e) Cancellation of instruments: Court may cancel void or voidable documents.
+
+14. LIMITATION PERIODS FOR CONTRACT CLAIMS IN INDIA
+Under the Limitation Act, 1963:
+(a) Suit for breach of contract: 3 years from date of breach.
+(b) Suit to enforce judgment: 12 years.
+(c) Suit on contract under seal: 12 years.
+(d) Suit for money lent: 3 years.
+(e) Suit for recovery of immovable property: 12 years.
+(f) Limitation period cannot be contracted out of (parties cannot agree to extend or reduce it).
+
+─────────────────────────────────────────
+SECTION 3: SPECIAL TYPES OF CONTRACTS IN INDIA
+─────────────────────────────────────────
+
+15. CONTRACT OF INDEMNITY (SECTION 124-125)
+A contract by which one party promises to save another from loss caused by the promisor's conduct or the conduct of a third person. The indemnifier must indemnify against: damages in suits, costs of defending suits, and sums paid under compromise.
+
+16. CONTRACT OF GUARANTEE (SECTION 126-147)
+A contract to perform the promise or discharge the liability of a third person in case of default. Three parties: principal debtor, creditor, and surety. The surety's liability is co-extensive with the principal debtor unless otherwise provided. The surety is discharged if the creditor varies the contract without surety's consent.
+
+17. BAILMENT (SECTIONS 148-181)
+Delivery of goods by one person (bailor) to another (bailee) for some purpose, upon a contract that the goods shall be returned or disposed of as directed when the purpose is accomplished. The bailee must take reasonable care of the goods (standard varies by type of bailment). Finder of lost goods is a bailee.
+
+18. PLEDGE (SECTIONS 172-179)
+Bailment of goods as security for payment of debt or performance of promise. The pawnee (pledgee) can sell the goods after giving reasonable notice if the pawnor defaults. The pawnor has right of redemption before sale.
+
+19. AGENCY (SECTIONS 182-238)
+An agent is a person employed to do any act or to represent another (the principal) in dealings with third persons. Key principles:
+(a) Acts of agent bind the principal within actual and apparent authority.
+(b) Agent cannot delegate authority unless authorized (delegatus non potest delegare).
+(c) Agent is personally liable if he acts without authority and the principal does not ratify.
+(d) Principal must indemnify agent against consequences of lawful acts.
+(e) Agency terminates by: revocation, renunciation, completion of business, death, insanity, insolvency.
+
+20. ELECTRONIC CONTRACTS IN INDIA (IT ACT, 2000)
+The Information Technology Act, 2000 recognizes electronic contracts:
+(a) Electronic contracts are legally valid under Section 10A of the IT Act.
+(b) Digital signatures (under DSC — Digital Signature Certificate) are legally valid.
+(c) E-Aadhaar-based electronic signatures are valid for most documents.
+(d) Electronic records are admissible as evidence.
+(e) Certain documents still require physical execution: powers of attorney, wills, trusts, negotiable instruments (other than cheques).
+
+─────────────────────────────────────────
+SECTION 4: SALE OF GOODS ACT, 1930
+─────────────────────────────────────────
+
+21. SALE OF GOODS ACT, 1930 — KEY PROVISIONS
+(a) Contract of sale: Seller transfers or agrees to transfer property in goods to buyer for a price.
+(b) Conditions and warranties: Implied conditions (title, description, fitness, merchantable quality) and warranties.
+(c) Transfer of property: Property passes when parties intend it to pass — for specific goods, on making of contract; for unascertained goods, when goods are ascertained and appropriated.
+(d) Risk: Risk passes with property unless otherwise agreed.
+(e) Unpaid seller's rights: Lien, stoppage in transit, right of resale.
+(f) Buyer's remedies: Damages, specific performance, rejection of goods.
+
+─────────────────────────────────────────
+SECTION 5: NEGOTIABLE INSTRUMENTS ACT, 1881
+─────────────────────────────────────────
+
+22. NEGOTIABLE INSTRUMENTS IN INDIA
+(a) Promissory note, bill of exchange, and cheque are negotiable instruments.
+(b) Dishonour of cheque: Section 138 — criminal liability for dishonour of cheque for insufficiency of funds. Penalty: imprisonment up to 2 years or fine up to twice the cheque amount or both.
+(c) Demand notice: Within 30 days of dishonour, the payee must send a demand notice. The drawer has 15 days to pay. If not paid, complaint must be filed within 1 month.
+(d) Cheque bounce is one of the most common commercial disputes in India.
+
+─────────────────────────────────────────
+SECTION 6: ARBITRATION AND CONCILIATION ACT, 1996
+─────────────────────────────────────────
+
+23. ARBITRATION IN INDIA
+The Arbitration and Conciliation Act, 1996 (amended 2015, 2019, 2021) governs arbitration in India.
+(a) Arbitration agreement must be in writing.
+(b) Domestic arbitration: Governed by Part I of the Act.
+(c) International commercial arbitration: May be governed by Part I or Part II (for foreign-seated arbitrations).
+(d) Fast track arbitration: Award within 6 months.
+(e) Institutional arbitration: Mumbai Centre for International Arbitration (MCIA), Delhi International Arbitration Centre (DIAC), Indian Council of Arbitration (ICA).
+(f) Challenge to award: Application under Section 34 must be filed within 3 months of receiving award.
+(g) Enforcement of foreign awards: Under New York Convention (Part II of the Act).
+
+24. CONCILIATION UNDER INDIAN LAW
+Conciliation is a voluntary, non-binding process. A conciliator assists parties in reaching a settlement. If settlement is reached, it has the same status as an arbitral award on agreed terms (Section 74). Conciliation is less formal than arbitration and focuses on preserving business relationships.
+
+─────────────────────────────────────────
+SECTION 7: INSOLVENCY AND BANKRUPTCY CODE, 2016
+─────────────────────────────────────────
+
+25. INSOLVENCY AND BANKRUPTCY CODE (IBC), 2016
+The IBC provides a time-bound process for resolving insolvency of companies, LLPs, partnership firms, and individuals.
+(a) Corporate Insolvency Resolution Process (CIRP): Triggered by financial creditor, operational creditor, or the corporate debtor itself. CIRP must be completed within 180 days (extendable to 330 days).
+(b) Insolvency Professional (IP): Manages the debtor during CIRP.
+(c) Committee of Creditors (CoC): Financial creditors vote on resolution plan.
+(d) National Company Law Tribunal (NCLT): Adjudicating authority for companies.
+(e) Debt Recovery Tribunal (DRT): Adjudicating authority for individuals and partnership firms.
+(f) Moratorium: Automatic stay on all legal proceedings against the debtor during CIRP.
+(g) Liquidation: If no resolution plan is approved, liquidation proceeds.
+(h) Pre-packaged insolvency: Fast-track process for MSMEs introduced in 2021.

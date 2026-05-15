@@ -1,0 +1,155 @@
+KARNATAKA STATE SPECIFIC LAWS KNOWLEDGE BASE
+=============================================
+Comprehensive reference for Karnataka-specific laws, regulations, and legal procedures.
+
+─────────────────────────────────────────
+SECTION 1: KARNATAKA PROPERTY AND LAND LAWS
+─────────────────────────────────────────
+
+1. KARNATAKA LAND REVENUE ACT, 1964
+Governs land administration, revenue records, and mutations in Karnataka.
+(a) RTC (Record of Rights, Tenancy and Crops) — also called Pahani — is the primary land record document showing ownership, tenancy, and crop details.
+(b) Mutation (Khata transfer): Change in ownership records in revenue records after sale, inheritance, or gift. Done at the Tahsildar's office.
+(c) Phodi: Partition of joint land holdings recorded in revenue records.
+(d) Survey numbers: Each plot of land has a unique survey number in Karnataka.
+(e) Bhoomi portal: Karnataka's online land records portal (bhoomi.karnataka.gov.in) — citizens can access RTCs, mutation status, and land records online.
+
+2. KARNATAKA STAMP ACT, 1957
+Governs stamp duty on instruments in Karnataka.
+(a) Sale deed: 5% stamp duty + 1% registration fee + surcharges (BBMP cess, etc.). Total approximately 6.8% to 7.5%.
+(b) Gift deed: Same as sale deed between non-relatives. Reduced rates for blood relatives (spouse, children, grandchildren, parents — typically 1% to 2%).
+(c) Partition deed: 2% on market value of separated share.
+(d) Mortgage deed: 0.5% on loan amount (maximum Rs. 10 lakhs stamp duty).
+(e) Leave and license agreement: Rs. 200 to Rs. 500 under Article 30(1)(i) for agreements up to 11 months.
+(f) Power of attorney: Rs. 1,000 to Rs. 2,000 depending on type.
+(g) e-STAMPS: Available through SHCIL and Karnataka Bank. Certificate number starts with IN-KA.
+
+3. KAVERI ONLINE SERVICES — KARNATAKA REGISTRATION
+Karnataka's property registration portal (kaverionline.karnataka.gov.in):
+(a) Online booking of appointment for property registration.
+(b) Online calculation of stamp duty and registration fees.
+(c) Upload of documents for pre-scrutiny.
+(d) Property registration at Sub-Registrar's office.
+(e) Encumbrance Certificate (EC) search and download — shows all registered transactions.
+(f) Registered document status and verification.
+
+4. KARNATAKA APARTMENT OWNERSHIP ACT, 1972
+Governs apartment ownership in Karnataka:
+(a) Apartment can be individually owned with undivided share in common areas.
+(b) Apartment Owners Association: Mandatory for maintenance and management.
+(c) Declaration of Apartment: Filed with Sub-Registrar — contains floor plan, share of common areas.
+(d) Resale: Apartment can be sold, mortgaged, bequeathed independently of other apartments.
+
+5. KARNATAKA AGRICULTURAL LAND (RESTRICTIONS ON TRANSFER AND PROVISIONS FOR ALLOTMENT) ACT
+(a) Agricultural land in Karnataka cannot be purchased by non-agriculturists (Section 79A and 79B of Karnataka Land Reforms Act, 1961).
+(b) Conversion required: Agricultural land must be converted to non-agricultural use before constructing buildings or using for non-agricultural purposes.
+(c) Conversion application: Filed with the Deputy Commissioner's office.
+(d) BDA (Bangalore Development Authority) and BBMP: Have jurisdiction over land use in their respective areas.
+
+─────────────────────────────────────────
+SECTION 2: KARNATAKA RENT AND HOUSING LAWS
+─────────────────────────────────────────
+
+6. KARNATAKA RENT ACT, 1999
+(a) Applies to buildings in urban local body areas in Karnataka.
+(b) Standard rent: Rent fixed by Rent Authority — landlord cannot charge more.
+(c) Permitted increases: 10% every 3 years.
+(d) Eviction grounds: Non-payment of rent, subletting, nuisance, bona fide personal requirement, reconstruction.
+(e) Rent Authority: Civil Judge (Junior Division) or JMFC — jurisdiction over rent disputes.
+(f) Leave and license agreements properly executed: Generally outside Rent Act protection.
+
+7. BBMP (BRUHAT BENGALURU MAHANAGARA PALIKE) REGULATIONS
+(a) Property tax: Calculated on Self-Assessment System (SAS) — based on built-up area, zone, property usage. Paid annually.
+(b) Khata: Municipal record of property ownership in BBMP area. A-Khata for regularized properties, B-Khata for irregular/revenue site properties.
+(c) Building plan approval: Required for any new construction or addition. Filed with BBMP or BDA.
+(d) Occupancy Certificate: Issued by BBMP/BDA after construction — required for legal occupation.
+(e) BBMP solid waste management: Registration for commercial establishments.
+
+8. KARNATAKA RERA (K-RERA)
+Karnataka Real Estate Regulatory Authority:
+(a) Website: rera.karnataka.gov.in
+(b) All residential and commercial real estate projects with area >500 sq. m. or 8 units must be registered.
+(c) Complaint filing: Homebuyers can file complaints online.
+(d) Adjudicating Officer: For compensation claims.
+(e) Appellate Tribunal: For appeals against RERA authority orders.
+
+─────────────────────────────────────────
+SECTION 3: KARNATAKA EMPLOYMENT AND LABOUR LAWS
+─────────────────────────────────────────
+
+9. KARNATAKA SHOPS AND COMMERCIAL ESTABLISHMENTS ACT, 1961
+(a) Applies to shops, commercial establishments, restaurants, theatres, and other establishments in Karnataka.
+(b) Registration: Mandatory within 30 days of starting business.
+(c) Working hours: Maximum 9 hours per day, 48 hours per week.
+(d) Weekly holiday: One day off per week.
+(e) Overtime: Double wages for overtime work.
+(f) Leave: 12 days casual leave, 12 days sick leave per year. Earned leave accumulates at 1 day per 20 days worked.
+(g) Notice period: 1 month notice for employees with 6+ months of service.
+(h) Women employees: Cannot be employed after 8 PM without consent and adequate safety measures.
+(i) Termination: Written notice required. No termination during leave period.
+
+10. KARNATAKA INDUSTRIAL ESTABLISHMENTS (NATIONAL AND FESTIVAL HOLIDAYS) ACT, 1963
+(a) Provides for national and festival holidays for employees in Karnataka.
+(b) National holidays: Republic Day (Jan 26), Independence Day (Aug 15), Gandhi Jayanti (Oct 2).
+(c) Festival holidays: Ugadi, Kannad Rajyotsava, Deepavali, Christmas, Eid, and others — 8 festival holidays per year.
+
+11. KARNATAKA FACTORIES ACT COMPLIANCE
+Karnataka follows the Factories Act, 1948 for manufacturing establishments:
+(a) Registration of factory with Director of Factories.
+(b) Health and safety measures for workers.
+(c) Working hours, overtime, and leave provisions.
+(d) Annual leave with wages: 1 day for every 20 days worked.
+
+─────────────────────────────────────────
+SECTION 4: KARNATAKA TAX LAWS
+─────────────────────────────────────────
+
+12. PROFESSIONAL TAX IN KARNATAKA
+(a) Levied under Karnataka Tax on Professions, Trades, Callings and Employment Act, 1976.
+(b) Employees earning Rs. 15,000 or more per month pay Rs. 200 per month (Rs. 2,400 per year).
+(c) Employers must deduct professional tax from employee salaries and deposit with state government.
+(d) Self-employed professionals: Pay professional tax based on income slab.
+(e) Exemptions: Persons above 60 years, persons with disabilities, parents of children with disabilities.
+
+13. KARNATAKA VALUE ADDED TAX AND GST
+(a) GST (Goods and Services Tax): Implemented from July 2017, replaced Karnataka VAT, service tax, and other indirect taxes.
+(b) GST rates: 0%, 5%, 12%, 18%, 28% depending on goods/services category.
+(c) GST registration: Mandatory for businesses with turnover exceeding Rs. 40 lakhs (Rs. 20 lakhs for service providers, Rs. 10 lakhs for special category states).
+(d) GSTIN: Goods and Services Tax Identification Number — Karnataka GST code starts with "29".
+
+─────────────────────────────────────────
+SECTION 5: KARNATAKA BUSINESS REGULATIONS
+─────────────────────────────────────────
+
+14. KARNATAKA INDUSTRIES (FACILITATION) ACT, 2002
+(a) Single-window clearance for industrial projects in Karnataka.
+(b) Udyog Mitra: Online portal for investment facilitation (karnatakaudyogmitra.gov.in).
+(c) Deemed approval: If government does not respond within specified time, approval is deemed granted.
+(d) Karnataka Industrial Areas Development Board (KIADB): Develops industrial areas and acquires land for industries.
+(e) Karnataka Industrial Policy 2020-2025: Incentives for investment in various sectors.
+
+15. BBMP TRADE LICENSE
+(a) Required for all commercial establishments in BBMP area.
+(b) Annual renewal required.
+(c) Required for: shops, restaurants, hotels, clinics, schools, industries.
+(d) Application through BBMP's online portal.
+
+16. FSSAI LICENSE IN KARNATAKA
+(a) Food Safety and Standards Authority of India (FSSAI) license required for all food businesses.
+(b) Basic registration: Annual turnover below Rs. 12 lakhs.
+(c) State license: Annual turnover Rs. 12 lakhs to Rs. 20 crore. Licensed by Karnataka Food Safety Commissioner.
+(d) Central license: Annual turnover above Rs. 20 crore or multi-state operations.
+
+─────────────────────────────────────────
+SECTION 6: KARNATAKA POLICE AND VERIFICATION
+─────────────────────────────────────────
+
+17. TENANT POLICE VERIFICATION IN KARNATAKA
+(a) Landlords must conduct police verification of tenants.
+(b) Online verification: Karnataka Police tenant verification portal.
+(c) Documents required: Tenant's Aadhaar, PAN, photograph, current address proof, employer details.
+(d) Failure to conduct police verification: Landlord may face legal liability.
+(e) Passport verification: Separate process through police for passport applications.
+
+18. KARNATAKA PREVENTION OF DANGEROUS ACTIVITIES ACT
+Preventive detention act for persons engaged in dangerous activities — relevant for property disputes involving unlawful occupation.

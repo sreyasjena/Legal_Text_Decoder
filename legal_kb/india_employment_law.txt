@@ -1,0 +1,182 @@
+INDIA EMPLOYMENT LAW KNOWLEDGE BASE
+=====================================
+Comprehensive reference for Indian employment law, labour codes, employee rights, and employer obligations.
+
+─────────────────────────────────────────
+SECTION 1: EMPLOYMENT CONTRACTS IN INDIA
+─────────────────────────────────────────
+
+1. EMPLOYMENT AGREEMENT IN INDIA
+An employment agreement (also called appointment letter or offer letter) is a contract between employer and employee setting out the terms of employment. Key elements:
+(a) Designation and job description.
+(b) Compensation — CTC (Cost to Company), basic salary, HRA, allowances.
+(c) Probation period — typically 3 to 6 months.
+(d) Notice period — typically 1 to 3 months.
+(e) Leave entitlements — casual, sick, privilege/earned leave.
+(f) Confidentiality and NDA obligations.
+(g) Non-compete and non-solicitation (enforceability limited under Section 27 of Indian Contract Act).
+(h) Governing law and dispute resolution.
+(i) Intellectual property assignment.
+(j) Place of work and working hours.
+
+2. PROBATION PERIOD IN INDIA
+(a) Typically 3 to 6 months for most employment categories.
+(b) During probation, either party can terminate with shorter notice (sometimes without notice).
+(c) The employer can extend the probation period by written communication.
+(d) Permanent employment begins after successful completion of probation.
+(e) Employees on probation may have limited statutory protection under certain labour laws.
+
+3. NOTICE PERIOD IN INDIA
+(a) Notice period is contractually specified — typically 30, 60, or 90 days.
+(b) Notice pay in lieu: Either party can pay salary in lieu of serving the notice period.
+(c) Garden leave: Employee is asked to stay away from work but remains on payroll during notice period.
+(d) Relieving letter: Issued by employer after employee serves notice and completes exit formalities.
+(e) Experience/Service letter: Documents the period of employment and designation.
+
+─────────────────────────────────────────
+SECTION 2: FOUR LABOUR CODES (2019-2020)
+─────────────────────────────────────────
+
+4. CODE ON WAGES, 2019
+Consolidates: Payment of Wages Act 1936, Minimum Wages Act 1948, Payment of Bonus Act 1965, Equal Remuneration Act 1976.
+(a) Universal minimum wage: Floor minimum wage applicable to all workers.
+(b) Timely payment: Wages must be paid on time — daily, weekly, fortnightly, or monthly.
+(c) Bonus: Annual bonus for employees earning up to Rs. 21,000/month — minimum 8.33%, maximum 20% of annual wages.
+(d) Equal pay: Equal remuneration for same or similar work regardless of gender.
+(e) Deductions: Only authorized deductions permitted from wages.
+
+5. INDUSTRIAL RELATIONS CODE, 2020
+Consolidates: Industrial Disputes Act 1947, Trade Unions Act 1926, Industrial Employment (Standing Orders) Act 1946.
+(a) Threshold for Standing Orders: Establishments with 300+ workers must have certified standing orders.
+(b) Retrenchment: Establishments with 300+ workers require government permission for retrenchment (previously 100+).
+(c) Strikes and lockouts: 60 days' notice required before strike in essential services.
+(d) Works Committee: Mandatory for establishments with 100+ workers.
+(e) Grievance Redressal Committee: For establishments with 20+ workers.
+(f) Re-skilling fund: For retrenched workers.
+
+6. CODE ON SOCIAL SECURITY, 2020
+Consolidates: EPF Act 1952, ESI Act 1948, Maternity Benefit Act 1961, Payment of Gratuity Act 1972, and others.
+(a) EPF (Employees Provident Fund): 12% of basic wages contributed by employer and employee each. Applicable to establishments with 20+ employees.
+(b) ESI (Employees State Insurance): Employer contributes 3.25%, employee contributes 0.75% of wages. Applicable to establishments with 10+ employees and employees earning up to Rs. 21,000/month.
+(c) Gratuity: 15 days' wages for each year of service, payable after 5 years of continuous service. Formula: (Last drawn salary × 15 × years of service) / 26.
+(d) Maternity Benefit: 26 weeks paid maternity leave for the first two children; 12 weeks for subsequent children. Creche facility mandatory for establishments with 50+ employees.
+(e) ESIC medical benefit: Medical care for insured employees and their families.
+
+7. OCCUPATIONAL SAFETY, HEALTH AND WORKING CONDITIONS CODE, 2020
+Consolidates: Factories Act 1948, Mines Act 1952, Contract Labour Act 1970, and others.
+(a) Working hours: Maximum 8 hours/day, 48 hours/week.
+(b) Overtime: Paid at twice the ordinary rate of wages.
+(c) Annual leave: 1 day for every 20 days worked.
+(d) Health and safety: Employer must ensure safe working environment.
+(e) Contract labour: Contractor must pay wages; principal employer is liable if contractor defaults.
+(f) Inter-state migrant workers: Registration and welfare benefits.
+
+─────────────────────────────────────────
+SECTION 3: KEY EMPLOYMENT STATUTES IN INDIA
+─────────────────────────────────────────
+
+8. PAYMENT OF GRATUITY ACT, 1972
+(a) Applicable to establishments with 10+ employees.
+(b) Payable after 5 years of continuous service (except in case of death or disablement).
+(c) Calculation: (Last drawn basic salary + DA) × 15/26 × number of completed years of service.
+(d) Maximum gratuity: Rs. 20 lakhs (as of 2018 amendment).
+(e) Gratuity is exempt from income tax up to Rs. 20 lakhs.
+(f) Employer must insure gratuity liability.
+
+9. EMPLOYEES PROVIDENT FUND ACT, 1952
+(a) Applicable to establishments with 20+ employees.
+(b) Employee contributes 12% of basic wages + DA.
+(c) Employer contributes 12% — split between EPF (3.67%) and EPS (8.33%).
+(d) UAN (Universal Account Number) — portable across employers.
+(e) Withdrawal: Permitted for housing, marriage, medical emergencies, education. Full withdrawal on retirement or 2 months of unemployment.
+(f) Pension: Employee Pension Scheme (EPS) — pension after 10 years of service.
+
+10. MATERNITY BENEFIT ACT, 1961 (AMENDED 2017)
+(a) 26 weeks paid maternity leave for first two children.
+(b) 12 weeks paid maternity leave for third child onwards.
+(c) 12 weeks for adoptive mothers and commissioning mothers.
+(d) Work from home option post maternity leave (if nature of work permits).
+(e) Creche facility mandatory for establishments with 50+ employees.
+(f) No dismissal during maternity leave.
+
+11. SEXUAL HARASSMENT OF WOMEN AT WORKPLACE ACT, 2013 (POSH ACT)
+(a) Applicable to all workplaces — organized and unorganized sectors.
+(b) Internal Complaints Committee (ICC): Mandatory for establishments with 10+ employees.
+(c) Local Complaints Committee (LCC): For establishments with less than 10 employees.
+(d) Sexual harassment includes: unwelcome physical contact, demand for sexual favors, sexually colored remarks, showing pornography, any other unwelcome conduct.
+(e) Inquiry must be completed within 90 days.
+(f) Penalty for non-compliance: Fine up to Rs. 50,000; cancellation of license/registration.
+(g) Annual report must be submitted to District Officer.
+
+12. SHOPS AND ESTABLISHMENTS ACT (STATE-SPECIFIC)
+Each state has its own Shops and Establishments Act governing:
+(a) Working hours and weekly off.
+(b) Leave entitlements.
+(c) Opening and closing hours of establishments.
+(d) Registration of establishments.
+(e) Employment of women and children.
+(f) Termination procedures.
+Key state acts: Karnataka Shops and Commercial Establishments Act 1961, Maharashtra Shops and Establishments Act 1948, Delhi Shops and Establishments Act 1954.
+
+─────────────────────────────────────────
+SECTION 4: TERMINATION OF EMPLOYMENT IN INDIA
+─────────────────────────────────────────
+
+13. TERMINATION OF EMPLOYMENT IN INDIA
+Types of termination:
+(a) Resignation: Employee voluntarily leaves by serving notice period.
+(b) Termination for cause: Employer terminates for misconduct, poor performance.
+(c) Retrenchment: Termination due to business reasons (Section 25F of Industrial Disputes Act — 1 month notice or pay + retrenchment compensation of 15 days per year of service).
+(d) Voluntary Retirement Scheme (VRS): Early retirement with compensation package.
+(e) Constructive dismissal: Employer creates intolerable conditions forcing employee to resign — treated as termination.
+
+14. DOMESTIC INQUIRY FOR MISCONDUCT IN INDIA
+Before terminating for misconduct, employers must conduct a domestic inquiry (due process):
+(a) Issue charge sheet specifying allegations.
+(b) Give employee opportunity to respond.
+(c) Conduct inquiry — present evidence, cross-examination.
+(d) Inquiry officer submits report.
+(e) Employer issues show cause notice on penalty.
+(f) Employee responds to show cause.
+(g) Employer passes final order.
+Failure to follow proper procedure makes termination void — employee can be reinstated with back wages.
+
+15. WRONGFUL TERMINATION IN INDIA
+(a) Workmen (under Industrial Disputes Act): Can challenge termination before Labour Court or Industrial Tribunal. Remedies: reinstatement with back wages or compensation.
+(b) Non-workmen (managerial/supervisory employees): Generally governed by employment contract. Remedy is damages for breach of contract.
+(c) Government employees: Protected by Article 311 of the Constitution — cannot be dismissed without inquiry.
+
+─────────────────────────────────────────
+SECTION 5: INCOME TAX ON EMPLOYMENT IN INDIA
+─────────────────────────────────────────
+
+16. INCOME TAX ON SALARY IN INDIA
+(a) Salary income is taxable under the head "Salaries" under Income Tax Act, 1961.
+(b) TDS (Tax Deducted at Source): Employer must deduct TDS on salary (Section 192) based on estimated annual income.
+(c) Form 16: Annual TDS certificate issued by employer to employee.
+(d) Exempt allowances: HRA (subject to conditions), LTA (Leave Travel Allowance), standard deduction (Rs. 50,000 under new tax regime).
+(e) Perquisites: Taxable benefits like company car, accommodation, club membership.
+(f) New tax regime (Section 115BAC): Lower tax rates but fewer exemptions. Old tax regime: Higher rates but multiple exemptions and deductions.
+
+17. PROFESSIONAL TAX IN INDIA (STATE LEVY)
+Professional tax is levied by state governments on employed persons, professionals, and traders. It is deducted by the employer from employee salary and deposited with the state government. Maximum professional tax is Rs. 2,500 per year. States levying professional tax include: Karnataka, Maharashtra, West Bengal, Tamil Nadu, Andhra Pradesh, Telangana, Gujarat, Madhya Pradesh.
+
+─────────────────────────────────────────
+SECTION 6: NON-DISCLOSURE AGREEMENTS IN INDIA
+─────────────────────────────────────────
+
+18. NDA (NON-DISCLOSURE AGREEMENT) IN INDIA
+NDAs are enforceable in India under the Indian Contract Act as long as they satisfy all requirements of a valid contract. Key aspects:
+(a) Definition of confidential information must be clear.
+(b) Duration of confidentiality obligation — typically 2 to 5 years or perpetual for trade secrets.
+(c) Exclusions: Publicly available information, independently developed information, information received from third parties without restriction.
+(d) Permitted disclosures: To legal counsel, auditors, as required by law.
+(e) Remedies: Injunction (Specific Relief Act), damages, recovery of profits.
+(f) Trade secrets: Protected under common law in India — breach of confidence action available.
+(g) DPDP Act 2023: Personal data disclosures must comply with the Digital Personal Data Protection Act.
+
+19. INTELLECTUAL PROPERTY ASSIGNMENT IN EMPLOYMENT
+(a) Work created by an employee in the course of employment is owned by the employer (Copyright Act, 1957 — Section 17).
+(b) Patents: Under Patents Act, 1970, inventions made by employees in the course of employment belong to the employer if the employee was specifically employed to make inventions.
+(c) PIIA (Proprietary Information and Inventions Agreement): Commonly used in technology companies — employee assigns all work-product IP to employer.
+(d) Pre-existing IP: Employee retains IP created before employment — employer typically gets a license.

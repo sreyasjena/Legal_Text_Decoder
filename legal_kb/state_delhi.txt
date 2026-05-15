@@ -1,0 +1,70 @@
+DELHI STATE SPECIFIC LAWS KNOWLEDGE BASE
+========================================
+State-specific legal reference for Delhi laws, property regulations, and compliance requirements.
+
+─────────────────────────────────────────
+SECTION 1: STAMP DUTY AND REGISTRATION IN DELHI
+─────────────────────────────────────────
+
+1. STAMP DUTY IN DELHI
+(a) Stamp duty rate: 6% for men, 4% for women of property value.
+(b) Registration charges: 1% of property value.
+(c) Stamp duty is calculated on the higher of: agreement value or circle rate/guidance value.
+(d) Women buyers may get reduced stamp duty in Delhi — verify current rates.
+(e) e-Stamp: Available for Delhi through SHCIL and authorized banks.
+(f) Certificate number format: IN-DE-... for Delhi e-stamps.
+
+2. PROPERTY REGISTRATION IN DELHI
+(a) Registration portal: doris.delhigovt.nic.in
+(b) All sale deeds for immovable property must be compulsorily registered.
+(c) Documents required: Sale deed, ID proof of both parties, PAN cards, property documents, NOC if applicable.
+(d) Biometric verification at Sub-Registrar office.
+(e) Encumbrance Certificate: Available through registration portal — shows all registered transactions.
+
+─────────────────────────────────────────
+SECTION 2: RENT CONTROL IN DELHI
+─────────────────────────────────────────
+
+3. RENT CONTROL ACT IN DELHI
+Applicable law: Delhi Rent Control Act 1958 — applies to tenancies with monthly rent below Rs. 3,500
+(a) Governs residential and commercial tenancies within the scope of the Act.
+(b) Leave and license agreements properly executed are generally outside Rent Control Act protection.
+(c) 11-month convention: Common practice to avoid Rent Control Act protection and mandatory registration.
+(d) Disputes: Approach Rent Authority or Civil Court as applicable.
+
+─────────────────────────────────────────
+SECTION 3: REAL ESTATE REGULATION IN DELHI
+─────────────────────────────────────────
+
+4. RERA IN DELHI
+RERA portal: rera.delhi.gov.in
+(a) All residential/commercial projects with area >500 sq. m. or 8+ units must be registered.
+(b) Verify project registration before booking any under-construction property.
+(c) File complaints online through the RERA portal for project delays or disputes.
+(d) Homebuyer rights under RERA: Interest on delayed possession, refund with interest, compensation.
+
+─────────────────────────────────────────
+SECTION 4: STATE-SPECIFIC LAWS AND REGULATIONS
+─────────────────────────────────────────
+
+5. KEY STATE-SPECIFIC PROVISIONS IN DELHI
+(a) DDA (Delhi Development Authority): Allots housing and develops land in Delhi.
+(b) NDMC and MCD: Municipal bodies for property tax.
+(c) Professional tax: Not applicable in Delhi.
+(d) Delhi Shops and Establishments Act 1954.
+(e) Circle rates: Published by Delhi government for stamp duty calculation.
+(f) Agricultural land: Delhi Land Reforms Act 1954 governs agricultural land.
+
+─────────────────────────────────────────
+SECTION 5: GENERAL LEGAL ADVICE FOR DELHI
+─────────────────────────────────────────
+
+6. PROPERTY TRANSACTION ADVICE FOR DELHI
+(a) Always verify title documents in Delhi revenue record format.
+(b) Check state-specific stamp duty before property registration.
+(c) Verify RERA registration of under-construction projects on Delhi RERA portal.
+(d) Consult a local advocate familiar with Delhi property laws for complex transactions.
+(e) Check for agricultural land conversion requirements specific to Delhi.
+(f) Verify Encumbrance Certificate from Delhi Sub-Registrar office.
+(g) Conduct police verification of tenants as required by Delhi police department.
+(h) Check society/association NOC requirements for apartment transactions in Delhi.
