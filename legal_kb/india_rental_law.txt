@@ -1,0 +1,359 @@
+INDIA RENTAL AND PROPERTY LAW KNOWLEDGE BASE
+=============================================
+Comprehensive reference for Indian rental agreements, leave and license agreements,
+property law, stamp duty, registration, and tenant/landlord rights under Indian law.
+
+─────────────────────────────────────────
+SECTION 1: LEAVE AND LICENSE AGREEMENT IN INDIA
+─────────────────────────────────────────
+
+1. WHAT IS A LEAVE AND LICENSE AGREEMENT
+A Leave and License Agreement is a legal document governed by Section 52 of the Indian Easements Act, 1882. It grants a licensee the right to occupy and use a property for a specified period without creating any tenancy rights or interest in the property. The licensor retains ownership and possession rights throughout. Unlike a lease, a leave and license agreement does not transfer any interest in the property to the licensee. The licensee gets only a personal right to use the premises.
+
+2. LEAVE AND LICENSE VS LEASE — KEY DIFFERENCE
+A lease (governed by Transfer of Property Act, 1882, Section 105) transfers an interest in the property to the lessee and creates tenancy rights. A leave and license does not transfer any interest and does not create tenancy rights. In India, landlords prefer leave and license agreements because:
+(a) Licensees cannot claim tenancy protection under Rent Control Acts.
+(b) Eviction is easier — the licensor can revoke the license after the agreement period.
+(c) The licensee has no right to sub-license or transfer without explicit permission.
+(d) Courts treat breach of leave and license differently from breach of a lease.
+
+3. WHY 11 MONTHS — THE 11-MONTH CONVENTION IN INDIA
+In India, rental agreements are commonly made for 11 months to avoid mandatory registration under the Registration Act, 1908. Under Section 17 of the Registration Act, leases of immovable property for terms exceeding one year must be compulsorily registered. An 11-month agreement falls below the one-year threshold and is exempt from mandatory registration (though it can be optionally registered). Additionally, agreements exceeding 12 months may bring the tenant under the protection of state Rent Control Acts, making eviction difficult. The 11-month period is renewable and is a standard practice across India.
+
+4. LICENSOR AND LICENSEE DEFINED
+Licensor: The owner or lawful possessor of the property who grants the license to occupy.
+Licensee: The person who receives permission to occupy the property temporarily.
+The licensor retains full ownership rights. The licensee has no right to claim ownership, tenancy, or any interest in the property. The licensor can revoke the license after the agreement period expires or upon breach of terms.
+
+5. PARTIES IN A LEAVE AND LICENSE AGREEMENT
+The agreement must clearly identify: full legal name, age, gender, PAN number, and address of both the licensor and licensee. If the licensor is a company, the company's CIN and authorized signatory details are required. In Karnataka and other states, Aadhaar-based e-signing is increasingly used for digital execution.
+
+─────────────────────────────────────────
+SECTION 2: KEY CLAUSES IN INDIAN RENTAL AGREEMENTS
+─────────────────────────────────────────
+
+6. LICENSE FEE (RENT) CLAUSE IN INDIA
+The monthly payment made by the licensee to the licensor is called the "license fee" (not "rent" in a leave and license agreement). Key aspects:
+(a) Amount fixed at the time of agreement.
+(b) Payment due date — typically on or before the 1st or 2nd of each month.
+(c) Mode of payment — bank transfer, cheque, or online payment.
+(d) Penalty for late payment — may be specified.
+(e) Annual increment — typically 5% to 10% per year upon renewal.
+The license fee must be paid in advance for the month. Failure to pay is a ground for revocation of the license.
+
+7. SECURITY DEPOSIT CLAUSE IN INDIA
+The security deposit (also called advance deposit or refundable deposit) is a sum paid by the licensee to the licensor at the time of entering the agreement. Key aspects:
+(a) Typically equivalent to 2 to 10 months of license fee depending on the city and property.
+(b) In Bangalore and Karnataka, deposits of 6 to 10 months are common for residential properties.
+(c) The deposit is interest-free and refundable upon vacation of the premises.
+(d) The licensor deducts outstanding dues (unpaid license fees, utility bills, damages) before refunding.
+(e) The deposit is not treated as advance rent.
+(f) Karnataka Rent Control Act limits deposits for protected tenants but leave and license agreements are generally outside Rent Control Act protection.
+The deposit amount and refund conditions must be clearly stated in the agreement.
+
+8. DURATION AND RENEWAL CLAUSE IN INDIA
+(a) Duration: Typically 11 months for residential agreements.
+(b) Lock-in period: A minimum period during which neither party can terminate without penalty. Typically 6 to 11 months.
+(c) Renewal: The agreement may be renewed for a further period by mutual consent, usually with a 5% to 10% increment in license fee.
+(d) Notice period for non-renewal: Typically 1 to 2 months written notice required by either party.
+(e) Holdover: If the licensee continues to occupy after expiry without renewal, the licensor can seek eviction.
+
+9. LOCK-IN PERIOD CLAUSE IN INDIA
+The lock-in period is a minimum commitment period during which neither the licensor nor the licensee can terminate the agreement without penalty. If the licensee vacates before the lock-in period expires:
+(a) The licensee forfeits the security deposit or pays license fees for the remaining lock-in period.
+(b) The licensor cannot ask the licensee to vacate during the lock-in period without compensation.
+Lock-in periods protect both parties — the licensor gets assured income and the licensee gets assured occupancy.
+
+10. TERMINATION AND NOTICE CLAUSE IN INDIA
+(a) Either party can terminate the agreement after the lock-in period by giving 1 to 2 months written notice.
+(b) The licensor can terminate immediately for breach of material terms (non-payment, illegal use, subletting without permission).
+(c) Upon termination, the licensee must vacate the premises and hand over peaceful possession.
+(d) If the licensee refuses to vacate, the licensor can approach the Civil Court or Summary Court for eviction and recovery of premises.
+
+11. NO TENANCY RIGHTS CLAUSE IN INDIA
+This clause explicitly states that the agreement creates no tenancy rights and the licensee has no right to claim protection under any Rent Control Act. The clause is critical because Indian courts have sometimes treated long-term occupation as creating tenancy rights even under a leave and license agreement if the conduct of parties suggests a landlord-tenant relationship. The clause must clearly state:
+(a) The agreement is a leave and license and not a lease or tenancy.
+(b) The licensee shall not claim any tenancy rights.
+(c) The licensee shall not claim protection under any Rent Control Act.
+(d) The licensor retains full ownership and possession rights.
+
+12. USE AND PURPOSE CLAUSE IN INDIA
+The agreement must specify the permitted use of the property:
+(a) Residential purpose only — the licensee must use the premises only for residential purposes.
+(b) Commercial activities are prohibited unless explicitly permitted.
+(c) The licensee must not use the property for illegal activities, nuisance, or activities that violate society rules or government regulations.
+(d) In housing societies, the licensee must abide by the society's bye-laws and rules.
+
+13. MAINTENANCE AND REPAIR CLAUSE IN INDIA
+(a) Structural repairs are typically the licensor's responsibility.
+(b) Day-to-day maintenance (minor repairs, plumbing, electrical) is the licensee's responsibility.
+(c) Damage beyond normal wear and tear is repaired at the licensee's cost.
+(d) The licensee must maintain the property in good condition and return it in the same condition.
+(e) The licensor or authorized representative has the right to inspect the property with prior notice.
+
+14. ALTERATION CLAUSE IN INDIA
+The licensee must not make any structural alterations, additions, or modifications to the property without the prior written consent of the licensor. Unauthorized alterations must be restored to original condition at the licensee's cost upon vacation.
+
+15. SUBLETTING CLAUSE IN INDIA
+The licensee must not sublet, sublicense, assign, or part with possession of the property or any part thereof to any third party without the prior written consent of the licensor. Unauthorized subletting is a serious breach and grounds for immediate termination.
+
+─────────────────────────────────────────
+SECTION 3: STAMP DUTY AND REGISTRATION IN INDIA
+─────────────────────────────────────────
+
+16. STAMP DUTY ON LEAVE AND LICENSE AGREEMENTS IN INDIA
+Stamp duty is a government tax on legal documents. In India, stamp duty on leave and license agreements varies by state:
+(a) Karnataka: Stamp duty is calculated based on the annual license fee and deposit. For agreements up to 11 months, stamp duty is typically Rs. 200 to Rs. 500 under Article 30(1)(i) of the Karnataka Stamp Act.
+(b) Maharashtra: Leave and license agreements must be stamped based on the monthly rent, tenure, and deposit amount.
+(c) Delhi: Stamp duty is 2% of the average annual rent.
+Inadequately stamped agreements are inadmissible as evidence in court and may attract penalty.
+
+17. E-STAMP IN INDIA
+e-Stamp (Electronic Stamp) is a computer-generated stamp paper issued by the Stock Holding Corporation of India Limited (SHCIL) or authorized banks. It is a secure, tamper-proof alternative to traditional physical stamp papers. Key details on an e-stamp certificate include:
+(a) Certificate Number (unique identifier like IN-KA...).
+(b) Certificate Issued Date.
+(c) Account Reference.
+(d) Unique Document Reference (SUBIN-...).
+(e) Description of Document (Article under which stamp duty is paid).
+(f) Consideration Price / Others (deposit or consideration amount).
+(g) Stamp Duty Amount.
+e-Stamps are legally valid under the Indian Stamp Act, 1899 and state stamp laws.
+
+18. REGISTRATION OF LEAVE AND LICENSE AGREEMENTS IN INDIA
+Under Section 17 of the Registration Act, 1908:
+(a) Agreements for terms exceeding one year must be compulsorily registered.
+(b) Agreements for 11 months or less can be optionally registered but are not required to be.
+(c) In Maharashtra, registration of leave and license agreements is compulsory regardless of duration (Maharashtra Rent Control Act, 2000, Section 55).
+(d) In Karnataka, registration is optional for 11-month agreements but recommended for legal protection.
+Registered agreements are admissible as evidence in court without further proof of execution.
+
+19. NOTARIZATION VS REGISTRATION IN INDIA
+A notarized agreement is certified by a Notary Public but is NOT the same as a registered document. Notarization confirms the identity of the parties and their signatures but does not confer the legal protection of registration. In India, notarized leave and license agreements are widely used for 11-month agreements as a cost-effective alternative to registration. However, notarized documents may be challenged in court more easily than registered documents.
+
+─────────────────────────────────────────
+SECTION 4: RENT CONTROL LAWS IN INDIA
+─────────────────────────────────────────
+
+20. RENT CONTROL ACTS IN INDIA — OVERVIEW
+Most Indian states have Rent Control Acts that protect tenants from arbitrary eviction and excessive rent. Key state laws:
+(a) Karnataka Rent Act, 1999 — applies to properties in urban local body areas in Karnataka.
+(b) Maharashtra Rent Control Act, 1999 — applies to Maharashtra.
+(c) Delhi Rent Control Act, 1958 — applies to Delhi (only to properties with monthly rent below Rs. 3,500).
+(d) Tamil Nadu Buildings (Lease and Rent Control) Act, 1960.
+Leave and license agreements are generally structured to avoid Rent Control Act protection by not creating tenancy rights.
+
+21. KARNATAKA RENT ACT, 1999
+Applies to buildings in cities and towns under urban local bodies in Karnataka. Key provisions:
+(a) A landlord can evict a tenant only on specific grounds (non-payment of rent, subletting, nuisance, personal requirement, reconstruction).
+(b) Rent cannot be increased arbitrarily — increases are regulated.
+(c) A leave and license agreement that does not create tenancy rights is generally outside the scope of the Karnataka Rent Act.
+(d) If a court determines that a "leave and license" is actually a tenancy in disguise, Rent Act protections may apply.
+
+22. PROTECTION AGAINST ARBITRARY EVICTION IN INDIA
+Under Indian law, a licensor cannot forcibly evict a licensee by:
+(a) Changing locks without court order.
+(b) Removing the licensee's belongings without consent.
+(c) Cutting off electricity or water supply to force vacation.
+Such actions constitute unlawful eviction and the licensee can seek relief from the civil court. The licensor must obtain a court order for eviction if the licensee refuses to vacate.
+
+─────────────────────────────────────────
+SECTION 5: RIGHTS AND OBLIGATIONS OF PARTIES IN INDIA
+─────────────────────────────────────────
+
+23. LICENSOR'S RIGHTS IN INDIA
+(a) Right to receive timely license fee.
+(b) Right to inspect the property with prior notice.
+(c) Right to recover possession upon expiry or breach.
+(d) Right to deduct dues from security deposit.
+(e) Right to take legal action for unpaid fees or damages.
+(f) Right to terminate for breach of material terms.
+
+24. LICENSOR'S OBLIGATIONS IN INDIA
+(a) Provide peaceful possession of the property.
+(b) Ensure the property is habitable and in good condition at the time of handover.
+(c) Not disturb the licensee's peaceful enjoyment during the agreement period.
+(d) Refund the security deposit (after deductions) within a reasonable time after vacation.
+(e) Pay statutory charges, taxes, and levies on the property.
+(f) Maintain structural integrity of the property.
+
+25. LICENSEE'S RIGHTS IN INDIA
+(a) Right to peaceful enjoyment of the property during the agreement period.
+(b) Right to receive refund of security deposit after deductions upon vacating.
+(c) Right to receive notice before inspection by the licensor.
+(d) Right to terminate by giving notice as per the agreement.
+(e) Right to protection against forcible eviction without court order.
+
+26. LICENSEE'S OBLIGATIONS IN INDIA
+(a) Pay license fee on time.
+(b) Use the property only for the agreed purpose.
+(c) Maintain the property in good condition.
+(d) Not sublet or assign without permission.
+(e) Not make unauthorized alterations.
+(f) Vacate and hand over possession peacefully upon expiry or termination.
+(g) Abide by society rules and government regulations.
+(h) Pay utility bills (electricity, water, gas, internet) unless otherwise agreed.
+(i) Return all keys and access cards upon vacation.
+
+27. UTILITY CHARGES AND OTHER CHARGES IN INDIA
+(a) Electricity charges: Typically paid by the licensee based on actual consumption.
+(b) Water charges: May be included in license fee or paid separately.
+(c) Maintenance charges: Society maintenance charges may be paid by the licensor or licensee as agreed.
+(d) Property tax: Paid by the licensor (owner).
+(e) Internet, cable, gas: Paid by the licensee.
+(f) Other statutory charges: Paid by the licensor unless otherwise agreed.
+
+─────────────────────────────────────────
+SECTION 6: RISKS IN INDIAN RENTAL AGREEMENTS
+─────────────────────────────────────────
+
+28. RISK OF AGREEMENT BEING TREATED AS TENANCY IN INDIA
+If a leave and license agreement is found to behave like a tenancy (long occupation, licensor accepting rent regularly without assertion of license, licensee making improvements), a court may treat it as a tenancy. This gives the licensee Rent Control Act protection and makes eviction very difficult. Risk mitigation: use clear "no tenancy rights" language, renew agreements in writing, avoid accepting rent beyond the agreement period without formal renewal.
+
+29. RISK OF NON-REFUND OF SECURITY DEPOSIT IN INDIA
+The licensor may withhold the security deposit or delay refund on vague grounds. Risk mitigation for licensee:
+(a) Get a written receipt for deposit payment.
+(b) Document the condition of the property at move-in (photographs, written inventory).
+(c) Conduct a joint inspection at move-out.
+(d) Get written confirmation of vacation date.
+(e) If deposit is not refunded, the licensee can approach the consumer forum or civil court.
+
+30. RISK OF UNAUTHORIZED OCCUPATION IN INDIA
+If the licensee refuses to vacate after expiry or termination, the licensor must approach the civil court for a decree of eviction and recovery of possession. The process can take months. Risk mitigation: lock-in and vacation clauses with double rent provision for holdover period (i.e., licensee pays double the license fee for each day of unauthorized occupation after expiry).
+
+31. RISK OF PROPERTY DAMAGE IN INDIA
+The licensee may cause damage beyond normal wear and tear. Risk mitigation:
+(a) Document property condition at move-in with photographs.
+(b) Specify in the agreement that damage beyond normal wear and tear will be deducted from deposit.
+(c) Conduct joint inspection before deposit refund.
+(d) Specify in the agreement that 1 month's license fee will be deducted from deposit for painting upon vacation (a common Karnataka practice).
+
+32. RISK OF NON-PAYMENT OF LICENSE FEE IN INDIA
+If the licensee fails to pay license fees, the licensor can:
+(a) Send a legal notice demanding payment.
+(b) Terminate the agreement for breach.
+(c) File a civil suit for recovery of dues.
+(d) Recover dues from the security deposit.
+
+33. RISK OF SUBLETTING WITHOUT PERMISSION IN INDIA
+Unauthorized subletting is a serious breach in India. The licensor can immediately terminate the agreement and seek eviction. The licensee has no right to recover the deposit if evicted for unauthorized subletting.
+
+─────────────────────────────────────────
+SECTION 7: DISPUTE RESOLUTION IN INDIAN RENTAL MATTERS
+─────────────────────────────────────────
+
+34. DISPUTE RESOLUTION FOR RENTAL DISPUTES IN INDIA
+(a) Negotiation: First step — parties attempt to resolve by direct negotiation.
+(b) Legal notice: A formal legal notice sent by advocate gives the other party opportunity to comply before litigation.
+(c) Mediation: Voluntary process — some cities have Lok Adalats for quick resolution.
+(d) Civil Court: For eviction and recovery of possession — file a suit in the civil court of jurisdiction.
+(e) Consumer Forum: For deposit refund disputes — if the licensor is a builder or developer, consumer forum may have jurisdiction.
+(f) Small Claims / Fast Track Courts: Some states have fast-track courts for rental disputes.
+
+35. RENT AUTHORITY IN KARNATAKA
+Under the Karnataka Rent Act, 1999, the Rent Authority (Civil Judge or equivalent) has jurisdiction over rental disputes in Karnataka. The Rent Authority can:
+(a) Order eviction on legitimate grounds.
+(b) Fix standard rent.
+(c) Order refund of excess deposit.
+(d) Decide disputes between landlord and tenant under the Karnataka Rent Act.
+Note: Leave and license agreements that do not create tenancy rights may not fall under Rent Authority jurisdiction — they would go to the Civil Court.
+
+36. LEGAL NOTICE FOR RENTAL DISPUTES IN INDIA
+A legal notice is a formal written communication sent by a lawyer to the other party. In rental disputes, a legal notice is sent for:
+(a) Non-payment of license fee — demanding payment within 15 days.
+(b) Demand for vacation — asking the licensee to vacate by a specified date.
+(c) Demand for deposit refund — asking the licensor to refund deposit within a specified time.
+(d) Notice of termination — formally terminating the agreement.
+A legal notice creates a paper trail and shows good faith before filing a lawsuit.
+
+─────────────────────────────────────────
+SECTION 8: HOUSING SOCIETY RULES AND RENTAL IN INDIA
+─────────────────────────────────────────
+
+37. HOUSING SOCIETY RULES FOR TENANTS IN INDIA
+In cooperative housing societies (common in Bangalore, Mumbai, Pune), the licensee must:
+(a) Register with the society and submit KYC documents (ID proof, address proof, photograph).
+(b) Pay society maintenance charges (unless the licensor bears this).
+(c) Abide by the society's bye-laws and house rules.
+(d) Not cause nuisance to other residents.
+(e) Use common areas (parking, clubhouse, gym, pool) as per society rules.
+(f) Not keep pets if society rules prohibit it.
+(g) Obtain society NOC (No Objection Certificate) if required.
+
+38. POLICE VERIFICATION FOR TENANTS IN INDIA
+In many Indian cities, landlords are required to conduct police verification of tenants before renting out property. The landlord submits the tenant's details (ID proof, photograph, address) to the local police station. In Karnataka, this is done through the online police verification portal. Failure to do police verification may expose the landlord to legal liability if the tenant commits a crime.
+
+39. PAN AND AADHAAR IN RENTAL AGREEMENTS IN INDIA
+(a) PAN (Permanent Account Number): Used for identity verification and required for TDS deduction on rent (if applicable).
+(b) Aadhaar: Used for identity verification and increasingly for e-signing of rental agreements.
+(c) TDS on Rent: If the licensee is an individual paying monthly rent exceeding Rs. 50,000, TDS at 5% must be deducted under Section 194-IB of the Income Tax Act, 1961 and deposited with the government.
+
+─────────────────────────────────────────
+SECTION 9: FURNITURE AND APPLIANCES IN INDIAN RENTAL AGREEMENTS
+─────────────────────────────────────────
+
+40. FURNISHED VS SEMI-FURNISHED VS UNFURNISHED IN INDIA
+(a) Fully furnished: Property includes all furniture, appliances, and fittings (beds, wardrobes, sofas, kitchen appliances, geysers, AC, fans, lights).
+(b) Semi-furnished: Includes basic fixtures (fans, lights, geysers, wardrobes) but not full furniture.
+(c) Unfurnished: Bare property without any furniture or appliances.
+The furnished status affects the license fee amount. A schedule of furniture and appliances (Schedule I) must be annexed to the agreement, listing all items and their condition. The licensee must return all items in the schedule in good condition (subject to normal wear and tear).
+
+41. INVENTORY CLAUSE IN INDIA
+The agreement should include a detailed inventory (Schedule I) listing all furniture, appliances, and fittings in the property with their description and condition. The licensee acknowledges receipt of all listed items. Upon vacation, the inventory is checked and any missing or damaged items are deducted from the deposit. A joint move-in and move-out inspection is best practice.
+
+─────────────────────────────────────────
+SECTION 10: COMMON INDIAN LEGAL TERMS IN RENTAL AGREEMENTS
+─────────────────────────────────────────
+
+42. GLOSSARY OF COMMON TERMS IN INDIAN RENTAL AGREEMENTS
+(a) Licensor: Owner who grants the license to occupy.
+(b) Licensee: Person who occupies the property under a license.
+(c) License Fee: Monthly payment by licensee to licensor (equivalent to rent in a tenancy).
+(d) Security Deposit: Refundable advance deposit paid by licensee.
+(e) Lock-in Period: Minimum period during which agreement cannot be terminated.
+(f) Leave and License: Legal arrangement granting right to occupy without creating tenancy.
+(g) Tenancy: Legal arrangement creating interest in property and tenancy rights.
+(h) Peaceful Possession: Uninterrupted enjoyment of the property.
+(i) e-Stamp: Electronic stamp paper used for stamp duty payment.
+(j) PAN: Permanent Account Number — Indian tax identity number.
+(k) Notarization: Certification by Notary Public.
+(l) Registration: Recording of document with Sub-Registrar of Assurances.
+(m) Wear and Tear: Normal deterioration of property through ordinary use.
+(n) Schedule I: Annexure listing furniture and appliances.
+(o) Licensor's heirs: Successors and legal representatives of the licensor who are also bound by the agreement.
+(p) Revocable License: The licensor can revoke (cancel) the license — this is the nature of all leave and license agreements.
+
+43. IMPORTANT INDIAN LAWS APPLICABLE TO RENTAL AGREEMENTS
+(a) Indian Easements Act, 1882 — Section 52 defines License.
+(b) Transfer of Property Act, 1882 — Sections 105-117 govern leases.
+(c) Registration Act, 1908 — Section 17 on compulsory registration.
+(d) Indian Stamp Act, 1899 — Stamp duty on documents.
+(e) Karnataka Stamp Act, 1957 — State stamp duty in Karnataka.
+(f) Karnataka Rent Act, 1999 — Rent control in Karnataka.
+(g) Maharashtra Rent Control Act, 1999 — Rent control in Maharashtra.
+(h) Income Tax Act, 1961 — Section 194-IB on TDS on rent.
+(i) Indian Contract Act, 1872 — General contract principles.
+(j) Code of Civil Procedure, 1908 — Civil suits for eviction and recovery.
+
+44. ADVICE FOR LICENSEES SIGNING INDIAN RENTAL AGREEMENTS
+(a) Read the entire agreement before signing.
+(b) Verify the licensor's ownership of the property (ask for property documents or Khata).
+(c) Confirm the deposit amount and refund conditions are clearly stated.
+(d) Take photographs of the property condition at move-in.
+(e) Get a written receipt for all payments (deposit and license fee).
+(f) Ensure the lock-in period and notice period are acceptable.
+(g) Check society rules before signing.
+(h) Complete police verification as required.
+(i) Check if TDS applies to your rent payment.
+(j) Keep a copy of the signed agreement.
+
+45. ADVICE FOR LICENSORS SIGNING INDIAN RENTAL AGREEMENTS
+(a) Verify the licensee's identity (Aadhaar, PAN, employer ID).
+(b) Conduct police verification of the licensee.
+(c) Include a clear no-tenancy-rights clause.
+(d) Specify all deductions that may be made from the deposit.
+(e) Include a double-rent holdover clause for unauthorized occupation after expiry.
+(f) Include a clear vacation and handover procedure.
+(g) Attach a complete inventory (Schedule I) of furniture and appliances.
+(h) Keep signed copies of all documents.
+(i) Renew the agreement in writing rather than allowing it to continue informally.
+(j) Consult a lawyer for disputes rather than attempting self-help eviction.
