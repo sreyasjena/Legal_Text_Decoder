@@ -6,9 +6,6 @@ from PyPDF2 import PdfReader
 from docx import Document
 
 # ── Tesseract setup ──────────────────────────────────────
-# On Windows (local), set the path to the Tesseract executable.
-# On Linux (Streamlit Cloud), tesseract is installed via packages.txt
-# and available on PATH — so we only set the path if the file exists.
 _WINDOWS_TESSERACT = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 try:
@@ -19,22 +16,86 @@ try:
 except ImportError:
     TESSERACT_AVAILABLE = False
 
+# ── pdf2image for scanned PDF OCR ────────────────────────
+try:
+    from pdf2image import convert_from_bytes
+    PDF2IMAGE_AVAILABLE = True
+except ImportError:
+    PDF2IMAGE_AVAILABLE = False
+
 
 # ─────────────────────────────────────────────────────────
-# PDF EXTRACTION
+# PDF EXTRACTION  (digital text + OCR fallback for scanned)
 # ─────────────────────────────────────────────────────────
 def extract_text_from_pdf(uploaded_file) -> str:
-    """Extract text from a PDF file page by page."""
+    """
+    Extract text from a PDF file.
+    - First tries PyPDF2 for digital PDFs (fast).
+    - If little/no text is found, falls back to Tesseract OCR
+      via pdf2image (handles scanned/image-based PDFs).
+    """
     try:
-        pdf_reader = PdfReader(uploaded_file)
+        # Read file bytes once so we can reuse for OCR if needed
+        file_bytes = uploaded_file.read()
+
+        # ── Step 1: Try digital text extraction ──────────
+        from io import BytesIO
+        pdf_reader = PdfReader(BytesIO(file_bytes))
         text = ""
         for page in pdf_reader.pages:
             extracted = page.extract_text()
             if extracted:
                 text += extracted + "\n"
-        return text.strip() if text.strip() else "No text could be extracted from this PDF."
+
+        text = text.strip()
+
+        # If we got meaningful text (>100 chars), return it
+        if len(text) > 100:
+            return text
+
+        # ── Step 2: OCR fallback for scanned PDFs ────────
+        if PDF2IMAGE_AVAILABLE and TESSERACT_AVAILABLE:
+            return _ocr_pdf_bytes(file_bytes)
+        elif not PDF2IMAGE_AVAILABLE:
+            return (
+                "⚠️ This appears to be a scanned PDF. "
+                "pdf2image is not installed — add it to requirements.txt.\n\n"
+                "Tip: Copy the text from the PDF and paste it directly into the text box."
+            )
+        else:
+            return (
+                "⚠️ This appears to be a scanned PDF. "
+                "Tesseract OCR is not available.\n\n"
+                "Tip: Copy the text from the PDF and paste it directly into the text box."
+            )
+
     except Exception as e:
         return f"Could not extract text from PDF: {e}"
+
+
+def _ocr_pdf_bytes(file_bytes: bytes) -> str:
+    """
+    Convert PDF pages to images and run Tesseract OCR on each page.
+    Returns combined OCR text from all pages.
+    """
+    try:
+        pages = convert_from_bytes(file_bytes, dpi=200)
+        ocr_text = ""
+        for i, page_image in enumerate(pages):
+            page_text = pytesseract.image_to_string(page_image, lang="eng")
+            if page_text.strip():
+                ocr_text += f"\n--- Page {i+1} ---\n{page_text}"
+
+        result = ocr_text.strip()
+        return result if result else "No text could be extracted from this scanned PDF."
+
+    except pytesseract.pytesseract.TesseractNotFoundError:
+        return (
+            "⚠️ Tesseract OCR is not available on this server.\n\n"
+            "Tip: Copy the text from the PDF and paste it directly into the text box."
+        )
+    except Exception as e:
+        return f"OCR extraction failed: {e}"
 
 
 # ─────────────────────────────────────────────────────────
@@ -56,9 +117,7 @@ def extract_text_from_docx(uploaded_file) -> str:
 def extract_text_from_image(uploaded_file) -> str:
     """
     Extract text from an image using Tesseract OCR.
-
-    Falls back gracefully if Tesseract is not installed
-    (e.g. first deploy before packages.txt is picked up).
+    Falls back gracefully if Tesseract is not installed.
     """
     if not TESSERACT_AVAILABLE:
         return (
@@ -67,7 +126,6 @@ def extract_text_from_image(uploaded_file) -> str:
         )
 
     try:
-        # Write to a temp file so PIL can open it reliably
         suffix = ".png"
         if hasattr(uploaded_file, "name"):
             ext = os.path.splitext(uploaded_file.name)[-1].lower()
