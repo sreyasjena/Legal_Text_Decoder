@@ -143,7 +143,7 @@ def show_workspace():
                 unsafe_allow_html=True,
             )
 
-        # Language selector (visible on page)
+        # Language selector
         st.markdown("<br>", unsafe_allow_html=True)
         st.markdown(
             """
@@ -193,8 +193,17 @@ def show_workspace():
 
     # ── ANALYSIS LOGIC ────────────────────────────────────
     pipeline_ph = st.empty()
+    result_ph   = st.empty()   # placeholder for result — cleared on new analysis
 
     if analyze_clicked:
+
+        # ── Clear previous result immediately ─────────────
+        st.session_state.result         = None
+        st.session_state.pipeline_stage = None
+        result_ph.empty()
+        pipeline_ph.empty()
+
+        # ── Validate input ────────────────────────────────
         if text_input.strip() == "" and uploaded_file is None:
             st.warning("⚠️  Please provide legal text or upload a document.")
 
@@ -218,7 +227,7 @@ def show_workspace():
             else:
                 final_text = text_input
 
-            # Stages 2-4
+            # Stages 2 — 4
             for stage in ["retrieving", "augmenting", "generating"]:
                 st.session_state.pipeline_stage = stage
                 with pipeline_ph.container():
