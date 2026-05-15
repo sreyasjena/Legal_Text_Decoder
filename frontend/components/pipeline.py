@@ -34,7 +34,7 @@ STAGE_LOGS = {
     "retrieving": "Querying vector store — searching 12,400 legal precedents…",
     "augmenting": "Injecting retrieved context into prompt template…",
     "generating": "Running LLM inference — generating structured legal analysis…",
-    "done":       "Analysis complete. Rendering output.",
+    "done":       "✅ Analysis complete. Result delivered successfully.",
 }
 
 
@@ -42,6 +42,8 @@ def render_pipeline(current_stage: str):
     """
     Render the animated pipeline panel for the given stage.
     current_stage must be one of STAGE_KEYS or None.
+
+    When current_stage == 'done', ALL 5 stages show as Completed.
     """
     progress   = STAGE_PROGRESS.get(current_stage, 0)
     active_idx = (
@@ -61,15 +63,23 @@ def render_pipeline(current_stage: str):
         unsafe_allow_html=True,
     )
 
-    # Stage cards — rendered in st.columns to avoid HTML escaping
+    # Stage cards
     cols = st.columns(5)
     for i, (icon, name, desc) in enumerate(STAGES):
-        if i < active_idx:
+
+        # ── When stage is "done" ALL stages are Completed ──
+        if current_stage == "done":
             cls   = "done"
             badge = '<span class="pstage-badge bd-done">✓ Completed</span>'
+
+        elif i < active_idx:
+            cls   = "done"
+            badge = '<span class="pstage-badge bd-done">✓ Completed</span>'
+
         elif i == active_idx:
             cls   = "active"
             badge = '<span class="pstage-badge bd-active">⬤ Running…</span>'
+
         else:
             cls   = "queued"
             badge = '<span class="pstage-badge bd-queued">Queue</span>'
@@ -88,6 +98,9 @@ def render_pipeline(current_stage: str):
             )
 
     # Progress bar + live log
+    # When done — no blinking cursor, show static success message
+    cursor = "" if current_stage == "done" else '<span class="blink-cursor"></span>'
+
     st.markdown(
         f"""
         <div class="prog-wrap">
@@ -95,7 +108,7 @@ def render_pipeline(current_stage: str):
         </div>
         <div class="live-log">
             <span>{log_text}</span>
-            <span class="blink-cursor"></span>
+            {cursor}
         </div>
         </div>
         """,
