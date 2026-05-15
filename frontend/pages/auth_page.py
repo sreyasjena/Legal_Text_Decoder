@@ -3,7 +3,7 @@ frontend/pages/auth_page.py
 ────────────────────────────
 Login and Sign-up page.
 Two-column layout: branding panel (left) + form card (right).
-Supports email magic link and phone SMS OTP.
+Supports Google Sign-In, email magic link, and phone SMS OTP.
 """
 
 import streamlit as st
@@ -13,6 +13,8 @@ from frontend.auth.firebase_auth import (
     send_email_link,
     verify_email_link,
     firebase_create_or_get_user,
+    get_google_auth_url,
+    exchange_google_code,
 )
 from frontend.auth.twilio_auth import send_phone_otp, verify_phone_otp
 
@@ -65,6 +67,77 @@ SECURITY_CARD = """
     </div>
 </div>
 """
+
+# ── Google Sign-In button HTML ────────────────────────────
+def _google_button(auth_url: str) -> str:
+    return f"""
+<a href="{auth_url}" target="_self" style="text-decoration:none;">
+    <div style="
+        display:flex;align-items:center;justify-content:center;gap:12px;
+        background:#fff;color:#3c4043;
+        border:1px solid #dadce0;border-radius:10px;
+        padding:12px 20px;cursor:pointer;width:100%;
+        font-family:'JetBrains Mono',monospace;font-size:14px;font-weight:600;
+        letter-spacing:0.5px;margin-bottom:6px;
+        box-shadow:0 1px 6px rgba(0,0,0,0.2);
+        transition:box-shadow 0.2s ease;">
+        <svg width="20" height="20" viewBox="0 0 48 48">
+            <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+            <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+            <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+            <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+            <path fill="none" d="M0 0h48v48H0z"/>
+        </svg>
+        Continue with Google
+    </div>
+</a>
+<div style="display:flex;align-items:center;gap:10px;margin:14px 0 10px;">
+    <div style="flex:1;height:1px;background:rgba(255,255,255,0.1);"></div>
+    <span style="font-family:'JetBrains Mono',monospace;font-size:11px;
+    color:var(--muted);letter-spacing:1px;">OR</span>
+    <div style="flex:1;height:1px;background:rgba(255,255,255,0.1);"></div>
+</div>
+"""
+
+
+# ─────────────────────────────────────────────────────────
+# GOOGLE OAUTH CALLBACK HANDLER
+# ─────────────────────────────────────────────────────────
+
+def _handle_google_callback():
+    """
+    Check URL query params for Google OAuth callback code.
+    If found, exchange it for Firebase credentials and log the user in.
+    Returns True if login was completed, False otherwise.
+    """
+    try:
+        params = st.query_params
+        code   = params.get("code", None)
+
+        if not code:
+            return False
+
+        # Clear the code from URL immediately to prevent re-use on refresh
+        st.query_params.clear()
+
+        with st.spinner("🔄 Completing Google Sign-In…"):
+            uid, email, display_name = exchange_google_code(code)
+
+        if uid and email:
+            st.session_state.logged_in  = True
+            st.session_state.user_uid   = uid
+            st.session_state.user_email = email
+            st.session_state.otp_sent   = False
+            go_workspace()
+            st.rerun()
+            return True
+        else:
+            st.error("❌ Google Sign-In failed. Please try again.")
+            return False
+
+    except Exception as e:
+        st.error(f"Google callback error: {e}")
+        return False
 
 
 # ─────────────────────────────────────────────────────────
@@ -253,6 +326,11 @@ def _method_selector(key_prefix: str):
 def show_auth():
     """Render the full auth page (login + signup)."""
 
+    # ── Handle Google OAuth callback first ───────────────
+    # If ?code=... is in the URL, complete the sign-in and exit early
+    if _handle_google_callback():
+        return
+
     # Already logged in → skip to workspace
     if st.session_state.logged_in:
         go_workspace()
@@ -333,7 +411,7 @@ def show_auth():
     # ── RIGHT: security card + form card ─────────────────
     with right_col:
 
-        # ── Security badge card (replaces the empty box) ──
+        # ── Security badge card ───────────────────────────
         st.markdown(SECURITY_CARD, unsafe_allow_html=True)
 
         # ── Main form card ────────────────────────────────
@@ -355,6 +433,11 @@ def show_auth():
                 'Choose your login method — no password needed.</div>',
                 unsafe_allow_html=True,
             )
+
+            # ── Google Sign-In button ─────────────────────
+            google_url = get_google_auth_url()
+            st.markdown(_google_button(google_url), unsafe_allow_html=True)
+
             _method_selector("li")
             if st.session_state.auth_method == "email":
                 _email_form("li", "Send Login Link", "btn-otp")
@@ -372,6 +455,10 @@ def show_auth():
                 'No password required. Verify with email or phone.</div>',
                 unsafe_allow_html=True,
             )
+
+            # ── Google Sign-In button ─────────────────────
+            st.markdown(_google_button(google_url), unsafe_allow_html=True)
+
             _method_selector("su")
             if st.session_state.auth_method == "email":
                 _email_form("su", "🚀  Send Signup Link", "btn-signup")
