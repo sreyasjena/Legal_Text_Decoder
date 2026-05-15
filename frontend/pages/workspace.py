@@ -33,6 +33,10 @@ def show_workspace():
         go_auth("login")
         st.rerun()
 
+    # ── Session state defaults ─────────────────────────────
+    if "source_label" not in st.session_state:
+        st.session_state.source_label = None
+
     # Faint LEXAI watermark behind content
     st.markdown('<div class="main-lexai-mark">LEXAI</div>', unsafe_allow_html=True)
 
@@ -119,11 +123,16 @@ def show_workspace():
             unsafe_allow_html=True,
         )
         st.markdown('<div class="sec-label">Reference Document</div>', unsafe_allow_html=True)
+
+        # ── Single file upload — accept_multiple_files=False ──
         uploaded_file = st.file_uploader(
             "Drop file",
             type=["txt", "pdf", "docx", "png", "jpg", "jpeg"],
+            accept_multiple_files=False,   # ← only ONE file at a time
             label_visibility="collapsed",
+            key="file_uploader",
         )
+
         if uploaded_file:
             st.markdown(
                 f"""
@@ -193,14 +202,13 @@ def show_workspace():
 
     # ── ANALYSIS LOGIC ────────────────────────────────────
     pipeline_ph = st.empty()
-    result_ph   = st.empty()   # placeholder for result — cleared on new analysis
 
     if analyze_clicked:
 
-        # ── Clear previous result immediately ─────────────
+        # ── Clear previous result and pipeline immediately ──
         st.session_state.result         = None
         st.session_state.pipeline_stage = None
-        result_ph.empty()
+        st.session_state.source_label   = None
         pipeline_ph.empty()
 
         # ── Validate input ────────────────────────────────
@@ -212,6 +220,13 @@ def show_workspace():
 
         else:
             final_text = ""
+
+            # ── Capture source label for result display ────
+            if uploaded_file is not None:
+                st.session_state.source_label = uploaded_file.name
+            else:
+                preview = text_input.strip()[:10]
+                st.session_state.source_label = f'"{preview}…"' if len(text_input.strip()) > 10 else f'"{preview}"'
 
             # Stage 1 — Extract
             st.session_state.pipeline_stage = "extracting"
@@ -238,7 +253,7 @@ def show_workspace():
                 result = analyze_legal_text(text=final_text, language=language)
                 st.session_state.result = result
 
-            # Stage 5 — Done
+            # ── Stage 5 — Mark as DONE after result is ready ──
             st.session_state.pipeline_stage = "done"
             with pipeline_ph.container():
                 render_pipeline("done")
@@ -249,6 +264,7 @@ def show_workspace():
 
     # ── RESULT DISPLAY ────────────────────────────────────
     if st.session_state.result:
+        source_label = st.session_state.get("source_label", "—")
         st.markdown(
             f"""
             <div class="result-panel">
@@ -257,6 +273,12 @@ def show_workspace():
                 <div class="result-heading">
                     📑 &nbsp; Analysis Result
                     <span class="hex-badge" style="margin-left:auto;font-size:12px;">Ready</span>
+                </div>
+                <div style="font-family:'JetBrains Mono',monospace;font-size:13px;
+                color:var(--muted);margin-bottom:14px;padding:6px 10px;
+                background:rgba(255,255,255,0.04);border-left:3px solid var(--orange);
+                border-radius:4px;">
+                    📄 &nbsp; Source: {source_label}
                 </div>
                 <div class="result-body">{st.session_state.result}</div>
                 <div class="meta-chips">
