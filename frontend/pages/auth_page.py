@@ -98,7 +98,6 @@ def _render_google_signin():
         "https://accounts.google.com/o/oauth2/v2/auth",
         "https://oauth2.googleapis.com/token",
         "https://oauth2.googleapis.com/token",
-        "https://oauth2.googleapis.com/revoke",
     )
 
     result = oauth2.authorize_button(
