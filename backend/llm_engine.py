@@ -10,11 +10,8 @@ from backend.rag import retrieve_relevant_knowledge
 # ─────────────────────────────────────────────────────────
 # CONSTANTS
 # ─────────────────────────────────────────────────────────
-# Max characters of document text sent to the LLM.
-# ~12,000 chars ≈ 3,000 tokens — safely within most model limits.
-# Increase carefully if your model supports a larger context window.
 MAX_TEXT_CHARS    = 12000
-MAX_CONTEXT_CHARS = 3000   # limit for RAG retrieved context too
+MAX_CONTEXT_CHARS = 3000
 
 
 def analyze_legal_text(text: str, language: str = "English") -> str:
@@ -24,7 +21,7 @@ def analyze_legal_text(text: str, language: str = "English") -> str:
     and calls the LLM via LiteLLM.
     """
 
-    # ── 1. Truncate input text to avoid context window overflow ──
+    # ── 1. Truncate input text ────────────────────────────
     original_length = len(text)
     if len(text) > MAX_TEXT_CHARS:
         text = (
@@ -33,37 +30,36 @@ def analyze_legal_text(text: str, language: str = "English") -> str:
             "Showing first section only due to length limits ...]"
         )
 
-    # ── 2. Retrieve relevant legal knowledge (RAG) ────────────────
+    # ── 2. Retrieve RAG context ───────────────────────────
     try:
         retrieved_context = retrieve_relevant_knowledge(text)
-        # Also truncate context if too long
         if len(retrieved_context) > MAX_CONTEXT_CHARS:
             retrieved_context = retrieved_context[:MAX_CONTEXT_CHARS] + "..."
     except Exception:
         retrieved_context = "No additional legal context retrieved."
 
-    # ── 3. Add truncation notice to prompt if needed ──────────────
+    # ── 3. Truncation notice ──────────────────────────────
     truncation_notice = ""
     if original_length > MAX_TEXT_CHARS:
         truncation_notice = (
             f"\n⚠️ NOTE: The original document was {original_length:,} characters long. "
-            f"Only the first {MAX_TEXT_CHARS:,} characters were analysed due to model limits.\n"
+            f"Only the first {MAX_TEXT_CHARS:,} characters were analysed.\n"
         )
 
-    # ── 4. Build prompt ───────────────────────────────────────────
+    # ── 4. Build prompt ───────────────────────────────────
     prompt = f"""
-You are an expert AI Legal Assistant specialized in legal document analysis, legal reasoning, contract understanding, and risk assessment.
+You are an expert AI Legal Assistant specialized in legal document analysis, contract understanding, and risk assessment.
 
-Your task is to carefully analyze the provided legal document or text using the legal knowledge context.
+Your task is to analyze the provided text as a legal document or legal-related content.
 {truncation_notice}
 ==================================================
-LEGAL KNOWLEDGE CONTEXT
+LEGAL KNOWLEDGE CONTEXT (from RAG knowledge base)
 ==================================================
 
 {retrieved_context}
 
 ==================================================
-LEGAL DOCUMENT OR TEXT
+DOCUMENT / TEXT TO ANALYZE
 ==================================================
 
 {text}
@@ -72,69 +68,79 @@ LEGAL DOCUMENT OR TEXT
 INSTRUCTIONS
 ==================================================
 
-1. First determine whether the provided text is a legal document or legal-related text.
+IMPORTANT: Be INCLUSIVE in determining what counts as legal content.
+The following ALL count as legal documents or legal-related text:
+- Contracts, agreements, NDAs, MOUs
+- Terms of service, privacy policies
+- Legal clauses, provisions, sections
+- Court orders, judgments, case summaries
+- Statutes, regulations, bylaws
+- Legal notices, demand letters
+- Employment agreements, lease agreements
+- Any text containing legal terminology or obligations
 
-2. If the text is legal, generate a professional structured analysis.
+Only respond with "This is not a legal document or legal-related text." 
+if the text is clearly something like a recipe, a poem, a news article,
+a casual conversation, or obviously non-legal content.
 
-3. If the text is NOT legal, clearly mention:
-   "This is not a legal document or legal-related text."
+When in doubt — ANALYZE IT as legal content.
 
-4. Generate the complete response entirely in {language} language.
-
-5. Use simple and understandable language.
-
-6. Structure the output properly with headings and bullet points.
+Generate your response entirely in {language} language.
 
 ==================================================
 OUTPUT FORMAT
 ==================================================
 
-1. SUMMARY
-- Provide a clear summary of the legal document.
-- Explain the purpose of the agreement/document.
-- Mention the involved parties and overall objective.
+## 📋 1. SUMMARY
+- Clear summary of the document
+- Purpose of the agreement/document
+- Parties involved and overall objective
 
-2. IMPORTANT CLAUSES WITH MEANING
-- Extract important clauses from the document.
-- For each clause:
-    • Mention the clause name/title.
-    • Explain its meaning in simple language.
-    • Explain why the clause is important.
+## ⚖️ 2. KEY CLAUSES & THEIR MEANING
+For each important clause:
+- **Clause name**: Explanation in simple language
+- Why it matters
 
-3. RISKS
-- Identify possible legal, financial, operational, or compliance risks.
-- Explain each risk clearly.
-- Mention possible consequences if applicable.
+## ⚠️ 3. RISKS
+- Legal, financial, operational, or compliance risks
+- Consequences if applicable
 
-4. ADVICE
-- Provide practical legal and precautionary advice.
-- Suggest what the user should carefully review.
-- Mention any clauses that may require negotiation or legal consultation.
-- Give beginner-friendly recommendations.
+## 💡 4. ADVICE
+- Practical recommendations
+- What to review carefully
+- Clauses that may need negotiation or legal consultation
 
 ==================================================
-IMPORTANT RULES
+RULES
 ==================================================
-
-- Do NOT generate false legal information.
-- Keep explanations beginner-friendly.
-- Use professional formatting.
-- Make the output detailed and well-structured.
-- Focus on clarity and usefulness.
+- Do NOT generate false legal information
+- Keep explanations beginner-friendly
+- Be thorough and well-structured
+- Focus on clarity and usefulness
+- Output must be in {language}
 """
 
-    # ── 5. LiteLLM API call with error handling ───────────────────
+    # ── 5. LLM call ───────────────────────────────────────
     try:
         response = completion(
             model=DEFAULT_MODEL,
             api_key=OPENAI_API_KEY,
             messages=[
                 {
+                    "role": "system",
+                    "content": (
+                        "You are a professional legal analyst. "
+                        "Always analyze text as legal content unless it is obviously non-legal "
+                        "(e.g. recipes, poems, casual chat). "
+                        "When in doubt, treat it as legal and analyze it."
+                    ),
+                },
+                {
                     "role": "user",
                     "content": prompt,
                 }
             ],
-            max_tokens=2000,   # cap output tokens to avoid runaway costs
+            max_tokens=2000,
         )
         output = response["choices"][0]["message"]["content"]
         return output
@@ -145,7 +151,6 @@ IMPORTANT RULES
         # Context window exceeded — retry with smaller text
         if "ContextWindowExceeded" in error_msg or "context_length_exceeded" in error_msg:
             try:
-                # Retry with half the text
                 shorter_text = text[:MAX_TEXT_CHARS // 2] + "\n\n[... Further truncated ...]"
                 short_prompt = prompt.replace(text, shorter_text)
                 response = completion(
@@ -163,11 +168,10 @@ IMPORTANT RULES
                 return (
                     f"❌ The document is too large to analyse even after truncation.\n\n"
                     f"**Suggestion:** Please paste a specific section or clause "
-                    f"from the document into the text box directly for analysis.\n\n"
+                    f"from the document into the text box directly.\n\n"
                     f"Error: {retry_error}"
                 )
 
-        # Other API errors
         return (
             f"❌ Analysis failed due to an API error.\n\n"
             f"Please try again in a few seconds.\n\n"
