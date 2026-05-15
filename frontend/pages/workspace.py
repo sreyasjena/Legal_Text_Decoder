@@ -21,8 +21,10 @@ try:
         extract_text_from_image,
     )
     BACKEND_AVAILABLE = True
-except Exception:
+    _BACKEND_ERROR = ""
+except Exception as _backend_err:
     BACKEND_AVAILABLE = False
+    _BACKEND_ERROR = str(_backend_err)
 
 
 def show_workspace():
@@ -216,7 +218,7 @@ def show_workspace():
             st.warning("⚠️  Please provide legal text or upload a document.")
 
         elif not BACKEND_AVAILABLE:
-            st.error("Backend modules not available. Check your backend folder.")
+            st.error(f"Backend import error: {_BACKEND_ERROR}")
 
         else:
             final_text = ""
