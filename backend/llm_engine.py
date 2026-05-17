@@ -5,7 +5,7 @@ from backend.config import (
     DEFAULT_MODEL
 )
 
-from backend.rag import retrieve_relevant_knowledge
+from backend.rag import retrieve_relevant_knowledge, retrieve_for_qa
 
 # ─────────────────────────────────────────────────────────
 # CONSTANTS
@@ -79,7 +79,7 @@ The following ALL count as legal documents or legal-related text:
 - Employment agreements, lease agreements
 - Any text containing legal terminology or obligations
 
-Only respond with "This is not a legal document or legal-related text." 
+Only respond with "This is not a legal document or legal-related text."
 if the text is clearly something like a recipe, a poem, a news article,
 a casual conversation, or obviously non-legal content.
 
@@ -148,7 +148,6 @@ RULES
     except Exception as e:
         error_msg = str(e)
 
-        # Context window exceeded — retry with smaller text
         if "ContextWindowExceeded" in error_msg or "context_length_exceeded" in error_msg:
             try:
                 shorter_text = text[:MAX_TEXT_CHARS // 2] + "\n\n[... Further truncated ...]"
@@ -177,3 +176,92 @@ RULES
             f"Please try again in a few seconds.\n\n"
             f"Error details: {error_msg}"
         )
+
+
+# ─────────────────────────────────────────────────────────
+# DOCUMENT Q&A
+# ─────────────────────────────────────────────────────────
+def answer_document_question(
+    question: str,
+    document_text: str,
+    language: str = "English",
+    chat_history: list = None,
+) -> str:
+    """
+    Answer a user's question about the analyzed document.
+    Uses RAG to retrieve relevant chunks from both the document
+    and the legal KB for grounded answers.
+
+    Returns a polite redirect if the question is unrelated.
+    """
+    chat_history = chat_history or []
+
+    # ── Retrieve from document + KB ───────────────────────
+    doc_context, kb_context = retrieve_for_qa(question, document_text)
+
+    # ── Build system prompt ───────────────────────────────
+    system_prompt = """You are LexAI — an expert AI Legal Assistant answering questions about a specific legal document.
+
+Your job:
+1. Answer ONLY questions that are related to the provided legal document or general legal concepts related to it.
+2. If the question is clearly unrelated to the document or legal topics (e.g. asking about cooking, sports, weather, movies, general chat), respond with EXACTLY this message:
+   "⚠️ I can only answer questions related to this legal document. Please ask something about the document's clauses, terms, risks, parties, or related legal concepts."
+3. Base your answers on the document context provided. If the answer is not in the document, say so clearly.
+4. Keep answers clear, accurate, and beginner-friendly.
+5. Never make up legal facts not supported by the document or knowledge base."""
+
+    # ── Build user prompt ─────────────────────────────────
+    doc_section = f"""
+==================================================
+DOCUMENT CONTENT (relevant sections)
+==================================================
+{doc_context if doc_context else "No specific section found — answer based on general document knowledge."}
+""" if doc_context else ""
+
+    kb_section = f"""
+==================================================
+LEGAL KNOWLEDGE CONTEXT
+==================================================
+{kb_context}
+""" if kb_context and "No closely" not in kb_context else ""
+
+    user_prompt = f"""
+{doc_section}
+{kb_section}
+==================================================
+USER QUESTION
+==================================================
+{question}
+
+==================================================
+INSTRUCTIONS
+==================================================
+- Answer the question based on the document and legal knowledge context above.
+- If the question is not related to this document or legal topics, politely redirect.
+- Respond in {language} language.
+- Be concise but thorough.
+- Cite specific clauses or sections from the document where relevant.
+"""
+
+    # ── Build message history ─────────────────────────────
+    messages = [{"role": "system", "content": system_prompt}]
+
+    # Add previous chat turns for context (last 6 messages max)
+    for turn in chat_history[-6:]:
+        messages.append({"role": "user",      "content": turn["question"]})
+        messages.append({"role": "assistant", "content": turn["answer"]})
+
+    messages.append({"role": "user", "content": user_prompt})
+
+    # ── LLM call ──────────────────────────────────────────
+    try:
+        response = completion(
+            model=DEFAULT_MODEL,
+            api_key=OPENAI_API_KEY,
+            messages=messages,
+            max_tokens=1000,
+        )
+        return response["choices"][0]["message"]["content"]
+
+    except Exception as e:
+        return f"❌ Could not get an answer. Please try again.\n\nError: {e}"

@@ -3,6 +3,7 @@ frontend/pages/workspace.py
 ────────────────────────────
 Main workspace page — document input, analysis,
 pipeline visibility, and voice output.
+Includes document Q&A chat after analysis.
 """
 
 import streamlit as st
@@ -13,7 +14,7 @@ from frontend.components.pipeline import render_pipeline, STAGE_KEYS
 from frontend.components.sidebar  import render_sidebar
 
 try:
-    from backend.llm_engine import analyze_legal_text
+    from backend.llm_engine import analyze_legal_text, answer_document_question
     from backend.audio      import text_to_speech
     from backend.extractor  import (
         extract_text_from_pdf,
@@ -36,8 +37,12 @@ def show_workspace():
         st.rerun()
 
     # ── Session state defaults ─────────────────────────────
-    if "source_label" not in st.session_state:
-        st.session_state.source_label = None
+    if "source_label"    not in st.session_state:
+        st.session_state.source_label    = None
+    if "analyzed_text"   not in st.session_state:
+        st.session_state.analyzed_text   = None
+    if "qa_history"      not in st.session_state:
+        st.session_state.qa_history      = []
 
     # Faint LEXAI watermark behind content
     st.markdown('<div class="main-lexai-mark">LEXAI</div>', unsafe_allow_html=True)
@@ -126,11 +131,10 @@ def show_workspace():
         )
         st.markdown('<div class="sec-label">Reference Document</div>', unsafe_allow_html=True)
 
-        # ── Single file upload — accept_multiple_files=False ──
         uploaded_file = st.file_uploader(
             "Drop file",
             type=["txt", "pdf", "docx", "png", "jpg", "jpeg"],
-            accept_multiple_files=False,   # ← only ONE file at a time
+            accept_multiple_files=False,
             label_visibility="collapsed",
             key="file_uploader",
         )
@@ -207,13 +211,14 @@ def show_workspace():
 
     if analyze_clicked:
 
-        # ── Clear previous result and pipeline immediately ──
+        # Clear previous state
         st.session_state.result         = None
         st.session_state.pipeline_stage = None
         st.session_state.source_label   = None
+        st.session_state.analyzed_text  = None
+        st.session_state.qa_history     = []
         pipeline_ph.empty()
 
-        # ── Validate input ────────────────────────────────
         if text_input.strip() == "" and uploaded_file is None:
             st.warning("⚠️  Please provide legal text or upload a document.")
 
@@ -223,7 +228,7 @@ def show_workspace():
         else:
             final_text = ""
 
-            # ── Capture source label for result display ────
+            # Capture source label
             if uploaded_file is not None:
                 st.session_state.source_label = uploaded_file.name
             else:
@@ -244,6 +249,9 @@ def show_workspace():
             else:
                 final_text = text_input
 
+            # Store the extracted document text for Q&A
+            st.session_state.analyzed_text = final_text
+
             # Stages 2 — 4
             for stage in ["retrieving", "augmenting", "generating"]:
                 st.session_state.pipeline_stage = stage
@@ -255,7 +263,7 @@ def show_workspace():
                 result = analyze_legal_text(text=final_text, language=language)
                 st.session_state.result = result
 
-            # ── Stage 5 — Mark as DONE after result is ready ──
+            # Stage 5 — Done
             st.session_state.pipeline_stage = "done"
             with pipeline_ph.container():
                 render_pipeline("done")
@@ -319,3 +327,123 @@ def show_workspace():
             else:
                 st.error("Backend not available.")
         st.markdown('</div></div>', unsafe_allow_html=True)
+
+        # ── DOCUMENT Q&A ──────────────────────────────────
+        st.markdown("<br>", unsafe_allow_html=True)
+        st.markdown(
+            """
+            <div style="
+                background:linear-gradient(135deg,rgba(255,140,66,0.07),rgba(56,165,255,0.05));
+                border:1px solid rgba(255,140,66,0.25);
+                border-radius:16px;padding:28px 32px;
+                position:relative;overflow:hidden;margin-top:8px;">
+                <div style="position:absolute;top:0;left:0;right:0;height:2px;
+                    background:linear-gradient(90deg,var(--orange),var(--teal),var(--orange));
+                    background-size:200%;animation:bannerShine 3s ease infinite;"></div>
+                <div style="font-family:'Rajdhani',sans-serif;font-size:26px;font-weight:700;
+                    color:var(--orange);margin-bottom:6px;">
+                    💬 &nbsp; Ask About This Document
+                </div>
+                <div style="font-size:15px;color:var(--text2);margin-bottom:4px;">
+                    Ask any question about the clauses, risks, parties, or legal terms in this document.
+                    LexAI uses RAG to retrieve relevant sections before answering.
+                </div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
+        # ── Render chat history ───────────────────────────
+        if st.session_state.qa_history:
+            for i, turn in enumerate(st.session_state.qa_history):
+                # User message
+                st.markdown(
+                    f"""
+                    <div style="display:flex;justify-content:flex-end;margin:12px 0 4px;">
+                        <div style="
+                            background:rgba(255,140,66,0.12);
+                            border:1px solid rgba(255,140,66,0.3);
+                            border-radius:14px 14px 2px 14px;
+                            padding:12px 18px;max-width:75%;
+                            font-size:15px;color:var(--text);line-height:1.6;">
+                            🧑 &nbsp; {turn['question']}
+                        </div>
+                    </div>
+                    """,
+                    unsafe_allow_html=True,
+                )
+                # Assistant message
+                st.markdown(
+                    f"""
+                    <div style="display:flex;justify-content:flex-start;margin:4px 0 12px;">
+                        <div style="
+                            background:rgba(0,229,160,0.07);
+                            border:1px solid rgba(0,229,160,0.2);
+                            border-radius:14px 14px 14px 2px;
+                            padding:12px 18px;max-width:80%;
+                            font-size:15px;color:var(--text);line-height:1.7;">
+                            ⚖️ &nbsp; {turn['answer']}
+                        </div>
+                    </div>
+                    """,
+                    unsafe_allow_html=True,
+                )
+
+        # ── Q&A Input ─────────────────────────────────────
+        st.markdown("<br>", unsafe_allow_html=True)
+        qa_col1, qa_col2 = st.columns([5, 1])
+
+        with qa_col1:
+            user_question = st.text_input(
+                "Ask a question",
+                placeholder="e.g. What is the notice period? What are the deposit terms? What are my risks?",
+                key="qa_input",
+                label_visibility="collapsed",
+            )
+
+        with qa_col2:
+            ask_clicked = st.button("Ask ➤", key="qa_ask_btn", use_container_width=True)
+
+        # ── Suggested questions ───────────────────────────
+        st.markdown(
+            """
+            <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;">
+                <span style="font-family:'JetBrains Mono',monospace;font-size:11px;
+                color:var(--muted);letter-spacing:1px;margin-right:4px;">Try:</span>
+                <span class="hex-badge" style="font-size:11px;cursor:pointer;">What are the key risks?</span>
+                <span class="hex-badge" style="font-size:11px;cursor:pointer;">Who are the parties involved?</span>
+                <span class="hex-badge" style="font-size:11px;cursor:pointer;">What is the notice period?</span>
+                <span class="hex-badge" style="font-size:11px;cursor:pointer;">What happens if I breach the contract?</span>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
+        # ── Handle Q&A submission ─────────────────────────
+        if ask_clicked and user_question.strip():
+            if not BACKEND_AVAILABLE:
+                st.error("Backend not available.")
+            elif not st.session_state.analyzed_text:
+                st.warning("⚠️ No document text available. Please analyze a document first.")
+            else:
+                with st.spinner("🔍 Searching document and retrieving answer…"):
+                    answer = answer_document_question(
+                        question=user_question.strip(),
+                        document_text=st.session_state.analyzed_text,
+                        language=language,
+                        chat_history=st.session_state.qa_history,
+                    )
+
+                # Add to history
+                st.session_state.qa_history.append({
+                    "question": user_question.strip(),
+                    "answer":   answer,
+                })
+                st.rerun()
+
+        # ── Clear chat button ─────────────────────────────
+        if st.session_state.qa_history:
+            st.markdown("<br>", unsafe_allow_html=True)
+            if st.button("🗑️ Clear Chat", key="qa_clear"):
+                st.session_state.qa_history = []
+                st.rerun()
