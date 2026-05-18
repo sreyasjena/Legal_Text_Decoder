@@ -394,16 +394,66 @@ def show_workspace():
         # ── Dynamic suggestion bubbles ────────────────────
         suggestions = st.session_state.get("qa_suggestions", [])
         if suggestions:
+            # Inject custom CSS for suggestion buttons
+            suggestion_css = """
+<style>
+div[data-testid="stHorizontalBlock"] button[kind="secondary"] {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+}
+""" + "".join([
+    f"""
+div[data-testid="column"]:nth-child({i+1}) button {{
+    background: linear-gradient(135deg, rgba(255,140,66,0.08), rgba(56,165,255,0.06)) !important;
+    border: 1px solid rgba(255,140,66,{0.2 + i*0.05:.2f}) !important;
+    border-radius: 20px !important;
+    color: var(--text, #e8e8e8) !important;
+    font-family: 'JetBrains Mono', monospace !important;
+    font-size: 11px !important;
+    letter-spacing: 0.5px !important;
+    padding: 8px 14px !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    animation: suggestionPulse {1.5 + i*0.2:.1f}s ease-in-out infinite alternate !important;
+    box-shadow: 0 0 8px rgba(255,140,66,{0.1 + i*0.03:.2f}) !important;
+    white-space: normal !important;
+    height: auto !important;
+    min-height: 42px !important;
+    line-height: 1.4 !important;
+    text-transform: uppercase !important;
+}}
+div[data-testid="column"]:nth-child({i+1}) button:hover {{
+    background: linear-gradient(135deg, rgba(255,140,66,0.2), rgba(56,165,255,0.15)) !important;
+    border-color: rgba(255,140,66,0.7) !important;
+    box-shadow: 0 0 16px rgba(255,140,66,0.35), 0 0 32px rgba(255,140,66,0.15) !important;
+    transform: translateY(-2px) !important;
+    color: #ff8c42 !important;
+}}
+"""
+    for i in range(len(suggestions))
+]) + """
+@keyframes suggestionPulse {
+    0% { box-shadow: 0 0 6px rgba(255,140,66,0.1); border-color: rgba(255,140,66,0.2); }
+    100% { box-shadow: 0 0 14px rgba(255,140,66,0.3); border-color: rgba(255,140,66,0.5); }
+}
+</style>
+"""
+            st.markdown(suggestion_css, unsafe_allow_html=True)
             st.markdown(
                 """
                 <div style="font-family:'JetBrains Mono',monospace;font-size:11px;
-                color:var(--muted);letter-spacing:1px;margin:16px 0 8px;">
+                color:rgba(255,140,66,0.6);letter-spacing:2px;margin:18px 0 10px;
+                display:flex;align-items:center;gap:8px;">
+                    <span style="display:inline-block;width:20px;height:1px;
+                    background:rgba(255,140,66,0.4);"></span>
                     💡 SUGGESTED QUESTIONS
+                    <span style="display:inline-block;flex:1;height:1px;
+                    background:rgba(255,140,66,0.2);"></span>
                 </div>
                 """,
                 unsafe_allow_html=True,
             )
-            # Render as clickable Streamlit buttons in a row
             cols = st.columns(len(suggestions))
             for i, (col, suggestion) in enumerate(zip(cols, suggestions)):
                 with col:
