@@ -2,8 +2,7 @@
 frontend/pages/workspace.py
 ────────────────────────────
 Main workspace page — document input, analysis,
-pipeline visibility, and voice output.
-Includes document Q&A chat after analysis.
+pipeline visibility, voice output, and document Q&A.
 """
 
 import streamlit as st
@@ -14,7 +13,11 @@ from frontend.components.pipeline import render_pipeline, STAGE_KEYS
 from frontend.components.sidebar  import render_sidebar
 
 try:
-    from backend.llm_engine import analyze_legal_text, answer_document_question
+    from backend.llm_engine import (
+        analyze_legal_text,
+        answer_document_question,
+        generate_qa_suggestions,
+    )
     from backend.audio      import text_to_speech
     from backend.extractor  import (
         extract_text_from_pdf,
@@ -43,11 +46,15 @@ def show_workspace():
         st.session_state.analyzed_text   = None
     if "qa_history"      not in st.session_state:
         st.session_state.qa_history      = []
+    if "qa_suggestions"  not in st.session_state:
+        st.session_state.qa_suggestions  = []
+    if "qa_prefill"      not in st.session_state:
+        st.session_state.qa_prefill      = ""
 
     # Faint LEXAI watermark behind content
     st.markdown('<div class="main-lexai-mark">LEXAI</div>', unsafe_allow_html=True)
 
-    # Sidebar (returns selected language)
+    # Sidebar
     language_sidebar = render_sidebar()
 
     # ── TOPBAR ────────────────────────────────────────────
@@ -211,12 +218,13 @@ def show_workspace():
 
     if analyze_clicked:
 
-        # Clear previous state
         st.session_state.result         = None
         st.session_state.pipeline_stage = None
         st.session_state.source_label   = None
         st.session_state.analyzed_text  = None
         st.session_state.qa_history     = []
+        st.session_state.qa_suggestions = []
+        st.session_state.qa_prefill     = ""
         pipeline_ph.empty()
 
         if text_input.strip() == "" and uploaded_file is None:
@@ -228,14 +236,12 @@ def show_workspace():
         else:
             final_text = ""
 
-            # Capture source label
             if uploaded_file is not None:
                 st.session_state.source_label = uploaded_file.name
             else:
                 preview = text_input.strip()[:10]
                 st.session_state.source_label = f'"{preview}…"' if len(text_input.strip()) > 10 else f'"{preview}"'
 
-            # Stage 1 — Extract
             st.session_state.pipeline_stage = "extracting"
             with pipeline_ph.container():
                 render_pipeline("extracting")
@@ -249,21 +255,24 @@ def show_workspace():
             else:
                 final_text = text_input
 
-            # Store the extracted document text for Q&A
             st.session_state.analyzed_text = final_text
 
-            # Stages 2 — 4
             for stage in ["retrieving", "augmenting", "generating"]:
                 st.session_state.pipeline_stage = stage
                 with pipeline_ph.container():
                     render_pipeline(stage)
 
-            # LLM call
             with st.spinner(""):
                 result = analyze_legal_text(text=final_text, language=language)
                 st.session_state.result = result
 
-            # Stage 5 — Done
+            # Generate dynamic suggestions after analysis
+            with st.spinner("Generating suggestions…"):
+                st.session_state.qa_suggestions = generate_qa_suggestions(
+                    document_text=final_text,
+                    analysis_result=result,
+                )
+
             st.session_state.pipeline_stage = "done"
             with pipeline_ph.container():
                 render_pipeline("done")
@@ -353,10 +362,9 @@ def show_workspace():
             unsafe_allow_html=True,
         )
 
-        # ── Render chat history ───────────────────────────
+        # ── Chat history ──────────────────────────────────
         if st.session_state.qa_history:
-            for i, turn in enumerate(st.session_state.qa_history):
-                # User message
+            for turn in st.session_state.qa_history:
                 st.markdown(
                     f"""
                     <div style="display:flex;justify-content:flex-end;margin:12px 0 4px;">
@@ -369,12 +377,6 @@ def show_workspace():
                             🧑 &nbsp; {turn['question']}
                         </div>
                     </div>
-                    """,
-                    unsafe_allow_html=True,
-                )
-                # Assistant message
-                st.markdown(
-                    f"""
                     <div style="display:flex;justify-content:flex-start;margin:4px 0 12px;">
                         <div style="
                             background:rgba(0,229,160,0.07);
@@ -389,6 +391,30 @@ def show_workspace():
                     unsafe_allow_html=True,
                 )
 
+        # ── Dynamic suggestion bubbles ────────────────────
+        suggestions = st.session_state.get("qa_suggestions", [])
+        if suggestions:
+            st.markdown(
+                """
+                <div style="font-family:'JetBrains Mono',monospace;font-size:11px;
+                color:var(--muted);letter-spacing:1px;margin:16px 0 8px;">
+                    💡 SUGGESTED QUESTIONS
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+            # Render as clickable Streamlit buttons in a row
+            cols = st.columns(len(suggestions))
+            for i, (col, suggestion) in enumerate(zip(cols, suggestions)):
+                with col:
+                    if st.button(
+                        suggestion,
+                        key=f"suggestion_{i}",
+                        use_container_width=True,
+                    ):
+                        st.session_state.qa_prefill = suggestion
+                        st.rerun()
+
         # ── Q&A Input ─────────────────────────────────────
         st.markdown("<br>", unsafe_allow_html=True)
         qa_col1, qa_col2 = st.columns([5, 1])
@@ -396,7 +422,8 @@ def show_workspace():
         with qa_col1:
             user_question = st.text_input(
                 "Ask a question",
-                placeholder="e.g. What is the notice period? What are the deposit terms? What are my risks?",
+                value=st.session_state.qa_prefill,
+                placeholder="e.g. What is the deposit amount? What are my risks?",
                 key="qa_input",
                 label_visibility="collapsed",
             )
@@ -404,23 +431,11 @@ def show_workspace():
         with qa_col2:
             ask_clicked = st.button("Ask ➤", key="qa_ask_btn", use_container_width=True)
 
-        # ── Suggested questions ───────────────────────────
-        st.markdown(
-            """
-            <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;">
-                <span style="font-family:'JetBrains Mono',monospace;font-size:11px;
-                color:var(--muted);letter-spacing:1px;margin-right:4px;">Try:</span>
-                <span class="hex-badge" style="font-size:11px;cursor:pointer;">What are the key risks?</span>
-                <span class="hex-badge" style="font-size:11px;cursor:pointer;">Who are the parties involved?</span>
-                <span class="hex-badge" style="font-size:11px;cursor:pointer;">What is the notice period?</span>
-                <span class="hex-badge" style="font-size:11px;cursor:pointer;">What happens if I breach the contract?</span>
-            </div>
-            """,
-            unsafe_allow_html=True,
-        )
-
         # ── Handle Q&A submission ─────────────────────────
         if ask_clicked and user_question.strip():
+            # Clear prefill after submitting
+            st.session_state.qa_prefill = ""
+
             if not BACKEND_AVAILABLE:
                 st.error("Backend not available.")
             elif not st.session_state.analyzed_text:
@@ -434,16 +449,16 @@ def show_workspace():
                         chat_history=st.session_state.qa_history,
                     )
 
-                # Add to history
                 st.session_state.qa_history.append({
                     "question": user_question.strip(),
                     "answer":   answer,
                 })
                 st.rerun()
 
-        # ── Clear chat button ─────────────────────────────
+        # ── Clear chat ────────────────────────────────────
         if st.session_state.qa_history:
             st.markdown("<br>", unsafe_allow_html=True)
             if st.button("🗑️ Clear Chat", key="qa_clear"):
-                st.session_state.qa_history = []
+                st.session_state.qa_history  = []
+                st.session_state.qa_prefill  = ""
                 st.rerun()
