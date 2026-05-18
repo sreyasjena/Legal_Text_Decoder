@@ -191,26 +191,22 @@ def answer_document_question(
     Answer a user's question about the analyzed document.
     Uses RAG to retrieve relevant chunks from both the document
     and the legal KB for grounded answers.
-
-    Returns a polite redirect if the question is unrelated.
     """
     chat_history = chat_history or []
 
-    # ── Retrieve from document + KB ───────────────────────
     doc_context, kb_context = retrieve_for_qa(question, document_text)
 
-    # ── Build system prompt ───────────────────────────────
     system_prompt = """You are LexAI — an expert AI Legal Assistant answering questions about a specific legal document.
 
 Your job:
-1. Answer ONLY questions that are related to the provided legal document or general legal concepts related to it.
-2. If the question is clearly unrelated to the document or legal topics (e.g. asking about cooking, sports, weather, movies, general chat), respond with EXACTLY this message:
-   "⚠️ I can only answer questions related to this legal document. Please ask something about the document's clauses, terms, risks, parties, or related legal concepts."
-3. Base your answers on the document context provided. If the answer is not in the document, say so clearly.
-4. Keep answers clear, accurate, and beginner-friendly.
-5. Never make up legal facts not supported by the document or knowledge base."""
+1. Answer questions related to the document, its clauses, parties, terms, risks, legal concepts, applicable laws, and related legal topics.
+2. Be GENEROUS in what you consider related — questions about government rules, tenant rights, landlord obligations, applicable laws, legal procedures, and general legal concepts ARE all relevant.
+3. ONLY redirect if the question is completely unrelated to law or the document — for example: cooking recipes, sports scores, entertainment, casual chat, jokes.
+4. When redirecting, respond with EXACTLY: "⚠️ I can only answer questions related to this legal document. Please ask something about the document's clauses, terms, risks, parties, or related legal concepts."
+5. Base your answers on the document context and legal knowledge provided. If the exact answer is not in the document, use your legal knowledge to provide a helpful answer while noting it may not be explicitly stated.
+6. Keep answers clear, accurate, and beginner-friendly.
+7. Never make up legal facts."""
 
-    # ── Build user prompt ─────────────────────────────────
     doc_section = f"""
 ==================================================
 DOCUMENT CONTENT (relevant sections)
@@ -236,24 +232,19 @@ USER QUESTION
 ==================================================
 INSTRUCTIONS
 ==================================================
-- Answer the question based on the document and legal knowledge context above.
-- If the question is not related to this document or legal topics, politely redirect.
+- Answer based on the document and legal knowledge context above.
+- If unrelated to this document or legal topics, politely redirect.
 - Respond in {language} language.
 - Be concise but thorough.
-- Cite specific clauses or sections from the document where relevant.
+- Cite specific clauses or sections where relevant.
 """
 
-    # ── Build message history ─────────────────────────────
     messages = [{"role": "system", "content": system_prompt}]
-
-    # Add previous chat turns for context (last 6 messages max)
     for turn in chat_history[-6:]:
         messages.append({"role": "user",      "content": turn["question"]})
         messages.append({"role": "assistant", "content": turn["answer"]})
-
     messages.append({"role": "user", "content": user_prompt})
 
-    # ── LLM call ──────────────────────────────────────────
     try:
         response = completion(
             model=DEFAULT_MODEL,
@@ -262,6 +253,59 @@ INSTRUCTIONS
             max_tokens=1000,
         )
         return response["choices"][0]["message"]["content"]
-
     except Exception as e:
         return f"❌ Could not get an answer. Please try again.\n\nError: {e}"
+
+
+# ─────────────────────────────────────────────────────────
+# DYNAMIC SUGGESTIONS GENERATOR
+# ─────────────────────────────────────────────────────────
+def generate_qa_suggestions(document_text: str, analysis_result: str) -> list:
+    """
+    Generate 5 dynamic, document-specific suggested questions
+    based on the document content and its analysis result.
+    Returns a list of question strings.
+    """
+    # Use first 3000 chars of document + first 1000 chars of analysis
+    doc_preview      = document_text[:3000] if document_text else ""
+    analysis_preview = analysis_result[:1000] if analysis_result else ""
+
+    prompt = f"""Based on this legal document and its analysis, generate exactly 5 short, specific questions that a user would naturally want to ask about this document.
+
+DOCUMENT PREVIEW:
+{doc_preview}
+
+ANALYSIS PREVIEW:
+{analysis_preview}
+
+RULES:
+- Questions must be specific to THIS document (mention actual parties, amounts, dates, clauses if present)
+- Each question must be under 12 words
+- Questions should cover: key terms, risks, obligations, deadlines, penalties
+- Return ONLY the 5 questions, one per line, no numbering, no bullets, no extra text
+"""
+
+    try:
+        response = completion(
+            model=DEFAULT_MODEL,
+            api_key=OPENAI_API_KEY,
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=200,
+        )
+        raw = response["choices"][0]["message"]["content"]
+        questions = [q.strip() for q in raw.strip().split("\n") if q.strip()]
+        # Return max 5 non-empty questions
+        return questions[:5] if questions else _default_suggestions()
+    except Exception:
+        return _default_suggestions()
+
+
+def _default_suggestions() -> list:
+    """Fallback suggestions if generation fails."""
+    return [
+        "What are the key risks in this document?",
+        "Who are the parties involved?",
+        "What is the notice period?",
+        "What happens if I breach the contract?",
+        "What are the payment terms?",
+    ]
