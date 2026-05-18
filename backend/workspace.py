@@ -416,13 +416,17 @@ def show_workspace():
                         st.rerun()
 
         # ── Q&A Input ─────────────────────────────────────
+        # If a suggestion was clicked, update the widget state key directly
+        if st.session_state.qa_prefill:
+            st.session_state["qa_input"] = st.session_state.qa_prefill
+            st.session_state.qa_prefill  = ""
+
         st.markdown("<br>", unsafe_allow_html=True)
         qa_col1, qa_col2 = st.columns([5, 1])
 
         with qa_col1:
             user_question = st.text_input(
                 "Ask a question",
-                value=st.session_state.qa_prefill,
                 placeholder="e.g. What is the deposit amount? What are my risks?",
                 key="qa_input",
                 label_visibility="collapsed",
@@ -433,8 +437,7 @@ def show_workspace():
 
         # ── Handle Q&A submission ─────────────────────────
         if ask_clicked and user_question.strip():
-            # Clear prefill after submitting
-            st.session_state.qa_prefill = ""
+            st.session_state["qa_input"] = ""
 
             if not BACKEND_AVAILABLE:
                 st.error("Backend not available.")
